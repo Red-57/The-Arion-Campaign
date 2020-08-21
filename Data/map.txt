@@ -28734,7 +28734,7 @@ planet Setoric
 	government "Arion"
 	landscape land/water5
 	description ''
-	spaceport 'This is another military base so there are patrols every hour through the spaceport'
+	spaceport 'This is another military base so there are patrols every hour through the spaceport, it is maybe this that deterrs you from robbing the local bank'
 	shipyard "Arion Basics"
 	outfitter "Arion Basics"
 planet Aliea

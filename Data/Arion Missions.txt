@@ -283,7 +283,7 @@ mission "Attack Ikosek"
 			'When you see Rinko in the spaceport he tells you that the battle fleet is ready to go'
 	on complete
 		dialog
-			event "New Portal!"
+			event "New Portal"
 			"check in the spaceport to see the pilots"
 	npc kill
 		personality heroic

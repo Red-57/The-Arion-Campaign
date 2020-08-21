@@ -1,68 +1,5 @@
-ship "Hauler 27"
-	sprite "ship/Hauler 27"
-	thumbnail "thumbnail/hauler27"
-	attributes
-		category "Heavy Freighter"
-		"cost"  1
-		"shields" 9186000
-		"hull" 45860000
-		"required crew" 12
-		"bunks" 16
-		"mass" 2468
-		"drag" 65
-		"heat dissipation" .67
-		"fuel capacity" 900
-		"cargo space" 3510
-		"outfit space" 700
-		"weapon capacity" 200
-		"engine capacity" 200
-		weapon
-			"blast radius" 550460
-			"shield damage" 5504600
-			"hull damage" 2752300
-			"hit force" 8256900
-	outfits
-		"Quad Blaster Turret" 4
-		"Heavy Anti-Missile Turret" 4
-		"A865 Atomic Steering" 2
-		"A860 Atomic Thruster" 2
-		"Fusion Reactor" 3
-		"Catalytic Ramscoop" 1
-		"Liquid Nitrogen Cooler" 2
-		"D94-YV Shield Generator" 2
-		"Torpedo" 120
-		"Torpedo Launcher" 4
-		"Scram Drive" 1
-	turret 48.57 -240 "Heavy Anti-Missile Turret"
-	turret -57.14 -245.71 "Heavy Anti-Missile Turret"
-	turret 105.71 -122.86 "Heavy Anti-Missile Turret"
-	turret -102.86 -125.71 "Heavy Anti-Missile Turret"
-	turret 94.29 168.57 "Quad Blaster Turret"
-	turret -105.71 165.71 "Quad Blaster Turret"
-	turret 31.43 308.57 "Quad Blaster Turret"
-	turret -40 305.71 "Quad Blaster Turret"
-	gun -25.71 -371.43 "Torpedo Launcher"
-	gun 20 -371.43  "Torpedo Launcher'"
-	gun -205.71 -37.14 "Torpedo Launcher"
-	gun 208.57 -37.14  "Torpedo Launcher"
-	engine 85.71 391.43
-	engine -91.43 391.43
-	engine -205.71 242.86
-	engine 205.71 248.57
-	engine -205.71 100 over
-	engine 202.86 97.14 over
-	explode "tiny explosion" 31
-	explode "medium explosion" 42
-	explode "large explosion" 74
-	explode "huge explosion" 37
-	explode "huge explosion" 103
-	explode "nuke explosion" 142
-	"final explode" "final explosion large"
-	description "This is an insanly large ship that only people really serious about freight hauling would buy."
-
-
 ship "Fox"
-	sprite "ship/Foxs"
+	sprite "ship/Fox"
 	thumbnail "thumbnail/Fox"
 	attributes
 		category "Interceptor"
@@ -76,17 +13,17 @@ ship "Fox"
 		"heat dissipation" 0.9
 		"fuel capacity" 600
 		"cargo space" 20
-		"outfit space" 1000000
-		"weapon capacity" 100000
-		"engine capacity" 100000
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"engine capacity" 1000
 		weapon
 			"blast radius" 89.1
 			"shield damage" 891
 			"hull damage" 445.5
 			"hit force" 1336.5
 	outfits
-		"Jump Drive" 
-		"Hyperdrive" 
+		"Jump Drive"
+		"Hyperdrive"
 		"Arion Heavy Flamethrower" 2
 		"Arion Toaster" 2
 		"Arion Small Ramscoop"
@@ -170,17 +107,17 @@ ship "Lion"
 		"heat dissipation" 9.6
 		"fuel capacity" 900
 		"cargo space" 250
-		"outfit space" 10000000
-		"weapon capacity" 1000000
-		"engine capacity" 1000000
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"engine capacity" 1000
 		weapon
 			"blast radius" 2426
 			"shield damage" 24268
 			"hull damage" 12134
 			"hit force" 36402
 	outfits
-		"Jump Drive" 
-		"Scram Drive" 
+		"Jump Drive"
+		"Scram Drive"
 		"Arion Roaster" 4
 		"Arion Toaster" 2
 		"Roaster Turret" 4
@@ -259,7 +196,8 @@ ship "Lion"
 	explode "large explosion" 1
 	explode "huge explosion" 22
 	"final explode" "final explosion large"
-	description "0"
+	description "The Lion is the largest ship used by the arion militia. it is used as a mass carrier and battleship."
+	description "This mega warship is powerful enough to take on 3 Kar Ik Vots and win!"
 #the lion has 22 fighter bays and 26 drone bays
 
 
@@ -273,14 +211,14 @@ ship "Elephant"
 		"hull" 45780
 		"required crew" 57
 		"bunks" 72
-		"mass" 1100
+		"mass" 1500
 		"drag" 16.9
 		"heat dissipation" 1
 		"fuel capacity" 700
 		"cargo space" 1200
-		"outfit space" 672489568
-		"weapon capacity" 725893602349
-		"engine capacity" 624259360894
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"engine capacity" 1000
 		weapon
 			"blast radius" 694.5
 			"shield damage" 6945
@@ -330,9 +268,9 @@ ship "Rhino"
 		"heat dissipation" 1
 		"fuel capacity" 600
 		"cargo space" 450
-		"outfit space" 672489568
-		"weapon capacity" 725893602349
-		"engine capacity" 624259360894
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"engine capacity" 1000
 		weapon
 			"blast radius" 534.5
 			"shield damage" 5345
@@ -370,7 +308,7 @@ ship "Jaguar"
 	sprite "ship/Jaguar"
 	thumbnail "thumbnail/Jaguar"
 	attributes
-		category "Medium Warship"
+		category "Light Warship"
 		"cost" 5340000
 		"shields" 29000
 		"hull" 15400
@@ -381,19 +319,19 @@ ship "Jaguar"
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 15
-		"outfit space" 11000000
-		"weapon capacity" 10010
-		"engine capacity" 10000
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"engine capacity" 1000
 	outfits
 		"Trapper Cannon" 4
 		"Ion Torpedo Launcher" 1
 		"Ion Torpedo" 30
-		"Iron Reactor Core" 
+		"Iron Reactor Core"
 		"LP144a Battery Pack" 2
 		"Goat Class Thruster"
 		"Goat Class Steering"
 		"Arion Large Ramscoop"
-		"Systems AC (Large)" 
+		"Systems AC (Large)"
 		"Raptor Class Regenerator"
 		"Hyperdrive"
 		"Jump Drive"
@@ -421,13 +359,13 @@ ship "Tiger"
 		"required crew" 25
 		"bunks" 50
 		"mass" 590
-		"drag" 7
+		"drag" 11
 		"heat dissipation" 0.9
 		"fuel capacity" 1000
 		"cargo space" 40
-		"outfit space" 1000000
-		"weapon capacity" 1000000
-		"engine capacity" 100000000
+		"outfit space" 1000
+		"weapon capacity" 1000
+		"engine capacity" 1000
 		weapon
 			"blast radius" 330
 			"shield damage" 3300
@@ -437,13 +375,13 @@ ship "Tiger"
 		"Trapper Cannon" 4
 		"Toaster Turret" 2
 		"Ion Torpedo Launcher" 2
-		"Ion Torpedo" 70 
+		"Ion Torpedo" 70
 		"Steel Reactor Core"
-		"Systems AC (Large)" 4 
+		"Systems AC (Large)" 4
 		"Ox Class Thruster"
 		"Ox Class Steering"
 		"Barachio Class Regenerator"
-		"Scram Drive"
+		"Hyperdrive"
 		"Jump Drive"
 		"Ramscoop"
 		"Tactical Scanner"
@@ -468,7 +406,7 @@ ship "Tiger"
 	explode "medium explosion" 8
 	explode "large explosion" 24
 	"final explode" "final explode medium"
-	description "this is the main attack ship of the Arion People. it is fast and agile and is able to carry two fighters into battle."
+	description "This is the main attack ship of the Arion People. it is fast and agile and is able to carry two fighters into battle."
 
 ship "Thorn"
 	sprite "ship/Thorn"
@@ -505,16 +443,14 @@ ship "Thorn"
 	gun -3.5 -15.5 "Arion Toaster"
 	turret 0 9 "Arion Whacker"
 	engine -0.5 24.5
-
-
-
-
-
-
-
+	explode "tiny explosion" 24
+	explode "small explosion" 15
+	"final explode" "final explode small"
+	description "this is the main Arion fighter, it holds 2 toasters in addition to an anti-missile turret"
 
 ship "Infiltration Drone"
 	sprite "ship/Drone"
+	thumbnail "thumbnail/Drone"
 	attributes
 		category "Drone"
 		"cost" 921000
@@ -536,7 +472,7 @@ ship "Infiltration Drone"
 			"hull damage" 96.5
 			"hit force" 289.5
 	outfits
-		"Arion Heavy Flamethrower"
+		"Arion Flamethrower"
 		"Arion Small Ramscoop"
 		"Raptor Class Regenorator"
 		"Arion Whacker"
@@ -544,12 +480,12 @@ ship "Infiltration Drone"
 		"Marmot Class Thruster"
 		"Plastic Generator"
 		"Arion Small Ramscoop"
-		"Systems AC (Small)" 
+		"Systems AC (Small)"
 	gun 0 -21 "Arion Flamethrower"
 	turret -0.5 2 "Arion Whacker"
-	engine 12 22.5 
+	engine 12 22.5
 	engine -12.5 22.5
-	description "this si the main drone of the arion people"
+	description "this is the main drone of the Arion people"
 
 
 
@@ -658,7 +594,3 @@ ship "Heliarch Resistor"
 	gun -7 -22 "Bombardment Cannon"
 	engine 4 22
 	engine -4 22
-
-
-
-
