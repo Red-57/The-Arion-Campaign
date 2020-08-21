@@ -22700,7 +22700,7 @@ system Strear
 		sprite planet/gas5
 		distance 1363
 		period 612.48
-		object 
+		object
 			sprite planet/rock17
 			distance 245
 			period 12.7525
@@ -28682,23 +28682,23 @@ planet Zug
 		fleet "Large Militia" 18
 
 planet Toloplike
-	attributes 
+	attributes
 	government "Arion"
-	landscape
+	landscape land/dune4
 	description" "
 	spaceport" "
 	government "Kor Sestor"
 
 planet Patel
 	government "Arion"
-	landscape land/mountain2
+	landscape land/lava2
 	description " "
 	spaceport " "
 	shipyard "Arion Basics"
 	outfitter "Arion Advanced"
 planet Fairnorr
 	government "Arion"
-	landscape land/mountain2
+	landscape land/mountain1
 	description 'This Base'
 	spaceport ''
 	shipyard "Arion Advanced"
@@ -28706,90 +28706,90 @@ planet Fairnorr
 
 planet Trattoria
 	government "Arion"
-	landscape land/mountain2
+	landscape land/beach6
 	description " "
 	spaceport " "
 planet "Wormhole Omega"
 
 planet Carnlee
 	government "Arion"
-	landscape land/mountain2
+	landscape land/beach3
 	description ''
 	spaceport ''
 
 planet Narkin
-	attributes 
+	attributes
 	government "Arion"
-	landscape land/mountain2
+	landscape land/canyon8
 	description ''
 	spaceport ''
 
 planet Ronlino
 	government "Arion"
-	landscape land/mountain2
+	landscape land/fields6
 	description" "
 	spaceport ''
 
 planet Setoric
 	government "Arion"
-	landscape land/mountain2
+	landscape land/water5
 	description ''
 	spaceport 'This is another military base so there are patrols every hour through the spaceport'
 	shipyard "Arion Basics"
 	outfitter "Arion Basics"
 planet Aliea
 	government "Arion"
-	landscape land/mountain2
+	landscape land/forest2
 	description " "
 	spaceport " "
 	shipyard "Arion Basics"
 	outfitter "Arion Basics"
 planet Tonyara
 	government "Arion"
-	landscape land/mountain2
+	landscape land/sea8
 	description " "
 	spaceport " "
 	outfitter "Arion Advanced"
 planet Redic
 	government "Arion"
 	landscape land/mountain2
-	description "This planet has been soley converted into a military base. there are patrols everywhere and the largest prison complex you have ever seen is right next to the landing platform. "
+	description "As the Headquarters for the Arion militia, this planet has been soley converted into a military base. there are patrols everywhere and the largest prison complex you have ever seen is right next to the landing platform. "
 	spaceport " "
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"
 planet Cavoi
 	government "Arion"
-	landscape land/mountain2
+	landscape land/sea12-sfiera
 	description " "
 	spaceport " "
 	shipyard "Arion Basics"
 planet Ostinto
 	government "Arion"
-	landscape land/mountain2
+	landscape land/badlands9-harro
 	description ''
 	spaceport ''
 	outfitter "Arion Advanced"
 planet Larnin
 	government "Arion"
-	landscape land/mountain2
+	landscape land/snow8
 	description ''
 	spaceport ''
 planet "Rowella Station"
 	government "Arion"
-	landscape land/mountain2
+	landscape land/station5
 	description ''
 	spaceport ''
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"
 planet Pantalion
 	government "Arion"
-	landscape land/mountain2
+	landscape land/sky5
 	description ''
 	spaceport ''
 	shipyard "Arion Basics"
 	outfitter "Arion Advanced"
 planet Verterra
 	government "Arion"
-	landscape land/mountain2
+	landscape land/forest5
 	description ''
 	spaceport ''
