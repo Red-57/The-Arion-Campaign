@@ -1,0 +1,664 @@
+ship "Hauler 27"
+	sprite "ship/Hauler 27"
+	thumbnail "thumbnail/hauler27"
+	attributes
+		category "Heavy Freighter"
+		"cost"  1
+		"shields" 9186000
+		"hull" 45860000
+		"required crew" 12
+		"bunks" 16
+		"mass" 2468
+		"drag" 65
+		"heat dissipation" .67
+		"fuel capacity" 900
+		"cargo space" 3510
+		"outfit space" 700
+		"weapon capacity" 200
+		"engine capacity" 200
+		weapon
+			"blast radius" 550460
+			"shield damage" 5504600
+			"hull damage" 2752300
+			"hit force" 8256900
+	outfits
+		"Quad Blaster Turret" 4
+		"Heavy Anti-Missile Turret" 4
+		"A865 Atomic Steering" 2
+		"A860 Atomic Thruster" 2
+		"Fusion Reactor" 3
+		"Catalytic Ramscoop" 1
+		"Liquid Nitrogen Cooler" 2
+		"D94-YV Shield Generator" 2
+		"Torpedo" 120
+		"Torpedo Launcher" 4
+		"Scram Drive" 1
+	turret 48.57 -240 "Heavy Anti-Missile Turret"
+	turret -57.14 -245.71 "Heavy Anti-Missile Turret"
+	turret 105.71 -122.86 "Heavy Anti-Missile Turret"
+	turret -102.86 -125.71 "Heavy Anti-Missile Turret"
+	turret 94.29 168.57 "Quad Blaster Turret"
+	turret -105.71 165.71 "Quad Blaster Turret"
+	turret 31.43 308.57 "Quad Blaster Turret"
+	turret -40 305.71 "Quad Blaster Turret"
+	gun -25.71 -371.43 "Torpedo Launcher"
+	gun 20 -371.43  "Torpedo Launcher'"
+	gun -205.71 -37.14 "Torpedo Launcher"
+	gun 208.57 -37.14  "Torpedo Launcher"
+	engine 85.71 391.43
+	engine -91.43 391.43
+	engine -205.71 242.86
+	engine 205.71 248.57
+	engine -205.71 100 over
+	engine 202.86 97.14 over
+	explode "tiny explosion" 31
+	explode "medium explosion" 42
+	explode "large explosion" 74
+	explode "huge explosion" 37
+	explode "huge explosion" 103
+	explode "nuke explosion" 142
+	"final explode" "final explosion large"
+	description "This is an insanly large ship that only people really serious about freight hauling would buy."
+
+
+ship "Fox"
+	sprite "ship/Foxs"
+	thumbnail "thumbnail/Fox"
+	attributes
+		category "Interceptor"
+		"cost" 5123600
+		"shields" 6340
+		"hull" 2570
+		"required crew" 2
+		"bunks" 5
+		"mass" 100
+		"drag" 2.8
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 1000000
+		"weapon capacity" 100000
+		"engine capacity" 100000
+		weapon
+			"blast radius" 89.1
+			"shield damage" 891
+			"hull damage" 445.5
+			"hit force" 1336.5
+	outfits
+		"Jump Drive" 
+		"Hyperdrive" 
+		"Arion Heavy Flamethrower" 2
+		"Arion Toaster" 2
+		"Arion Small Ramscoop"
+		"Tin Reactor Core" 2
+		"Raptor Class Regerator"
+		"Systems AC (Small)" 2
+		"Goat Class Steering"
+		"Goat Class Thruster"
+
+	gun 12.5 -25.03 "Arion Heavy Flamethrower"
+	gun -12.5 -25.55 "Arion Heavy Flamethrower"
+	gun 17.19 -12.51 "Arion Toaster"
+	gun -17.19 -13.04 "Arion Toaster"
+	engine 42.71 68.31
+	engine -42.71 68.31
+	explode "tiny explosion" 1
+	explode "small explosion" 1
+	"final explode" "final explosion small"
+	description "the fox is an agile warship used for zooming in and roasting enemy ships allowing the more heavy hitting ships to come and do their damage."
+
+
+ship "Cub"
+	sprite "ship/Cub"
+	thumbnail "thumbnail/Cub"
+	attributes
+		category "Transport"
+		"cost" 4120600
+		"shields" 12000
+		"hull" 3000
+		"required crew" 2
+		"bunks" 25
+		"mass" 150
+		"drag" 3.4
+		"heat dissipation" 0.9
+		"fuel capacity" 1100
+		"cargo space" 15
+		"outfit space" 1200
+		"weapon capacity" 1200
+		"engine capacity" 200
+		weapon
+			"blast radius" 150
+			"shield damage" 1500
+			"hull damage" 750
+			"hit force" 2250
+	outfits
+		"Hyperdrive"
+		"Raptor Class Regenerator"
+		"Tin Reactor Core"
+		"Arion Small Ramscoop"
+		"Ion Torpedo Launcher" 2
+		"Ion Torpedo" 60
+		"Systems AC (small)" 2
+		"Goat Class Thruster"
+		"Goat Class Steering"
+		"Arion Toaster" 2
+	gun 23 4.5 "Arion Toaster"
+	gun -23 4.5 "Arion Toaster"
+	gun 27 10 "Ion Torpedo Launcher"
+	gun -27 10 "Ion Torpedo Launcher"
+	engine 15 42
+	engine -15 42
+	explode "tiny explosion" 9
+	explode "small explosion" 33
+	"final explode" "final explosion small"
+	description "this is a small transport used to quickly ferry passengers from point A to B"
+
+
+
+ship "Lion"
+	sprite "ship/lion"
+	thumbnail "thumbnail/lion"
+	attributes
+		category "Heavy Warship"
+		"cost" 169016700
+		"shields" 149000
+		"hull" 93680
+		"required crew" 310
+		"bunks" 345
+		"mass" 1200
+		"drag" 6.8
+		"heat dissipation" 9.6
+		"fuel capacity" 900
+		"cargo space" 250
+		"outfit space" 10000000
+		"weapon capacity" 1000000
+		"engine capacity" 1000000
+		weapon
+			"blast radius" 2426
+			"shield damage" 24268
+			"hull damage" 12134
+			"hit force" 36402
+	outfits
+		"Jump Drive" 
+		"Scram Drive" 
+		"Arion Roaster" 4
+		"Arion Toaster" 2
+		"Roaster Turret" 4
+		"Trapper Cannon" 2
+		"Ion Torpedo Launcher" 4
+		"Ion Torpedo" 220
+		"Ion Torpedo Rack" 4
+		"Titanium Reactor Core" 3
+		"Systems AC (Large)" 13
+		"Arion Toaster Turret" 4
+		"Defender Anti-Missile" 4
+		"Arion Roaster Turret" 4
+		"Arion Large Ramscoop" 5
+		"Bison Class Steering" 1
+		"Bison Class Thruster" 1
+
+	gun 19.85 -239.09 "Trapper Cannon"
+	gun -22.68 -239.09 "Trapper Cannon"
+	gun 25.52 -233.43 "Arion Roaster"
+	gun -25.52 -233.43 "Arion Roaster"
+	gun 70.88 -196.65 "Arion Toaster"
+	gun -70.88 -196.65 "Arion Toaster"
+	gun 76.55 -188.16 "Arion Roaster"
+	gun -76.55 -190.99 "Arion Roaster"
+	gun 167.27 52.35 "Ion Torpedo"
+	gun -172.94 55.18 "Ion Torpedo"
+	gun 175.77 83.47 "Ion Torpedo"
+	gun -184.28 83.47 "Ion Torpedo"
+	turret -36.86 -165.53 "Arion Toaster Turret"
+	turret 34.02 -165.53 "Arion Toaster Turret"
+	turret -76.55 -9.9 "Arion Toaster Turret"
+	turret 68.04 -7.07 "Arion Toaster Turret"
+	turret -48.2 -9.9 "Arion Roaster Turret"
+	turret 42.53 -9.9 "Arion Roaster Turret"
+	turret -36.86 151.38 "Defender Anti-Missile"
+	turret 34.02 151.38 "Defender Anti-Missile"
+	turret -144.59 190.99 "Arion Roaster Turret"
+	turret 136.08 193.82 "Arion Roaster Turret"
+	turret -104.9 193.82 "Defender Anti-Missile"
+	turret 96.39 193.82 "Defender Anti-Missile"
+	fighter 67.29 -195.9 under
+	fighter 90.69 -152.04 under
+	fighter 26.33 -128.65 under
+	fighter 35.11 -99.41 under
+	fighter 46.81 -61.4 under
+	fighter 99.47 -67.25 under
+	fighter 117.02 -14.62 under
+	fighter 134.57 23.39 under
+	fighter 49.73 40.93 under
+	fighter 55.59 73.1 under
+	fighter 78.99 143.27 under
+	fighter 178.46 105.26 under
+	fighter 196.01 175.43 under
+	fighter 225.27 216.36 under
+	fighter 157.98 105.26 under
+	fighter -67.29 -195.9 under
+	fighter -90.69 -152.04 under
+	fighter -26.33 -128.65 under
+	fighter -35.11 -99.41 under
+	fighter -46.81 -61.4 under
+	fighter -99.47 -67.25 under
+	fighter -117.02 -14.62 under
+	fighter -134.57 23.39 under
+	fighter -49.73 40.93 under
+	fighter -55.59 73.1 under
+	fighter -78.99 143.27 under
+	fighter -178.46 105.26 under
+	fighter -196.01 175.43 under
+	fighter -225.27 216.36 under
+	fighter -157.98 105.26 under
+	explode "small explosion" 532
+	explode "medium explosion" 1
+	explode "large explosion" 54
+	explode "huge explosion" 1
+	explode "medium explosion" 1
+	explode "large explosion" 1
+	explode "huge explosion" 22
+	"final explode" "final explosion large"
+	description "0"
+#the lion has 22 fighter bays and 26 drone bays
+
+
+ship "Elephant"
+	sprite "ship/Elephant"
+	thumbnail "thumbnail/Elephant"
+	attributes
+		category "Heavy Freighter"
+		"cost" 25678940
+		"shields" 23670
+		"hull" 45780
+		"required crew" 57
+		"bunks" 72
+		"mass" 1100
+		"drag" 16.9
+		"heat dissipation" 1
+		"fuel capacity" 700
+		"cargo space" 1200
+		"outfit space" 672489568
+		"weapon capacity" 725893602349
+		"engine capacity" 624259360894
+		weapon
+			"blast radius" 694.5
+			"shield damage" 6945
+			"hull damage" 3472.5
+			"hit force" 10417.5
+	outfits
+		"Ion Torpedo Launcher" 4
+		"Ion Torpedo" 280
+		"Ion Torpedo Rack" 4
+		"Titanium Reactor Core" 1
+		"Systems AC (large)" 1
+		"Arion Whacker" 2
+		"Defender Anti-Missile"
+		"Arion Large Ramscoop"
+		"T-Rex Class Regenerator"
+		"Bison Class Thruster" 1
+		"Bison Class Steering" 1
+		"Arion Large Ramscoop"
+		"Scram Drive"
+		"Jump Drive"
+	gun -111.83 -64.36 "Ion Torpedo"
+	gun -40.11 -106.86 "Ion Torpedo"
+	gun 43.76 -106.86 "Ion Torpedo"
+	gun 113.05 -64.36 "Ion Torpedo"
+	turret -93.6 -41.29 "Arion Whacker"
+	turret 97.25 -38.86 "Arion Whacker"
+	turret 1.22 2.43 "Defender Anti-Missile"
+	engine 1.22 167.57
+	"final explode" "final explosion large"
+	description "This is the Largest Arion Freighter, able to haul cargo anywhere in a very short ammount of time."
+
+
+
+
+ship "Rhino"
+	sprite "ship/Rhino"
+	thumbnail "thumbnail/Rhino"
+	attributes
+		category "Heavy Freighter"
+		"cost" 16738900
+		"shields" 18670
+		"hull" 34780
+		"required crew" 35
+		"bunks" 57
+		"mass" 900
+		"drag" 16.9
+		"heat dissipation" 1
+		"fuel capacity" 600
+		"cargo space" 450
+		"outfit space" 672489568
+		"weapon capacity" 725893602349
+		"engine capacity" 624259360894
+		weapon
+			"blast radius" 534.5
+			"shield damage" 5345
+			"hull damage" 2672.5
+			"hit force" 8017.5
+	outfits
+		"Defender Anti-Missile"
+		"Arion Whacker"
+		"Ion Torpedo Launcher" 2
+		"Ion Torpedo"
+		"Ion Torpedo Rack"
+		"Steel Reactor Core"
+		"Brachio Class Regenerator"
+		"Ox Class Thruster"
+		"Ox Class Steering"
+		"Arion Large Ramscoop"
+		"Systems AC (large)" 1
+		""
+	turret 0 -41.96 "Defender Anti-Missile"
+	turret 0 75 "Arion Whacker"
+	gun -44.58 -47.32 "Ion Torpedo"
+	gun 42.79 -49.11 "Ion Torpedo"
+	engine -65.97 124.11
+	engine 64.19 124.11
+	engine 0 117.86
+	description "this is the smaller arion freighter, while still being able to carry lots of cargo the Rhino is slightly more manuverable than its larger counterpart"
+
+
+
+
+
+
+
+ship "Jaguar"
+	sprite "ship/Jaguar"
+	thumbnail "thumbnail/Jaguar"
+	attributes
+		category "Medium Warship"
+		"cost" 5340000
+		"shields" 29000
+		"hull" 15400
+		"required crew" 10
+		"bunks" 14
+		"mass" 250
+		"drag" 5
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 15
+		"outfit space" 11000000
+		"weapon capacity" 10010
+		"engine capacity" 10000
+	outfits
+		"Trapper Cannon" 4
+		"Ion Torpedo Launcher" 1
+		"Ion Torpedo" 30
+		"Iron Reactor Core" 
+		"LP144a Battery Pack" 2
+		"Goat Class Thruster"
+		"Goat Class Steering"
+		"Arion Large Ramscoop"
+		"Systems AC (Large)" 
+		"Raptor Class Regenerator"
+		"Hyperdrive"
+		"Jump Drive"
+	engine 0.86 77.71
+	gun -47 -78 "Trapper Cannon"
+	gun 47 -78 "Trapper Cannon"
+	gun -16 6 "Trapper Cannon"
+	gun 16 6 "Trapper Cannon"
+	gun 0 31 "Ion Torpedo Launcher"
+	explode "tiny explosion" 18
+	explode "small explosion" 20
+	explode "medium explosion" 8
+	explode "large explosion" 24
+	"final explode" "final explosion small"
+	description "this warship is the smallest of the arion attack ships, when used in a fleet they can be formidable, but their shields aren't strong enough to hold up against larger ships."
+
+ship "Tiger"
+	sprite "ship/tiger"
+	thumbnail "thumbnail/Tiger"
+	attributes
+		category "Medium Warship"
+		"cost" 9450000
+		"shields" 46000
+		"hull" 23000
+		"required crew" 25
+		"bunks" 50
+		"mass" 590
+		"drag" 7
+		"heat dissipation" 0.9
+		"fuel capacity" 1000
+		"cargo space" 40
+		"outfit space" 1000000
+		"weapon capacity" 1000000
+		"engine capacity" 100000000
+		weapon
+			"blast radius" 330
+			"shield damage" 3300
+			"hull damage" 1650
+			"hit force" 4950
+	outfits
+		"Trapper Cannon" 4
+		"Toaster Turret" 2
+		"Ion Torpedo Launcher" 2
+		"Ion Torpedo" 70 
+		"Steel Reactor Core"
+		"Systems AC (Large)" 4 
+		"Ox Class Thruster"
+		"Ox Class Steering"
+		"Barachio Class Regenerator"
+		"Scram Drive"
+		"Jump Drive"
+		"Ramscoop"
+		"Tactical Scanner"
+	engine 84 123
+	engine -84 123
+	gun -23.07 -91.07 "Trapper Cannon"
+	gun 25.21 -93.21 "Trapper Cannon"
+	gun -29.5 -86.79 "Trapper Cannon"
+	gun 30.57 -86.79 "Trapper Cannon"
+	gun -75.63 -30 "Ion Torpedo Launcher"
+	gun 75.63 -27.86 "Ion Torpedo Launcher"
+	turret -46.67 34.29 "Toaster Turret"
+	turret 46.67 33.21 "Toaster Turret"
+	engine -17.7 69.64
+	engine 17.7 68.57
+	drone 24 -7 under
+	drone -24 -7 under
+	fighter 52 20 under
+	fighter -52 20 under
+	explode "tiny explosion" 18
+	explode "small explosion" 20
+	explode "medium explosion" 8
+	explode "large explosion" 24
+	"final explode" "final explode medium"
+	description "this is the main attack ship of the Arion People. it is fast and agile and is able to carry two fighters into battle."
+
+ship "Thorn"
+	sprite "ship/Thorn"
+	thumbnail "thumbnail/Thorn"
+	attributes
+		category "Fighter"
+		"cost" 2450000
+		"shield" 4000
+		"hull" 900
+		"required crew" 1
+		"bunks" 2
+		"mass" 25
+		"drag" 0.6
+		"fuel capacity" 400
+		"heat dissipation" 0.7
+		"outfit space" 100000
+		"weapon capacity" 40
+		"engine capacity" 40
+		weapon
+			"blast radius" 18
+			"shield damage" 180
+			"hull damage" 90
+			"hit force" 270
+	outfits
+		"Arion Ramscoop (small)"
+		"Arion Whacker"
+		"Arion Toaster" 2
+		"Raptor Class Regenerator"
+		"Plastic Generator"
+		"Systems AC (Small)"
+		"Marmot Class Thruster"
+		"Marmot Class Steering"
+	gun 3 -14.5 "Arion Toaster"
+	gun -3.5 -15.5 "Arion Toaster"
+	turret 0 9 "Arion Whacker"
+	engine -0.5 24.5
+
+
+
+
+
+
+
+
+ship "Infiltration Drone"
+	sprite "ship/Drone"
+	attributes
+		category "Drone"
+		"cost" 921000
+		"shields" 900
+		"hull" 1730
+		"required crew" 0
+		"bunks" 0
+		"mass" 30
+		"drag" 2.5
+		"heat dissipation" 0.8
+		"fuel capacity" 300
+		"cargo space" 0
+		"outfit space" 100
+		"weapon capacity" 50
+		"engine capacity" 50
+		weapon
+			"blast radius" 19.3
+			"shield damage" 193
+			"hull damage" 96.5
+			"hit force" 289.5
+	outfits
+		"Arion Heavy Flamethrower"
+		"Arion Small Ramscoop"
+		"Raptor Class Regenorator"
+		"Arion Whacker"
+		"Marmot Class Steering"
+		"Marmot Class Thruster"
+		"Plastic Generator"
+		"Arion Small Ramscoop"
+		"Systems AC (Small)" 
+	gun 0 -21 "Arion Flamethrower"
+	turret -0.5 2 "Arion Whacker"
+	engine 12 22.5 
+	engine -12.5 22.5
+	description "this si the main drone of the arion people"
+
+
+
+
+ship "Heliarch Torturer"
+	sprite "ship/Torturer"
+	attributes
+		category "Heavy Warship"
+		"cost" 70890000
+		"shields" 98000
+		"hull" 98000
+		"required crew" 102
+		"bunks" 176
+		"mass" 1000
+		"drag" 14.1
+		"heat dissipation" 0.60
+		"fuel capacity" 600
+		"cargo space" 102
+		"outfit space" 905
+		"weapon capacity" 292
+		"engine capacity" 187
+		weapon
+			"blast radius" 1960
+			"shield damage" 19600
+			"hull damage" 9800
+			"hit force" 29400
+	outfits
+		"Ion Rain Gun" 2
+		"Bombardment Turret" 2
+		"Heliarch Repulser" 2
+		"Finisher Pod" 2
+		"Finisher Torpedo" 80
+		"Large Reactor Module" 2
+		"Large Battery Module"
+		"Overcharged Shield Module" 2
+		"Overclocked Repair Module" 2
+		"Cooling Module" 4
+		"Scanning Module" 4
+		"Enforcer Riot Staff" 102
+		"Enforcer Confrontation Gear" 44
+
+		"Large Thrust Module" 2
+		"Small Thrust Module" 2
+		"Large Steering Module" 2
+		"Small Steering Module" 2
+		"Hyperdrive"
+	gun 25 -124 "Ion Rain Gun"
+	gun -25 -124 "Ion Rain Gun"
+	gun 40 -48 "Finisher Pod"
+	gun -40 -48 "Finisher Pod"
+	turret 0 16 "Bombardment Turret"
+	turret -7 49 "Heliarch Repulser"
+	turret 7 49 "Heliarch Repulser"
+	turret 0 128 "Bombardment Turret"
+	fighter 26 -68 under
+	fighter 37 10 under
+	fighter 44 44 under
+	fighter -26 -68 under
+	fighter -37 10 under
+	fighter -44 44 under
+	engine 0 17
+	engine 22 163
+	engine -22 163
+	explode "small explosion" 16
+	explode "medium explosion" 45
+	explode "huge explosion" 78
+	"final explode" "final explosion large"
+	description "Due to the increasing Arion threat the Coalition developed this modified Punisher which is able to carry up to 6 fighters."
+
+
+
+
+ship "Heliarch Resistor"
+	sprite "ship/Resistor"
+	thumbnail "thumbnail/Heliarch Resistor"
+	attributes
+		category "Fighter"
+		"cost" 3678000
+		"shields" 3740
+		"hull" 1360
+		"required crew" 1
+		"bunks" 1
+		"mass" 57
+		"drag" 5.2
+		"heat dissipation" 0.1
+		"fuel capacity" 0
+		"outfit space" 200
+		"weapon capacity" 45
+		"engine capacity" 50
+		weapon
+			"blast radius" 150
+			"shield damage" 1500
+			"hull damage" 400
+			"hit force" 900
+	outfits
+		"Bombardment Cannon" 2
+		"Small Reactor Modual"
+		"Small Shield Module"
+		"Small Battery Module"
+		"Small Thrust Module"
+		"Small Steering Module"
+		"Small Battery Module"
+		"Small Repair Module"
+		"Small Collector Module"
+	gun 7 -22 "Borbardment Cannon"
+	gun -7 -22 "Bombardment Cannon"
+	engine 4 22
+	engine -4 22
+
+
+
+
