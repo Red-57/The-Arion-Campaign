@@ -1,0 +1,659 @@
+outfit "Arion Roaster"
+	lisences
+		"Arion Outfits"
+	category "Guns"
+	cost 1340000
+	thumbnail "outfit/Arion Roaster"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"energy capacity" 1600
+	"gun ports" -1
+	weapon
+		sprite "projectile/Roaster"
+			"frame rate" 2.5
+		sound "detainer"
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"inaccuracy" .4
+		"velocity" 16
+		"lifetime" 140
+		"reload" 40
+		"burst reload" 10
+		"burst count" 4
+		"firing energy" 956
+		"firing force" 90
+		"firing heat" 700
+		"hit force" 80
+		"shield damage" 250
+		"heat damage" 470
+		"hull damage" 14
+		"blast radius" 20
+	description "the Arion Roaster is a immensely powerful heat weapon capable of overheating enemy ships in a very small ammount of time."
+
+
+
+outfit "Arion Heavy Flamethrower"
+	lisences
+		"Arion Outfits"
+	cost 190000
+	thumbnail "outfit/flamethrower"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "effect/explosion/small"
+			"frame rate" 60
+			"no repeat"
+		sound "flamethrower"
+		icon "icon/flamethrower"
+		"submunition" "Heavy Flamethrower Projectile"
+		"inaccuracy" 12
+		"velocity" 9
+		"lifetime" 8
+		"reload" 1
+		"firing energy" .50
+		"firing fuel" .083
+		"firing heat" 2
+	description "the Arion Heavy Flamethrower is a Devastating weapon designed to overheat the enemy."
+
+outfit "Heavy Flamethrower Projectile"
+	weapon
+		sprite "projectile/flamethrower"
+			"frame rate" 17
+			"random start frame"
+		"hit effect" "flamethrower hit"
+		"die effect" "flamethrower die"
+		"inaccuracy" 20
+		"lifetime" 22
+		"shield damage" .8
+		"hull damage" .7
+		"heat damage" 400
+
+effect "flamethrower die"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 24
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 2
+	"random velocity" .4
+	"velocity scale" .4
+
+effect "flamethrower hit"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .6
+	"velocity scale" .4
+
+outfit "Roaster Turret"
+	lisences
+		"Arion Outfits"
+	category "Turret"
+	cost 1869000
+	thumbnail "outfit/roaster turret"
+	"mass" 86
+	"weapon capacity" -86
+	"outfit space" -86
+	"energy capacity" 1700
+	"turret mounts" -1
+	weapon
+		sprite "projectile/Roaster"
+			"frame rate" 2.5
+		sound "detainer"
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"live effect" detainer sparks" 50
+		"inaccuracy" 0.5
+		"velocity" 16
+		"lifetime" 140
+		"burst reload" 10
+		"reload" 60
+		"burst count" 2
+		"firing energy" 756
+		"firing force" 40
+		"firing heat" 70
+		"hit force" 70
+		"shield damage" 480
+		"hull damage" 120
+		"heat damage" 470
+	description "this is the turreted version  of the powerful roaster cannon. it has a very long range and is able to disable ships from a very long range"
+
+
+
+
+#everything done
+outfit "Arion Toaster"
+	lisences
+		"Arion Outfits"
+	category "Guns"
+	cost 2306000
+	thumbnail "outfit/Toaster"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"energy capacity" 100
+	"required crew" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/Toaster"
+			"frame rate" 5
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"inaccuracy" 4
+		"velocity" 15
+		"lifetime" 40
+		"reload" 10
+		"burst reload" 4
+		"burst count" 4
+		"cluster"
+		"firing energy" 55
+		"firing heat" 240
+		"shield damage" 78
+		"hull damage" 57
+		"heat damage" 21
+	description "this is the most damaging arion weapon it can blast through most things in its way but is most effective when paired with some of the other Arion Heat weapons."
+
+
+outfit "Arion Toaster Turret"
+	lisences
+		"Arion Outfits"
+	category "Turrets"
+	cost 5230300
+	thumbnail "outfit/Toaster turret"
+	"mass" 85
+	"outfit space" -85
+	"weapon capacity" -85
+	"energy capacity" 200
+	"required crew" 3
+	"turret mounts" -1
+	weapon
+		sprite "projectile/Toaster"
+			"frame rate" 5
+		"hardpoint sprite" "hardpoint/Toaster turret"
+		"hardpoint offset" 7.
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"inaccuracy" 3
+		"turret turn" 2.3
+		"velocity" 15
+		"lifetime" 40
+		"reload" 5
+		"burst reload" 2
+		"burst count" 6
+		"cluster"
+		"firing energy" 55
+		"firing heat" 240
+		"shield damage" 78
+		"hull damage" 57
+		"heat damage" 21
+	description "the Turreted version of the Arion Toaster is a devastating weapon capable of smashing enemy lines, due to it's size, however, it requires 3 extra people to operate it"
+
+
+
+outfit "Defender Anti-Missile"
+	lisences
+		"Arion Outfits"
+	category "Turrets"
+	cost 2850000
+	thumbnail "outfit/defender anti-missile"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/Defender anti-missile"
+		"hardpoint offset" 6.
+		"hit effect" "wanderer anti-missile"
+		"anti-missile" 40
+		"velocity" 390
+		"lifetime" 1
+		"reload" 25
+		"firing energy" 50
+		"firing heat" 34
+	description "This missile defense system is used by the larger Arion Battlecruisers while it has a very slow rate of fire it can destroy most missiles within range."
+
+effect "wanderer anti-missile"
+	sprite "effect/wanderer anti-missile"
+		"no repeat"
+		"frame rate" 6
+	sound "heavy anti-missile"
+	"lifetime" 31
+	"velocity scale" 1
+
+
+outfit "Titanium Reactor Core"
+	lisences
+		"Arion Outfits"
+	category "Power"
+	cost 24578980
+	thumbnail "outfit/Titanium Reactor"
+	"mass" 170
+	"outfit space" 170
+	"energy generation" 59.3
+	"heat generation" 90
+	description "this is the most powerful arion reactor used mostly for the lion warships although you will sometimes see them on other ships."
+
+
+
+
+
+outfit "Steel Reactor Core"
+	lisences
+		"Arion Outfits"
+	category "Power"
+	cost 18654000
+	thumbnail "outfit/Steel Reactor"
+	"mass" 98
+	"outfit space" -98
+	"energy generation" 34
+	"heat generation" 36
+	description "this is another powerful arion power generator, while not as powerful as the Titanium version it still generates enough power for a big medium warship."
+
+outfit "Iron Reactor Core"
+	lisences
+		"Arion Outfits"
+		category "Power"
+	cost 12670000
+	thumbnail "outfit/iron reactor"
+	"mass" 64
+	"energy generation" 21
+	"heat generation" 30
+	description "0"
+
+
+outfit "Tin Reactor Core"
+	lisences
+		"Arion Outfits"
+		category "Power"
+	cost 834500
+	thumbnail "outfit/tin reactor"
+	mass 56
+	"outfit space" -56
+	"energy generation" 17
+	"heat generation" 26
+	description "0"
+
+
+
+outfit "Plastic Generator"
+	lisences
+		"Arion Outfits"
+		category "power"
+	cost 1280000
+	mass 19
+	"outfit space" -19
+	"energy generation" 4.5
+	"heat generation" 9.9
+	description "with none of their larger generators fitting on fighters or drones the Arion developed this flimsy plastic generator to power those smaller ships"
+
+
+outfit "Arion Whacker"
+	lisences
+		"Arion Outfits"
+	category "Turrets"
+	cost 845000
+	thumbnail "outfit/whacker"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"energy capacity" 29
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/whacker"
+		"hardpoint offset" 3.
+		"hit effect" "korath warder"
+		"anti-missile" 10
+		"velocity" 350
+		"lifetime" 1
+		"reload" 5
+		"firing energy" 18
+		"firing heat" 10
+	description "This anti-missile system helps defend Arion warships from long-range attacks."
+
+
+
+effect "Arion Whacker"
+		sprite "effect/Whacker"
+		"no repeat"
+		"frame rate" 6
+	sound "warder"
+	"lifetime" 11
+	"velocity scale" 1
+
+
+
+#everything done
+outfit "Ion Torpedo"
+	lisences
+		"Arion Outfits"
+	category "Ammunition"
+	cost 3400
+	"mass" .2
+	"Ion Torpedo capacity" -1
+	description "this is the ammo for the Ion Torpedo launcher"
+
+outfit "Ion Torpedo Rack"
+	lisences
+		"Arion Outfits"
+	category "Ammunition"
+	cost 45300
+	thumbnail "outfit/Ion Torpedo Rack"
+	"mass" 2.4
+	"Ion Torpedo capacity" 20
+	ammo "Ion Torpedo"
+	"outfit space"
+
+outfit "Ion Torpedo Launcher"
+	lisences
+		"Arion Outfits"
+	category "Secondary Weapons"
+	cost 1280000
+	thumbnail "outfit/ion torpedo launcher"
+	"mass" 30
+	"outfit space" -34
+	"weapon capacity" -34
+	"gun ports" -1
+	"required crew" 1
+	"Ion Torpedo capacity" 30
+	weapon
+		sprite "projectile/Ion Torpedo Activating"
+			"frame rate" 2
+		sound "torpedo"
+		ammo "Ion Torpedo"
+		icon "icon/Ion torpedo"
+		"fire effect" "torpedo fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 4
+		"velocity" 4
+		"lifetime" 80
+		"reload" 225
+		"firing energy" 8
+		"firing heat" 45
+		"acceleration" .35
+		"drag" .025
+		"turn" 1.2
+		"homing" 4
+		"optical tracking" .9
+		"missile strength" 40
+		"submunition" "Active Ion Torpedo" 1
+	description "Ion Torpedoes are the main Arion Missile, causing large ammounts of hit force and even Ion damage they are powerful weapons."
+
+
+	outfit "Active Ion Torpedo"
+		weapon
+			sprite "projectile/finisher"
+				"frame rate" 2
+			"die effect" "small explosion"
+			"lifetime" 600
+			"acceleration" 1
+			"drag" .1
+			"turn" 1.2
+			"homing" 4
+			"radar tracking" .8
+			"optical tracking" .9
+			"missile strength" 40
+			"ion damage" 600
+			"shield damage" 1100
+			"hull damage" 300
+			"hit force" 1200
+
+
+outfit "Systems AC (Large)"
+	category "Systems"
+	cost "120400"
+	thumbnail "outfit/Systems AC"
+	"mass" 45
+	"outfit space" -45
+	"cooling" 70
+	"active cooling" 20
+	"energy storage" 24300
+	description "this large systems center provides cooling and energy storage for larger arion vessels. it can handle lots of heat problems but as arion ships run hot they are used very often."
+
+outfit "Systems AC (Small)"
+	category "Systems"
+	cost 850000
+	"mass" 25
+	"outfit space" -25
+	"cooling" 38
+	"active cooling" 15
+	"energy storage" 12100
+	description "this is the smaller cousin to the Systems AC (large), while smaller it still useful in cooling and powering arion ships."
+
+
+
+outfit "T-Rex Class Regenerator"
+	category "Systems"
+	cost 1458500
+	thumbnail "outfit/T-Rex gen"
+	"mass" 45
+	"outfit space" -45
+	"shield generation" 4.1
+	"shield energy" 8.9
+	"hull generation" 3.2
+	"hull energy" 5.8
+	description  "this is the most powerful arion shield/hull generator it repowers the shields and can even patch up the hull during combat."
+
+
+
+
+outfit "Barachio Class Regenerator"
+	category "Systems"
+	cost 1458500
+	thumbnail "outfit/Barachio gen"
+	"mass" 35
+	"outfit space" -35
+	"shield generation" 2.9
+	"shield energy" 7.9
+	"hull generation" 2.2
+	"hull energy" 4.2
+	description  "this is the second powerful arion shield/hull generator, it repowers the shields and can even patch up the hull during combat."
+
+outfit "Raptor Class Regenerator"
+	category "Systems"
+	cost 1458500
+	thumbnail "outfit/Raptor gen"
+	"mass" 45
+	"outfit space" -45
+	"shield generation" 1.4
+	"shield energy" 4.9
+	"hull generation" 2.2
+	"hull energy" 2.8
+	description  "this is the Smallest arion shield/hull generator it repowers the shields and can even patch up the hull during combat."
+
+
+outfit "Arion Large Ramscoop"
+	category "Systems"
+	cost 570000
+	thumbnail "outfit/arion ramscoop"
+	"mass" 15
+	"outfit space" -15
+	ramscoop" 11
+	description "This is the largest arion ramscoop, it is often used when a flamethrower is in use."
+
+outfit "Arion Small Ramscoop"
+	categor "Systems"
+	cost 234000
+	thumbnail "outfit/ramscoop(small)"
+	"mass" 9
+	"outfit space" -9
+	"ramscoop" 5
+	description "this is the smaller arion ramscoop it is good for smaller ships using fuel guzzling weapons."
+
+
+outfit "Marmot Class Thruster""
+	plural "Thrusters Marmot Class"
+	category "Engines"
+	"cost" 249000
+	thumbnail "outfit/small korath thruster"
+	"mass" 17
+	"outfit space" -17
+	"engine capacity" -17
+	"thrust" 19.8
+	"thrusting energy" 3.8
+	"thrusting heat" 3.5
+	"flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"flare sound" "plasma small"
+	description "Like most Korath technology, this thruster's power is offset by its energy requirements and heat output."
+
+outfit "Goat Class Thruster"
+	plural "Thrusters Goat Class"
+	category "Engines"
+	"cost" 539000
+	thumbnail "outfit/medium korath thruster"
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
+	"thrust" 37.2
+	"thrusting energy" 6.9
+	"thrusting heat" 7.9
+	"flare sprite" "effect/korath flare/medium"
+		"frame rate" 7
+	"flare sound" "plasma medium"
+	description "The Korath have the dubious distinction of relying on propulsion systems that produce more waste heat than the weapon systems of most other species."
+
+outfit "Ox Class Thruster"
+	plural "Thrusters Ox Class"
+	category "Engines"
+	"cost" 1216000
+	thumbnail "outfit/large korath thruster"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"thrust" 78.0
+	"thrusting energy" 10.9
+	"thrusting heat" 14.7
+	"flare sprite" "effect/korath flare/large"
+		"frame rate" 6.5
+	"flare sound" "plasma large"
+	description "The Quarg, who do all things efficiently, view the Korath propulsion systems with particular distaste."
+
+
+
+
+
+outfit "Marmot Class Steering"
+	plural "Steerings Marmot Class"
+	category "Engines"
+	"cost" 221000
+	thumbnail "outfit/small korath steering"
+	"mass" 7
+	"outfit space" -7
+	"engine capacity" -7
+	"turn" 468.8
+	"turning energy" 1.4
+	"turning heat" 1.1
+	"steering flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"steering flare sound" "plasma small"
+	description "this is the smallest Arion engine"
+
+outfit "Goat Class Steering"
+	plural "Steerings Goat Class"
+	category "Engines"
+	"cost" 473000
+	thumbnail "outfit/medium korath steering"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"turn" 956.0
+	"turning energy" 3.5
+	"turning heat" 3.4
+	"steering flare sprite" "effect/korath flare/medium"
+		"frame rate" 7
+	"steering flare sound" "plasma medium"
+	description "Korath engines can be fitted into just about any ship, but unless accompanied by some Korath cooling systems as well, their heat output will often be more than the ship can handle."
+
+
+outfit "Ox Class Steering"
+	plural "Steerings Ox Class"
+	category "Engines"
+	"cost" 1077000
+	thumbnail "outfit/large korath steering"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"turn" 1999.6
+	"turning energy" 5.6
+	"turning heat" 7.2
+	"steering flare sprite" "effect/korath flare/large"
+		"frame rate" 6.5
+	"steering flare sound" "plasma large"
+	description "Where other species might focus on converting energy into thrust as efficiently as possible, the Korath instead strive to pack as much power as possible into the smallest area. This steering system is a classic example of their work."
+
+
+outfit "Bison Class Thruster"
+	plural "Thrusters (Stellar Class)"
+	category "Engines"
+	"cost" 2733000
+	thumbnail "outfit/huge korath thruster"
+	"mass" 118
+	"outfit Space" -118
+	"engine capacity" -118
+	"thrust" 145.4
+	"thrusting energy" 78.8
+	"thrusting heat" 24.6
+	"flare sprite" "effect/korath flare/huge"
+		"frame rate" 6
+	"flare sound" "plasma huge"
+	description "A legend among the Korath claims that when they were first testing out their latest generation of plasma thrusters, a concerned Quarg fleet approached and volunteered to help evacuate the Korath crew from what they assumed was a dying ship. The Quarg were surprised to learn that the flames shooting out the back of the ship were in fact its intended mode of propulsion."
+
+
+outfit "Bison Class Steering"
+	category "Engines"
+	"cost" 1758000
+	thumbnail "outfit/huge korath thruster"
+	"mass" 78
+	"outfit space" -78
+	"engine capacity" -78
+	"turn" 5028.8
+	"turning energy" 12.6
+	"turning heat" 23
+	"steering flare sprite" "effect/korath flare/huge"
+		"frame rate" 6
+	"steering flare sound" "plasma huge"
+	description "this is the most powerful steering for the arion warships."
+
+
+outfit "Arion Outfits Licence"
+	category "Special"
+	thumbnail "outfit/arion outfit lisence"
+	description "this outfit grants you the ability to buy arion outfits"
+
+outfit "Arion Lisence"
+	category "Special"
+	thumbnail "outfit/arion liscence"
+	description "this lisence allows you to purchase smaller arion ships."
+
+outfit "Arion Military Lisence"
+	category "Special"
+	thumbnail "outfit/arion military liscence"
+	description "this lisence allows you to purchase All Arion Warships."
+
+
+
+outfit "Arion Defense Gear"
+	category "Hand To Hand"
+	thumbnail "outfit/Defense Gear"
+	"capture attack" 1.1
+	"capture defense" 9.1
+	description "this is a powerful weapon used to defend arion warships in hand to hand combat"
+
+
+outfit "Rocket Launcher"
+	category "Hand To Hand"
+	thumbnail "outfit/Rocket Launcher"
+	"capture attack" 5.8
+	"capture defense" 1.6
+	description "this is a portable missile launcher that the arion use to attack enemy ships in hand to hand combat"
