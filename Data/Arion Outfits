@@ -131,18 +131,16 @@ outfit "Roaster Turret"
 
 
 
-#everything done
 outfit "Arion Toaster"
 	lisences
 		"Arion Outfits"
 	category "Guns"
 	cost 2306000
 	thumbnail "outfit/Toaster"
-	"mass" 34
-	"outfit space" -34
-	"weapon capacity" -34
+	"mass" 23
+	"outfit space" -23
+	"weapon capacity" -23
 	"energy capacity" 100
-	"required crew" 1
 	"gun ports" -1
 	weapon
 		sprite "projectile/Toaster"
@@ -158,10 +156,10 @@ outfit "Arion Toaster"
 		"cluster"
 		"firing energy" 55
 		"firing heat" 240
-		"shield damage" 78
-		"hull damage" 57
+		"shield damage" 38
+		"hull damage" 77
 		"heat damage" 21
-	description "this is the most damaging arion weapon it can blast through most things in its way but is most effective when paired with some of the other Arion Heat weapons."
+	description "This is not the most damaging weapon but it is able to deal decent damage for a reletively low outfit space. This weapon is best paired with a heat weapon."
 
 
 outfit "Arion Toaster Turret"
@@ -170,9 +168,9 @@ outfit "Arion Toaster Turret"
 	category "Turrets"
 	cost 5230300
 	thumbnail "outfit/Toaster turret"
-	"mass" 85
-	"outfit space" -85
-	"weapon capacity" -85
+	"mass" 56
+	"outfit space" -56
+	"weapon capacity" -56
 	"energy capacity" 200
 	"required crew" 3
 	"turret mounts" -1
@@ -191,11 +189,11 @@ outfit "Arion Toaster Turret"
 		"burst reload" 2
 		"burst count" 6
 		"cluster"
-		"firing energy" 55
-		"firing heat" 240
-		"shield damage" 78
-		"hull damage" 57
-		"heat damage" 21
+		"firing energy" 75
+		"firing heat" 340
+		"shield damage" 76
+		"hull damage" 154
+		"heat damage" 31
 	description "the Turreted version of the Arion Toaster is a devastating weapon capable of smashing enemy lines, due to it's size, however, it requires 3 extra people to operate it"
 
 
@@ -332,7 +330,6 @@ effect "Arion Whacker"
 
 
 
-#everything done
 outfit "Ion Torpedo"
 	lisences
 		"Arion Outfits"
@@ -359,7 +356,7 @@ outfit "Ion Torpedo Launcher"
 	category "Secondary Weapons"
 	cost 1280000
 	thumbnail "outfit/ion torpedo launcher"
-	"mass" 30
+	"mass" 17
 	"outfit space" -34
 	"weapon capacity" -34
 	"gun ports" -1
@@ -410,24 +407,28 @@ outfit "Ion Torpedo Launcher"
 
 
 outfit "Systems AC (Large)"
+	lisences
+		"Arion Outfits"
 	category "Systems"
 	cost "120400"
 	thumbnail "outfit/Systems AC"
 	"mass" 45
 	"outfit space" -45
-	"cooling" 70
-	"active cooling" 20
-	"energy storage" 24300
+	"cooling" 50
+	"active cooling" 6
+	"energy storage" 17300
 	description "this large systems center provides cooling and energy storage for larger arion vessels. it can handle lots of heat problems but as arion ships run hot they are used very often."
 
 outfit "Systems AC (Small)"
+	lisences
+		"Arion Outfits"
 	category "Systems"
 	cost 850000
 	"mass" 25
 	"outfit space" -25
-	"cooling" 38
-	"active cooling" 15
-	"energy storage" 12100
+	"cooling" 20
+	"active cooling" 2
+	"energy storage" 9100
 	description "this is the smaller cousin to the Systems AC (large), while smaller it still useful in cooling and powering arion ships."
 
 
@@ -629,12 +630,12 @@ outfit "Bison Class Steering"
 outfit "Arion Outfits Licence"
 	category "Special"
 	thumbnail "outfit/arion outfit lisence"
-	description "this outfit grants you the ability to buy arion outfits"
+	description "this outfit grants you the ability to buy Arion outfits"
 
 outfit "Arion Lisence"
 	category "Special"
 	thumbnail "outfit/arion liscence"
-	description "this lisence allows you to purchase smaller arion ships."
+	description "this lisence allows you to purchase smaller Arion ships."
 
 outfit "Arion Military Lisence"
 	category "Special"
@@ -644,6 +645,8 @@ outfit "Arion Military Lisence"
 
 
 outfit "Arion Defense Gear"
+	lisences
+		"Arion Outfits"
 	category "Hand To Hand"
 	thumbnail "outfit/Defense Gear"
 	"capture attack" 1.1
@@ -651,7 +654,9 @@ outfit "Arion Defense Gear"
 	description "this is a powerful weapon used to defend arion warships in hand to hand combat"
 
 
-outfit "Rocket Launcher"
+outfit "Rocket Launchers"
+	lisences
+		"Arion outfits"
 	category "Hand To Hand"
 	thumbnail "outfit/Rocket Launcher"
 	"capture attack" 5.8
