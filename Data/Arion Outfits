@@ -3,7 +3,7 @@ outfit "Arion Roaster"
 		"Arion Outfits"
 	category "Guns"
 	cost 1340000
-	thumbnail "outfit/Arion Roaster"
+	thumbnail "outfit/Roaster"
 	"mass" 45
 	"outfit space" -45
 	"weapon capacity" -45
@@ -100,7 +100,7 @@ outfit "Roaster Turret"
 		"Arion Outfits"
 	category "Turret"
 	cost 1869000
-	thumbnail "outfit/roaster turret"
+	thumbnail "outfit/Roaster Turret"
 	"mass" 86
 	"weapon capacity" -86
 	"outfit space" -86
@@ -334,6 +334,7 @@ outfit "Ion Torpedo"
 	lisences
 		"Arion Outfits"
 	category "Ammunition"
+	thumbnail "outfit/Ion Torpedo"
 	cost 3400
 	"mass" .2
 	"Ion Torpedo capacity" -1
@@ -355,7 +356,7 @@ outfit "Ion Torpedo Launcher"
 		"Arion Outfits"
 	category "Secondary Weapons"
 	cost 1280000
-	thumbnail "outfit/ion torpedo launcher"
+	thumbnail "outfit/Ion Torpedo Launcher"
 	"mass" 17
 	"outfit space" -34
 	"weapon capacity" -34
