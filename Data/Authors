@@ -1,0 +1,233 @@
+person "Red 5"
+    government "Author"
+    frequency 300
+    personality
+        vindictive heroic unconstrained
+    phrase
+        word
+            "I hope that you are enjoying the mod!"
+        word
+            "There are many new places to explore"
+            "There is a new race of aliens to explore"
+            "There is new technology to use"
+        word
+            "poke around and you just might find something!"
+            "look around and you could get rich!"
+            "there is enough gold for all!"
+            "There is a world for you to save!"
+    ship "Lion"
+    ship "Thorn" "Epic 1"
+    ship "Thorn" "Epic 2"
+    ship "Thorn" "Epic 3"
+    ship "Thorn" "Epic 4"
+    ship "Thorn" "Epic 5"
+    ship "Thorn" "Epic 6"
+    ship "Thorn" "Epic 7"
+    ship "Thorn" "Epic 8"
+    ship "Thorn" "Epic 9"
+    ship "Thorn" "Epic 10"
+    ship "Thorn" "Epic 11"
+    ship "Thorn" "Epic 12"
+    ship "Thorn" "Epic 13"
+    ship "Thorn" "Epic 14"
+    ship "Thorn" "Epic 15"
+    ship "Thorn" "Epic 16"
+    ship "Thorn" "Epic 17"
+    ship "Thorn" "Epic 18"
+    ship "Thorn" "Epic 19"
+    ship "Thorn" "Epic 20"
+    ship "Thorn" "Epic 21"
+    ship "Thorn" "Epic 22"
+    ship "Infiltration Drone" "Amazing 1"
+    ship "Infiltration Drone" "Amazing 2"
+    ship "Infiltration Drone" "Amazing 3"
+    ship "Infiltration Drone" "Amazing 4"
+    ship "Infiltration Drone" "Amazing 5"
+    ship "Infiltration Drone" "Amazing 6"
+    ship "Infiltration Drone" "Amazing 7"
+    ship "Infiltration Drone" "Amazing 8"
+    ship "Infiltration Drone" "Amazing 9"
+    ship "Infiltration Drone" "Amazing 10"
+    ship "Infiltration Drone" "Amazing 11"
+    ship "Infiltration Drone" "Amazing 12"
+    ship "Infiltration Drone" "Amazing 13"
+    ship "Infiltration Drone" "Amazing 14"
+    ship "Infiltration Drone" "Amazing 15"
+    ship "Infiltration Drone" "Amazing 16"
+    ship "Infiltration Drone" "Amazing 17"
+    ship "Infiltration Drone" "Amazing 18"
+    ship "Infiltration Drone" "Amazing 19"
+    ship "Infiltration Drone" "Amazing 20"
+    ship "Infiltration Drone" "Amazing 21"
+    ship "Infiltration Drone" "Amazing 22"
+    ship "Infiltration Drone" "Amazing 23"
+    ship "Infiltration Drone" "Amazing 24"
+    ship "Infiltration Drone" "Amazing 25"
+    ship "Infiltration Drone" "Amazing 26"
+
+
+
+
+
+
+
+person "The Flying Chipmunk"
+    government "Marauder"
+	frequency 300
+    personality
+        vindictive heroic unconstrained
+    phrase
+        word
+            "I hope that you are enjoying the mod!"
+        word
+            "There are many new places to explore"
+            "There is a new race of aliens to explore"
+            "There is new technology to use"
+        word
+            "poke around and you just might find something!"
+            "look around and you could get rich!"
+            "there is enough gold for all!"
+            "There is a world for you to save!"
+    ship "Spamming for life"
+        sprite "ship/hai shield beetle"
+        "never disabled"
+        attributes
+            category "Heavy Warship"
+            "shields" 44780
+            "hull" 12400
+            "required crew" 47
+            "bunks" 95
+            "mass" 650
+            "drag" 8.8
+            "heat dissipation" 0.8
+            "fuel capacity" 500
+            "cargo space" 214
+            "outfit space" 165347859678235
+            "weapon capacity" 615789
+            "engine capacity" 150
+            weapon
+                "blast radius" 400
+                "shield damage" 4000
+                "hull damage" 2000
+                "hit force" 3000
+        outfits
+		"Hai Tracker Pod" 16
+			"Hai Tracker" 1120
+			"Tracker Storage Pod" 8
+			"Point Defense Turret" 4
+			"Boulder Reactor"
+			"Geode Reactor"
+			"Hai Gorge Batteries"
+			"Hai Ravine Batteries"
+			"Hai Diamond Regenerator" 3
+			"Small Heat Shunt" 2
+			`"Bufaer" Atomic Thruster` 3
+			`"Bufaer" Atomic Steering` 4
+		engine -44 133
+		engine 44 133
+		gun -22 -102 "Hai Tracker Pod"
+		gun 22 -102 "Hai Tracker Pod"
+		gun -34 -68 "Hai Tracker Pod"
+		gun 34 -68 "Hai Tracker Pod"
+		gun -49 -38 "Hai Tracker Pod"
+		gun 49 -38 "Hai Tracker Pod"
+		gun -61 -14 "Hai Tracker Pod"
+		gun 61 -14 "Hai Tracker Pod"
+		gun -87.28 31.82 "Hai Tracker Pod"
+		gun -75.71 9.64 "Hai Tracker Pod"
+		gun -40.99 -43.39 "Hai Tracker Pod"
+		gun -25.56 -77.14 "Hai Tracker Pod"
+		turret -39 48 "Point Defense Turret"
+		turret 39 48 "Point Defense Turret"
+		turret -57 75 "Point Defense Turret"
+		turret 57 75 "Point Defense Turret"
+		leak "leak" 40 50
+		leak "flame" 50 80
+		leak "big leak" 60 50
+		explode "tiny explosion" 50
+		explode "small explosion" 50
+		explode "medium explosion" 50
+		explode "large explosion" 50
+		explode "huge explosion" 20
+		"final explode" "final explosion large"
+	description "This ship was first built millennia ago, near the end of a more violent time in Hai history. Since then, it has served as the only heavy warship at the disposal of the Hai. The Shield Beetle is a versatile warship used by the Hai to guard their merchant convoys, or by the Unfettered to attack those very same convoys."
+
+
+
+
+
+
+
+
+
+
+
+person "Peregrine"
+	government "Author"
+	frequency 400
+	personality
+		heroic unconstrained surveillance opportunistic
+
+		phrase
+			word
+				"You know there's a galaxy out there, you should explore it"
+			word
+				"Helpless Merchents need saving"
+				"Aliens need discovering"
+				"Pirates need Killing"
+			word
+				"People to be farmed"
+				"Star systems to be explored"
+			word
+				"Not to mention the weaponized pigs that need carting off to someplace."
+			word
+				"So do enjoy yourself will you."
+	ship "PRaven"
+		sprite "ship/raven"
+		thumbnail "thumbnail/raven"
+		attributes
+			"never disabled"
+			category "Light Warship"
+			"cost" 2200000
+			"shields" 77000
+			"hull" 14000
+			"required crew" 1
+			"bunks" 0
+			"mass" 130
+			"drag" 3.7
+			"heat dissipation" .8
+			"fuel capacity" 500
+			"cargo space" 30
+			"outfit space" 0
+			"weapon capacity" 0
+			"engine capacity" 0
+			weapon
+				"blast radius" 60
+				"shield damage" 600
+				"hull damage" 300
+				"hit force" 900
+		outfits
+			"Quarg Skylance" 2
+			"Quarg Anti-Missile"
+			"Antimatter Core"
+			"Nanotech Battery"
+			"Quantum Shield Generator"
+			"Laser Rifle" 2
+			"Large Heat Shunt"
+			"Stellar Class Thruster" 2
+			"Stellar Class Steering" 2
+			"Scram Drive"
+
+		engine -12 43
+		engine 12 43
+		turret -28 2 "Quarg Skylance"
+		turret 28 2 "Quarg Skylance"
+		turret 1.5 7 "Quarg Anti-Missile"
+		leak "leak" 60 50
+		leak "flame" 50 80
+		explode "medium explosion" 24
+		explode "large explosion" 16
+		explode "tiny explosion" 28
+		explode "small explosion" 40
+		"final explode" "final explosion small"
+		description "The Lionheart Raven is their most popular warship, an agile and elegant vessel that can nevertheless deal out and absorb considerable damage. Ravens are a favorite ship for bounty hunters, because they are more than a match for pirate interceptors and can be used by a skilled pilot to take down much larger ships as well."
