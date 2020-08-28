@@ -504,7 +504,7 @@ outfit "NT 100 Nutron Thruster""
 	"thrust" 19.8
 	"thrusting energy" 3.8
 	"thrusting heat" 3.5
-	"flare sprite" "effect/korath flare/small"
+	"flare sprite" "flare/Small Nutron Flare"
 		"frame rate" 7.5
 	"flare sound" "plasma small"
 	description ""
@@ -519,7 +519,7 @@ outfit "NT 200 Nutron Thruster"
 	"thrust" 37.2
 	"thrusting energy" 6.9
 	"thrusting heat" 7.9
-	"flare sprite" "effect/korath flare/medium"
+	"flare sprite" "flare/Medium Nutron Thruster"
 		"frame rate" 7
 	"flare sound" "plasma medium"
 	description ""
@@ -534,7 +534,7 @@ outfit "NT 300 Nutron Thruster"
 	"thrust" 78.0
 	"thrusting energy" 10.9
 	"thrusting heat" 14.7
-	"flare sprite" "effect/korath flare/large"
+	"flare sprite" "flare/Large Nutron Flare"
 		"frame rate" 6.5
 	"flare sound" "plasma large"
 	description ""
@@ -553,7 +553,7 @@ outfit "NT 150 Nutron Steering"
 	"turn" 468.8
 	"turning energy" 1.4
 	"turning heat" 1.1
-	"steering flare sprite" "effect/korath flare/small"
+	"steering flare sprite" "flare/Small Nutron Flare"
 		"frame rate" 7.5
 	"steering flare sound" "plasma small"
 	description "this is the smallest Arion engine"
@@ -568,7 +568,7 @@ outfit "NT 250 Nutron Steering"
 	"turn" 956.0
 	"turning energy" 3.5
 	"turning heat" 3.4
-	"steering flare sprite" "effect/korath flare/medium"
+	"steering flare sprite" "flare/Medium Nutron Flare"
 		"frame rate" 7
 	"steering flare sound" "plasma medium"
 	description ""
@@ -584,7 +584,7 @@ outfit "NT 350 Nutron Steering"
 	"turn" 1999.6
 	"turning energy" 5.6
 	"turning heat" 7.2
-	"steering flare sprite" "effect/korath flare/large"
+	"steering flare sprite" "flare/Large Nutron Flare"
 		"frame rate" 6.5
 	"steering flare sound" "plasma large"
 	description ""
@@ -600,7 +600,7 @@ outfit "NT 400 Nutron Thruster"
 	"thrust" 145.4
 	"thrusting energy" 78.8
 	"thrusting heat" 24.6
-	"flare sprite" "effect/korath flare/huge"
+	"flare sprite" "flare/Huge Nutron Flare"
 		"frame rate" 6
 	"flare sound" "plasma huge"
 	description ""
@@ -616,7 +616,7 @@ outfit "NT 450 Nutron Steering"
 	"turn" 5028.8
 	"turning energy" 12.6
 	"turning heat" 23
-	"steering flare sprite" "effect/korath flare/huge"
+	"steering flare sprite" "flare/Huge Nutron Flare"
 		"frame rate" 6
 	"steering flare sound" "plasma huge"
 	description "this is the most powerful steering for the arion warships."
