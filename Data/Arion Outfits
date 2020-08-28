@@ -494,11 +494,10 @@ outfit "Arion Small Ramscoop"
 	description "this is the smaller arion ramscoop it is good for smaller ships using fuel guzzling weapons."
 
 
-outfit "Marmot Class Thruster""
-	plural "Thrusters Marmot Class"
+outfit "NT 100 Nutron Thruster""
 	category "Engines"
 	"cost" 249000
-	thumbnail "outfit/small korath thruster"
+	thumbnail "outfit/small nutron thruster"
 	"mass" 17
 	"outfit space" -17
 	"engine capacity" -17
@@ -508,13 +507,12 @@ outfit "Marmot Class Thruster""
 	"flare sprite" "effect/korath flare/small"
 		"frame rate" 7.5
 	"flare sound" "plasma small"
-	description "Like most Korath technology, this thruster's power is offset by its energy requirements and heat output."
+	description ""
 
-outfit "Goat Class Thruster"
-	plural "Thrusters Goat Class"
+outfit "NT 200 Nutron Thruster"
 	category "Engines"
 	"cost" 539000
-	thumbnail "outfit/medium korath thruster"
+	thumbnail "outfit/medium nutron thruster"
 	"mass" 40
 	"outfit space" -40
 	"engine capacity" -40
@@ -524,13 +522,12 @@ outfit "Goat Class Thruster"
 	"flare sprite" "effect/korath flare/medium"
 		"frame rate" 7
 	"flare sound" "plasma medium"
-	description "The Korath have the dubious distinction of relying on propulsion systems that produce more waste heat than the weapon systems of most other species."
+	description ""
 
-outfit "Ox Class Thruster"
-	plural "Thrusters Ox Class"
+outfit "NT 300 Nutron Thruster"
 	category "Engines"
 	"cost" 1216000
-	thumbnail "outfit/large korath thruster"
+	thumbnail "outfit/large nutron thruster"
 	"mass" 65
 	"outfit space" -65
 	"engine capacity" -65
@@ -540,17 +537,16 @@ outfit "Ox Class Thruster"
 	"flare sprite" "effect/korath flare/large"
 		"frame rate" 6.5
 	"flare sound" "plasma large"
-	description "The Quarg, who do all things efficiently, view the Korath propulsion systems with particular distaste."
+	description ""
 
 
 
 
 
-outfit "Marmot Class Steering"
-	plural "Steerings Marmot Class"
+outfit "NT 150 Nutron Steering"
 	category "Engines"
 	"cost" 221000
-	thumbnail "outfit/small korath steering"
+	thumbnail "outfit/small nutron steering"
 	"mass" 7
 	"outfit space" -7
 	"engine capacity" -7
@@ -562,11 +558,10 @@ outfit "Marmot Class Steering"
 	"steering flare sound" "plasma small"
 	description "this is the smallest Arion engine"
 
-outfit "Goat Class Steering"
-	plural "Steerings Goat Class"
+outfit "NT 250 Nutron Steering"
 	category "Engines"
 	"cost" 473000
-	thumbnail "outfit/medium korath steering"
+	thumbnail "outfit/medium nutron steering"
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
@@ -576,14 +571,13 @@ outfit "Goat Class Steering"
 	"steering flare sprite" "effect/korath flare/medium"
 		"frame rate" 7
 	"steering flare sound" "plasma medium"
-	description "Korath engines can be fitted into just about any ship, but unless accompanied by some Korath cooling systems as well, their heat output will often be more than the ship can handle."
+	description ""
 
 
-outfit "Ox Class Steering"
-	plural "Steerings Ox Class"
+outfit "NT 350 Nutron Steering"
 	category "Engines"
 	"cost" 1077000
-	thumbnail "outfit/large korath steering"
+	thumbnail "outfit/large nutron steering"
 	"mass" 50
 	"outfit space" -50
 	"engine capacity" -50
@@ -593,14 +587,13 @@ outfit "Ox Class Steering"
 	"steering flare sprite" "effect/korath flare/large"
 		"frame rate" 6.5
 	"steering flare sound" "plasma large"
-	description "Where other species might focus on converting energy into thrust as efficiently as possible, the Korath instead strive to pack as much power as possible into the smallest area. This steering system is a classic example of their work."
+	description ""
 
 
-outfit "Bison Class Thruster"
-	plural "Thrusters (Stellar Class)"
+outfit "NT 400 Nutron Thruster"
 	category "Engines"
 	"cost" 2733000
-	thumbnail "outfit/huge korath thruster"
+	thumbnail "outfit/huge nutron thruster"
 	"mass" 118
 	"outfit Space" -118
 	"engine capacity" -118
@@ -610,13 +603,13 @@ outfit "Bison Class Thruster"
 	"flare sprite" "effect/korath flare/huge"
 		"frame rate" 6
 	"flare sound" "plasma huge"
-	description "A legend among the Korath claims that when they were first testing out their latest generation of plasma thrusters, a concerned Quarg fleet approached and volunteered to help evacuate the Korath crew from what they assumed was a dying ship. The Quarg were surprised to learn that the flames shooting out the back of the ship were in fact its intended mode of propulsion."
+	description ""
 
 
-outfit "Bison Class Steering"
+outfit "NT 450 Nutron Steering"
 	category "Engines"
 	"cost" 1758000
-	thumbnail "outfit/huge korath thruster"
+	thumbnail "outfit/huge nutron thruster"
 	"mass" 78
 	"outfit space" -78
 	"engine capacity" -78
