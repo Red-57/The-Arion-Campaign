@@ -167,7 +167,7 @@ outfit "Arion Toaster Turret"
 		"Arion Outfits"
 	category "Turrets"
 	cost 5230300
-	thumbnail "outfit/Toaster turret"
+	thumbnail "outfit/Toaster Turret"
 	"mass" 56
 	"outfit space" -56
 	"weapon capacity" -56
@@ -234,7 +234,7 @@ outfit "Titanium Reactor Core"
 		"Arion Outfits"
 	category "Power"
 	cost 24578980
-	thumbnail "outfit/Titanium Reactor"
+	thumbnail "outfit/Titanium"
 	"mass" 170
 	"outfit space" 170
 	"energy generation" 59.3
@@ -250,7 +250,7 @@ outfit "Steel Reactor Core"
 		"Arion Outfits"
 	category "Power"
 	cost 18654000
-	thumbnail "outfit/Steel Reactor"
+	thumbnail "outfit/Steel"
 	"mass" 98
 	"outfit space" -98
 	"energy generation" 34
@@ -262,7 +262,7 @@ outfit "Iron Reactor Core"
 		"Arion Outfits"
 		category "Power"
 	cost 12670000
-	thumbnail "outfit/iron reactor"
+	thumbnail "outfit/Iron"
 	"mass" 64
 	"energy generation" 21
 	"heat generation" 30
@@ -274,7 +274,7 @@ outfit "Tin Reactor Core"
 		"Arion Outfits"
 		category "Power"
 	cost 834500
-	thumbnail "outfit/tin reactor"
+	thumbnail "outfit/Tin"
 	mass 56
 	"outfit space" -56
 	"energy generation" 17
@@ -284,6 +284,7 @@ outfit "Tin Reactor Core"
 
 
 outfit "Plastic Generator"
+	thumbnail "outfit/Plastic"
 	lisences
 		"Arion Outfits"
 		category "power"
@@ -412,7 +413,7 @@ outfit "Systems AC (Large)"
 		"Arion Outfits"
 	category "Systems"
 	cost "120400"
-	thumbnail "outfit/Systems AC"
+	thumbnail "outfit/SysACL"
 	"mass" 45
 	"outfit space" -45
 	"cooling" 50
@@ -437,7 +438,7 @@ outfit "Systems AC (Small)"
 outfit "T-Rex Class Regenerator"
 	category "Systems"
 	cost 1458500
-	thumbnail "outfit/T-Rex gen"
+	thumbnail "outfit/T-Rex"
 	"mass" 50
 	"outfit space" -50
 	"shield generation" 4.1
@@ -452,7 +453,7 @@ outfit "T-Rex Class Regenerator"
 outfit "Barachio Class Regenerator"
 	category "Systems"
 	cost 1458500
-	thumbnail "outfit/Barachio gen"
+	thumbnail "outfit/barachio"
 	"mass" 30
 	"outfit space" -30
 	"shield generation" 2.9
@@ -464,7 +465,7 @@ outfit "Barachio Class Regenerator"
 outfit "Raptor Class Regenerator"
 	category "Systems"
 	cost 1458500
-	thumbnail "outfit/Raptor gen"
+	thumbnail "outfit/Raptor"
 	"mass" 15
 	"outfit space" -15
 	"shield generation" 1.4
