@@ -438,8 +438,8 @@ outfit "T-Rex Class Regenerator"
 	category "Systems"
 	cost 1458500
 	thumbnail "outfit/T-Rex gen"
-	"mass" 45
-	"outfit space" -45
+	"mass" 50
+	"outfit space" -50
 	"shield generation" 4.1
 	"shield energy" 8.9
 	"hull generation" 3.2
@@ -453,8 +453,8 @@ outfit "Barachio Class Regenerator"
 	category "Systems"
 	cost 1458500
 	thumbnail "outfit/Barachio gen"
-	"mass" 35
-	"outfit space" -35
+	"mass" 30
+	"outfit space" -30
 	"shield generation" 2.9
 	"shield energy" 7.9
 	"hull generation" 2.2
@@ -465,8 +465,8 @@ outfit "Raptor Class Regenerator"
 	category "Systems"
 	cost 1458500
 	thumbnail "outfit/Raptor gen"
-	"mass" 45
-	"outfit space" -45
+	"mass" 15
+	"outfit space" -15
 	"shield generation" 1.4
 	"shield energy" 4.9
 	"hull generation" 2.2
