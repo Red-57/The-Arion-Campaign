@@ -479,18 +479,18 @@ outfit "Arion Large Ramscoop"
 	category "Systems"
 	cost 570000
 	thumbnail "outfit/arion ramscoop"
-	"mass" 15
-	"outfit space" -15
+	"mass" 23
+	"outfit space" -17
 	ramscoop" 11
-	description "This is the largest arion ramscoop, it is often used when a flamethrower is in use."
+	description "This is the largest arion ramscoop, it is often utilized when a flamethrower is in use."
 
 outfit "Arion Small Ramscoop"
 	categor "Systems"
 	cost 234000
-	thumbnail "outfit/ramscoop(small)"
+	thumbnail "outfit/ASramscoop"
 	"mass" 9
 	"outfit space" -9
-	"ramscoop" 5
+	"ramscoop" 4
 	description "this is the smaller arion ramscoop it is good for smaller ships using fuel guzzling weapons."
 
 
