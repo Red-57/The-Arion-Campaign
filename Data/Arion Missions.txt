@@ -276,15 +276,16 @@ mission "Gather The Fleet"
 
 mission "Attack Ikosek"
 	description "Escort the battlefleet and destroy the Kor Sestor staying in Ikosek"
+	destination "Patel"
 	to offer
 		has "Gather The Fleet"
 	on offer
 		conversation
 			'When you see Rinko in the spaceport he tells you that the battle fleet is ready to go'
 	on complete
+		event "New Portal"
 		dialog
-			event "New Portal"
-			"check in the spaceport to see the pilots"
+			"check in the spaceport to see if Rinko has any more jobs for you to do"
 	npc kill
 		personality heroic
 		"Large Kor Sestor" 15
@@ -310,3 +311,21 @@ event "New Portal"
 			sprite planet/wormholeblue
 			distance 2320.29
 			period 1788.2712
+
+
+
+mission "Arion Surveillance 1"
+	scource "Patel"
+	destination "Larnin"
+	blocked "you require 5 tons of cargo space to do the next mission"
+	on offer
+		conversation
+			'	When you go into the spaceport Rinko is waiting for you and he has a wry smile on his face. "We seem to have driven off the Kor sestor for the time being but we have another interesting situation on our hands." he pauses for a minute "A new wormhole has opened and we would like you too investigate where it leads and discover if there are any habitible planets there."'
+
+
+
+	waypoint "Percepolis"
+	waypoint "Iser"
+	cargo 5
+	on complete
+		conversation

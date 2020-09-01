@@ -113,15 +113,16 @@ outfit "Roaster Turret"
 		"hit effect" "detainer impact" 3
 		"hit effect" "detainer smoke" 5
 		"live effect" detainer sparks" 50
+		"turret turn" 4.5
 		"inaccuracy" 0.5
 		"velocity" 16
 		"lifetime" 140
 		"burst reload" 10
 		"reload" 60
 		"burst count" 2
-		"firing energy" 756
-		"firing force" 40
-		"firing heat" 70
+		"firing energy" 856
+		"firing force" 50
+		"firing heat" 100
 		"hit force" 70
 		"shield damage" 480
 		"hull damage" 120
@@ -182,18 +183,18 @@ outfit "Arion Toaster Turret"
 		sound "repeater"
 		"hit effect" "repeater impact"
 		"inaccuracy" 3
-		"turret turn" 2.3
+		"turret turn" 3.3
 		"velocity" 15
 		"lifetime" 40
 		"reload" 5
 		"burst reload" 2
-		"burst count" 6
+		"burst count" 8
 		"cluster"
 		"firing energy" 75
 		"firing heat" 340
-		"shield damage" 76
-		"hull damage" 154
-		"heat damage" 31
+		"shield damage" 38
+		"hull damage" 77
+		"heat damage" 21
 	description "the Turreted version of the Arion Toaster is a devastating weapon capable of smashing enemy lines, due to it's size, however, it requires 3 extra people to operate it"
 
 
@@ -336,7 +337,7 @@ outfit "Ion Torpedo"
 		"Arion Outfits"
 	category "Ammunition"
 	thumbnail "outfit/Ion Torpedo"
-	cost 3400
+	cost 17400
 	"mass" .2
 	"Ion Torpedo capacity" -1
 	description "this is the ammo for the Ion Torpedo launcher"
@@ -348,9 +349,9 @@ outfit "Ion Torpedo Rack"
 	cost 45300
 	thumbnail "outfit/Ion Torpedo Rack"
 	"mass" 2.4
-	"Ion Torpedo capacity" 20
+	"Ion Torpedo capacity" 15
 	ammo "Ion Torpedo"
-	"outfit space"
+	"outfit space" 12
 
 outfit "Ion Torpedo Launcher"
 	lisences
@@ -405,7 +406,7 @@ outfit "Ion Torpedo Launcher"
 			"ion damage" 600
 			"shield damage" 1100
 			"hull damage" 300
-			"hit force" 1200
+			"hit force" 1500
 
 
 outfit "Systems AC (Large)"
@@ -650,7 +651,7 @@ outfit "Arion Defense Gear"
 	description "this is a powerful weapon used to defend arion warships in hand to hand combat"
 
 
-outfit "Rocket Launchers"
+outfit "Rocket Launcher"
 	lisences
 		"Arion outfits"
 	category "Hand To Hand"

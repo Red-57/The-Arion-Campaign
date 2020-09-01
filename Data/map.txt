@@ -28683,10 +28683,8 @@ planet Zug
 
 planet Toloplike
 	attributes
-	government "Arion"
 	landscape land/dune4
-	description" "
-	spaceport" "
+	description 'this planet is a desolate and  dreary one, the planet is covered in sand and the sandstorms are so powerful that to go outside you need to wear a speciaal sand suit. Toloplike is also the home of a rather large Kor Sestor drone factory in which sand goes in and machines of mass destruction come out. Of course you shouldn't be able to land here in the first place and even if you did you are probably about to die'
 	government "Kor Sestor"
 
 
