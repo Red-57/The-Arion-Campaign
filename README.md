@@ -7,14 +7,15 @@ if anyone has any suggestions please feel free to comment or submit pull request
 general outline of story
     
     -meet arion
-    
-    -help defend from some kor sestor attacks
-    
-    -research about new portal leading to planets near coalition space
-    - run into coalition also reaserching same place
-    
+    -help defend from some kor sestor attacks    
+    -research about new portal leading to planets near coalition space   
+    - run into coalition also reaserching same place   
     -fight coalition
+    -Korath invade arion military base
+    -long string of hard fights
+    -coalition capture new territorys
     -realize pug are backing coalition
+    -Drak want arion to use those planets to watch over pug
     -pug fight back
     -drak help arion fight pug
     -drak win
