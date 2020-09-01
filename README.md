@@ -5,10 +5,14 @@ if anyone has any suggestions please feel free to comment or submit pull request
 
 
 general outline of story
+    
     -meet arion
+    
     -help defend from some kor sestor attacks
+    
     -research about new portal leading to planets near coalition space
     - run into coalition also reaserching same place
+    
     -fight coalition
     -realize pug are backing coalition
     -pug fight back
