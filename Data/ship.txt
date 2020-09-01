@@ -30,8 +30,8 @@ ship "Fox"
 		"Tin Reactor Core" 2
 		"Raptor Class Regerator"
 		"Systems AC (Small)" 2
-		"Goat Class Steering"
-		"Goat Class Thruster"
+		"NT 250 Nutron Steering"
+		"NT 200 Nutron Thruster"
 
 	gun 12.5 -25.03 "Arion Heavy Flamethrower"
 	gun -12.5 -25.55 "Arion Heavy Flamethrower"
@@ -76,8 +76,8 @@ ship "Cub"
 		"Ion Torpedo Launcher" 2
 		"Ion Torpedo" 60
 		"Systems AC (small)" 2
-		"Goat Class Thruster"
-		"Goat Class Steering"
+		"NT 200 Nutron Thruster"
+		"NT 250 Nutron Steering"
 		"Arion Toaster" 2
 	gun 23 4.5 "Arion Toaster"
 	gun -23 4.5 "Arion Toaster"
@@ -131,8 +131,8 @@ ship "Lion"
 		"Defender Anti-Missile" 4
 		"Arion Roaster Turret" 4
 		"Arion Large Ramscoop" 5
-		"Bison Class Steering" 1
-		"Bison Class Thruster" 1
+		"NT 450 Nutron Steering" 1
+		"NT 400 Nutron Thruster" 1
 
 	gun 19.85 -239.09 "Trapper Cannon"
 	gun -22.68 -239.09 "Trapper Cannon"
@@ -234,8 +234,8 @@ ship "Elephant"
 		"Defender Anti-Missile"
 		"Arion Large Ramscoop"
 		"T-Rex Class Regenerator"
-		"Bison Class Thruster" 1
-		"Bison Class Steering" 1
+		"NT 400 Nutron Thruster"
+		"NT 450 Nutron Steering"
 		"Arion Large Ramscoop"
 		"Scram Drive"
 		"Jump Drive"
@@ -286,8 +286,8 @@ ship "Rhino"
 		"Ion Torpedo Rack"
 		"Steel Reactor Core"
 		"Brachio Class Regenerator"
-		"Ox Class Thruster"
-		"Ox Class Steering"
+		"NT 300 Nutron Thruster"
+		"NT 350 Nutron Steering"
 		"Arion Large Ramscoop"
 		"Systems AC (large)" 1
 		""
@@ -330,8 +330,8 @@ ship "Jaguar"
 		"Ion Torpedo" 30
 		"Iron Reactor Core"
 		"LP144a Battery Pack" 2
-		"Goat Class Thruster"
-		"Goat Class Steering"
+		"NT 200 Nutron Thruster"
+		"NT 250 Nutron Steering"
 		"Arion Large Ramscoop"
 		"Systems AC (Large)"
 		"Raptor Class Regenerator"
@@ -380,8 +380,8 @@ ship "Tiger"
 		"Ion Torpedo" 70
 		"Steel Reactor Core"
 		"Systems AC (Large)" 4
-		"Ox Class Thruster"
-		"Ox Class Steering"
+		"NT 300 Nutron Thruster"
+		"NT 350 Nutron Steering"
 		"Barachio Class Regenerator"
 		"Hyperdrive"
 		"Jump Drive"
@@ -439,8 +439,8 @@ ship "Thorn"
 		"Raptor Class Regenerator"
 		"Plastic Generator"
 		"Systems AC (Small)"
-		"Marmot Class Thruster"
-		"Marmot Class Steering"
+		"NT 100 Nutron Thruster"
+		"NT 100 Nutron Steering"
 	gun 3 -14.5 "Arion Toaster"
 	gun -3.5 -15.5 "Arion Toaster"
 	turret 0 9 "Arion Whacker"
@@ -478,8 +478,8 @@ ship "Infiltration Drone"
 		"Arion Small Ramscoop"
 		"Raptor Class Regenorator"
 		"Arion Whacker"
-		"Marmot Class Steering"
-		"Marmot Class Thruster"
+		"NT 150 Nutron Steering"
+		"NT 100 Nutron Thruster"
 		"Plastic Generator"
 		"Arion Small Ramscoop"
 		"Systems AC (Small)"
@@ -487,7 +487,7 @@ ship "Infiltration Drone"
 	turret -0.5 2 "Arion Whacker"
 	engine 12 22.5
 	engine -12.5 22.5
-	description "this is the main drone of the Arion people"
+	description "This small attack drone is used to disable enemys with it's flamethrowers while the larger heavier hitting ships come in to do the real damage"
 
 
 

@@ -28689,6 +28689,7 @@ planet Toloplike
 	spaceport" "
 	government "Kor Sestor"
 
+
 planet Patel
 	government "Arion"
 	landscape land/lava2
@@ -28696,6 +28697,7 @@ planet Patel
 	spaceport " "
 	shipyard "Arion Basics"
 	outfitter "Arion Advanced"
+
 planet Fairnorr
 	government "Arion"
 	landscape land/mountain1
@@ -28711,11 +28713,13 @@ planet Trattoria
 	spaceport " "
 planet "Wormhole Omega"
 
+
 planet Carnlee
 	government "Arion"
 	landscape land/beach3
 	description ''
 	spaceport ''
+
 
 planet Narkin
 	attributes
@@ -28723,6 +28727,7 @@ planet Narkin
 	landscape land/canyon8
 	description ''
 	spaceport ''
+
 
 planet Ronlino
 	government "Arion"
@@ -28737,6 +28742,7 @@ planet Setoric
 	spaceport 'This is another military base so there are patrols every hour through the spaceport, it is maybe this that deterrs you from robbing the local bank'
 	shipyard "Arion Basics"
 	outfitter "Arion Basics"
+
 planet Aliea
 	government "Arion"
 	landscape land/forest2
@@ -28744,12 +28750,14 @@ planet Aliea
 	spaceport " "
 	shipyard "Arion Basics"
 	outfitter "Arion Basics"
+
 planet Tonyara
 	government "Arion"
 	landscape land/sea8
 	description " "
 	spaceport " "
 	outfitter "Arion Advanced"
+
 planet Redic
 	government "Arion"
 	landscape land/mountain2
@@ -28757,23 +28765,27 @@ planet Redic
 	spaceport " "
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"
+
 planet Cavoi
 	government "Arion"
 	landscape land/sea12-sfiera
 	description " "
 	spaceport " "
 	shipyard "Arion Basics"
+
 planet Ostinto
 	government "Arion"
 	landscape land/badlands9-harro
 	description ''
 	spaceport ''
 	outfitter "Arion Advanced"
+
 planet Larnin
 	government "Arion"
 	landscape land/snow8
 	description ''
 	spaceport ''
+
 planet "Rowella Station"
 	government "Arion"
 	landscape land/station5
@@ -28781,6 +28793,7 @@ planet "Rowella Station"
 	spaceport ''
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"
+
 planet Pantalion
 	government "Arion"
 	landscape land/sky5
@@ -28788,6 +28801,7 @@ planet Pantalion
 	spaceport ''
 	shipyard "Arion Basics"
 	outfitter "Arion Advanced"
+
 planet Verterra
 	government "Arion"
 	landscape land/forest5

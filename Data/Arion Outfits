@@ -391,7 +391,7 @@ outfit "Ion Torpedo Launcher"
 
 	outfit "Active Ion Torpedo"
 		weapon
-			sprite "projectile/finisher"
+			sprite "projectile/ion Torpedo"
 				"frame rate" 2
 			"die effect" "small explosion"
 			"lifetime" 600
@@ -425,6 +425,7 @@ outfit "Systems AC (Small)"
 	lisences
 		"Arion Outfits"
 	category "Systems"
+	thumbnail "outfit/SysACS"
 	cost 850000
 	"mass" 25
 	"outfit space" -25
