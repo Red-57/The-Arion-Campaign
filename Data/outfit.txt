@@ -130,7 +130,29 @@ outfit "Roaster Turret"
 	description "this is the turreted version  of the powerful roaster cannon. it has a very long range and is able to disable ships from a very long range"
 
 
-
+outfit "Trapper Cannon"
+	lisences
+		"Arion Outfits"
+	category "Guns"
+	cost 1869000
+	thumbnail "outfit/Trapper"
+	mass 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"gun ports" -1
+	weapon
+		sprite "projectile/Trapper"
+		sound "particle"
+		"inaccuracy" 0.5
+		"reload" 20
+		"lifetime" 35
+		"velocity" 25
+		"firing force" 20
+		"firing energy" 40
+		"firing heat" 90
+		"hit force" 120
+		"shield damage" 45
+		"hull damage" 120
 
 outfit "Arion Toaster"
 	lisences
@@ -390,23 +412,24 @@ outfit "Ion Torpedo Launcher"
 	description "Ion Torpedoes are the main Arion Missile, causing large ammounts of hit force and even Ion damage they are powerful weapons."
 
 
-	outfit "Active Ion Torpedo"
-		weapon
-			sprite "projectile/ion Torpedo"
-				"frame rate" 2
-			"die effect" "small explosion"
-			"lifetime" 600
-			"acceleration" 1
-			"drag" .1
-			"turn" 1.2
-			"homing" 4
-			"radar tracking" .8
-			"optical tracking" .9
-			"missile strength" 40
-			"ion damage" 600
-			"shield damage" 1100
-			"hull damage" 300
-			"hit force" 1500
+outfit "Active Ion Torpedo"
+	weapon
+		sprite "projectile/ion Torpedo"
+			"frame rate" 2
+		"die effect" "small explosion"
+		"lifetime" 600
+		"velocity" 4
+		"acceleration" 1
+		"drag" .1
+		"turn" 1.2
+		"homing" 4
+		"radar tracking" .8
+		"optical tracking" .9
+		"missile strength" 40
+		"ion damage" 600
+		"shield damage" 1100
+		"hull damage" 300
+		"hit force" 1500
 
 
 outfit "Systems AC (Large)"

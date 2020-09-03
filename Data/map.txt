@@ -28684,8 +28684,9 @@ planet Zug
 planet Toloplike
 	attributes
 	landscape land/dune4
-	description 'this planet is a desolate and  dreary one, the planet is covered in sand and the sandstorms are so powerful that to go outside you need to wear a speciaal sand suit. Toloplike is also the home of a rather large Kor Sestor drone factory in which sand goes in and machines of mass destruction come out. Of course you shouldn't be able to land here in the first place and even if you did you are probably about to die'
+	description 'this planet is a desolate and  dreary one, the surface is covered in sand and the sandstorms are so powerful that to go outside you need to wear a speciaal sand suit. Toloplike is also the home of a rather large Kor Sestor drone factory in which sand goes in and machines of mass destruction come out. Of course you shouldn't be able to land here in the first place and even if you did you are probably about to die'
 	government "Kor Sestor"
+	bribe 0
 
 
 planet Patel
@@ -28695,6 +28696,10 @@ planet Patel
 	spaceport " "
 	shipyard "Arion Basics"
 	outfitter "Arion Advanced"
+	security 0.9
+	tribute 1240000
+		threshold 60000000
+		fleet "Insano Arion Militia" 5
 
 planet Fairnorr
 	government "Arion"
@@ -28703,12 +28708,21 @@ planet Fairnorr
 	spaceport ''
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"
+	security 0.9
+	tribute 1240000
+		threshold 60000000
+		fleet "Insano Arion Militia" 5
 
 planet Trattoria
 	government "Arion"
 	landscape land/beach6
 	description " "
 	spaceport " "
+	security 0.9
+	tribute 1240000
+		threshold 60000000
+		fleet "Insano Arion Militia" 5
+
 planet "Wormhole Omega"
 
 
@@ -28717,6 +28731,7 @@ planet Carnlee
 	landscape land/beach3
 	description ''
 	spaceport ''
+	security 0.9
 
 
 planet Narkin
@@ -28725,6 +28740,7 @@ planet Narkin
 	landscape land/canyon8
 	description ''
 	spaceport ''
+	security 0.9
 
 
 planet Ronlino
@@ -28732,6 +28748,7 @@ planet Ronlino
 	landscape land/fields6
 	description" "
 	spaceport ''
+	security 0.9
 
 planet Setoric
 	government "Arion"
@@ -28740,6 +28757,7 @@ planet Setoric
 	spaceport 'This is another military base so there are patrols every hour through the spaceport, it is maybe this that deterrs you from robbing the local bank'
 	shipyard "Arion Basics"
 	outfitter "Arion Basics"
+	security 0.9
 
 planet Aliea
 	government "Arion"
@@ -28748,6 +28766,7 @@ planet Aliea
 	spaceport " "
 	shipyard "Arion Basics"
 	outfitter "Arion Basics"
+	security 0.9
 
 planet Tonyara
 	government "Arion"
@@ -28755,6 +28774,7 @@ planet Tonyara
 	description " "
 	spaceport " "
 	outfitter "Arion Advanced"
+	security 0.9
 
 planet Redic
 	government "Arion"
@@ -28763,6 +28783,7 @@ planet Redic
 	spaceport " "
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"
+	security 0.9
 
 planet Cavoi
 	government "Arion"
@@ -28770,6 +28791,7 @@ planet Cavoi
 	description " "
 	spaceport " "
 	shipyard "Arion Basics"
+	security 0.9
 
 planet Ostinto
 	government "Arion"
@@ -28777,20 +28799,23 @@ planet Ostinto
 	description ''
 	spaceport ''
 	outfitter "Arion Advanced"
+	security 0.9
 
 planet Larnin
 	government "Arion"
 	landscape land/snow8
 	description ''
 	spaceport ''
+	security 0.9
 
 planet "Rowella Station"
 	government "Arion"
 	landscape land/station5
-	description ''
+	description 'This station is the center for Arion commerce and industrial production, with Larnin not having either shipyard or outfitter Rowella Station has both making it the ideal place to buy your high quality Arion equipment.'
 	spaceport ''
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"
+	security 0.9
 
 planet Pantalion
 	government "Arion"
@@ -28799,9 +28824,11 @@ planet Pantalion
 	spaceport ''
 	shipyard "Arion Basics"
 	outfitter "Arion Advanced"
+	security 0.9
 
 planet Verterra
 	government "Arion"
 	landscape land/forest5
 	description ''
 	spaceport ''
+	security 0.9
