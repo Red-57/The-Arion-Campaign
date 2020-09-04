@@ -195,39 +195,39 @@ ship "Lion"
 	fighter -196.01 175.43 under
 	fighter -225.27 216.36 under
 	fighter -157.98 105.26 under
-	drone 166 121
-	drone 138.5 193
-	drone 177 189
-	drone 212.5 234
-	drone 163.5 234.5
-	drone 75.5 -145
-	drone 112 23
-	drone 13.5 -120
-	drone 22 -62.5
-	drone 20 39.5
-	drone 40 111.5
-	drone 43.5 194
-	drone 43.5 -11
-	drone -166 121
-	drone -138.5 193
-	drone -177 189
-	drone -212.5 234
-	drone -163.5 234.5
-	drone -75.5 -145
-	drone -112 23
-	drone -13.5 -120
-	drone -22 -62.5
-	drone -20 39.5
-	drone -40 111.5
-	drone -43.5 194
-	drone -43.5 -11
+	drone 166 121 under
+	drone 138.5 193 under
+	drone 177 189 under
+	drone 212.5 234 under
+	drone 163.5 234.5 under
+	drone 75.5 -145 under
+	drone 112 23 under
+	drone 13.5 -120 under
+	drone 22 -62.5 under
+	drone 20 39.5 under
+	drone 40 111.5 under
+	drone 43.5 194 under
+	drone 43.5 -11 under
+	drone -166 121 under
+	drone -138.5 193 under
+	drone -177 189 under
+	drone -212.5 234 under
+	drone -163.5 234.5 under
+	drone -75.5 -145 under
+	drone -112 23 under
+	drone -13.5 -120 under
+	drone -22 -62.5 under
+	drone -20 39.5 under
+	drone -40 111.5 under
+	drone -43.5 194 under
+	drone -43.5 -11 under
 	explode "small explosion" 532
 	explode "medium explosion" 1
 	explode "large explosion" 54
 	explode "huge explosion" 1
 	explode "medium explosion" 1
 	explode "large explosion" 1
-	explode "huge explosion" 22
+	explode "Ion T Impact" 22
 	"final explode" "final explosion large"
 	description "The Lion is the largest ship used by the arion militia. it is used as a mass carrier and battleship."
 	description "This mega warship is powerful enough to take on 3 Kar Ik Vots and win!"
@@ -262,7 +262,7 @@ ship "Elephant"
 		"Ion Torpedo" 280
 		"Ion Torpedo Rack" 6
 		"Titanium Reactor Core" 1
-		"Systems AC (large)" 1
+		"Systems AC (Large)" 1
 		"Arion Whacker" 2
 		"Defender Anti-Missile"
 		"Arion Large Ramscoop"

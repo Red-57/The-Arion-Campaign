@@ -1,0 +1,16 @@
+ship "Fox (Ion)"
+	outfits
+		"Arion Small Ramscoop"
+		"Tin Reactor Core" 2
+		"Raptor Class Regerator"
+		"Systems AC (Small)" 2
+		"NT 250 Nutron Steering"
+		"NT 200 Nutron Thruster"
+		"Ion Torpedo Launcher" 2
+		"Arion Flamethrower" 2
+		"Ion Torpedo" 60
+	"Ion Torpedo Launcher"
+	"Ion Torpedo Launcher"
+	"Arion Flamethrower"
+	"Arion Flamethrower"
+	

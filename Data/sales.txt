@@ -18,7 +18,7 @@ shipyard "Arion Basics"
 	"Cub"
 
 
-outfitter "Kraz Basics"
+outfitter "Arion Advanced"
 	"Arion Flamethrower"
 	"Arion Toaster"
 	"Trapper Cannon"

@@ -160,6 +160,7 @@ outfit "Trapper Cannon"
 		sprite "projectile/Trapper"
 		sound "particle"
 		"hit effect" "Trapper Impact"
+		"fire effect" "Trapper Impact"
 		"inaccuracy" 0.5
 		"reload" 20
 		"lifetime" 55
@@ -199,6 +200,7 @@ outfit "Arion Toaster"
 			"frame rate" 5
 		sound "repeater"
 		"hit effect" "Trapper Impact"
+		"fire effect" "Trapper Impact"
 		"inaccuracy" 4
 		"velocity" 15
 		"lifetime" 40
@@ -233,6 +235,7 @@ outfit "Arion Toaster Turret"
 		"hardpoint offset" 7.
 		sound "repeater"
 		"hit effect" "Trapper Impact"
+		"fire effect" "Trapper Impact"
 		"inaccuracy" 3
 		"turret turn" 3.3
 		"velocity" 15
@@ -422,9 +425,9 @@ outfit "Ion Torpedo Launcher"
 		sound "torpedo"
 		ammo "Ion Torpedo"
 		icon "icon/Ion torpedo"
-		"fire effect" "torpedo fire"
-		"hit effect" "torpedo hit"
-		"die effect" "tiny explosion"
+		"fire effect" "Trapper Impact"
+		"hit effect" "Trapper Impact"
+		"die effect" "Trapper Impact"
 		"inaccuracy" 4
 		"velocity" 4
 		"lifetime" 80
@@ -446,6 +449,7 @@ outfit "Active Ion Torpedo"
 		sprite "projectile/ion Torpedo"
 			"frame rate" 2
 		"die effect" "Ion T Impact"
+		"hit effect" "Trapper Impact"
 		"lifetime" 600
 		"velocity" 4
 		"acceleration" 1
