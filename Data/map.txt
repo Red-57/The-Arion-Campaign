@@ -9554,12 +9554,12 @@ system Etselec
 	trade Medical 874
 	trade Metal 240
 	trade Plastic 531
-	fleet "Large Arion Militia" 1500
-	fleet "Small Arion Militia" 1000
+	fleet "Large Arion Militia" 1200
+	fleet "Small Arion Militia" 800
 	fleet "Small Arion Merchents" 1000
 	fleet "Large Arion Merchents" 1200
-	fleet "Large Kor Sestor" 2000
-	fleet "Small Kor Sestor" 1500
+	fleet "Large Kor Sestor" 2500
+	fleet "Small Kor Sestor" 2000
 	object
 		sprite star/k5
 		distance 51.4801
@@ -17871,12 +17871,12 @@ system Partigo
 	trade Medical 874
 	trade Metal 240
 	trade Plastic 531
-	fleet "Large Arion Militia" 1500
-	fleet "Small Arion Militia" 1000
-	fleet "Small Arion Merchents" 1000
-	fleet "Large Arion Merchents" 1200
-	fleet "Large Kor Sestor" 2000
-	fleet "Small Kor Sestor" 1500
+	fleet "Large Arion Militia" 1100
+	fleet "Small Arion Militia" 7000
+	fleet "Small Arion Merchents" 900
+	fleet "Large Arion Merchents" 1100
+	fleet "Large Kor Sestor" 2700
+	fleet "Small Kor Sestor" 2100
 
 	object
 		sprite star/k0
@@ -23504,12 +23504,12 @@ system Tserof
 	trade Medical 874
 	trade Metal 240
 	trade Plastic 531
-	fleet "Large Arion Militia" 1500
-	fleet "Small Arion Militia" 1000
+	fleet "Large Arion Militia" 1100
+	fleet "Small Arion Militia" 700
 	fleet "Small Arion Merchents" 1000
 	fleet "Large Arion Merchents" 1200
-	fleet "Large Kor Sestor" 2000
-	fleet "Small Kor Sestor" 1500
+	fleet "Large Kor Sestor" 2500
+	fleet "Small Kor Sestor" 2000
 
 	object
 		sprite star/k0

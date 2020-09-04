@@ -37,7 +37,6 @@ phrase "friendly Arion"
 
 fleet "Small Arion Merchents"
 	government "Arion"
-
 	cargo 5
 	personality
 		confusion 30
@@ -72,16 +71,16 @@ fleet "Large Arion Merchents"
 	personality
 		confusion 30
 		timid frugal
-	variant 60
+	variant 40
 		"Elephant"
 		"Tiger"
 		"Thorn" 2
-	variant 45
+	variant 35
 		"Elephant" 2
 		"Tiger"
 		"Thorn" 2
 		"Jaguar"
-	variant 5
+	variant 10
 		"Elephant" 5
 		"Tiger" 2
 		"Lion"
@@ -93,16 +92,18 @@ fleet "Large Arion Merchents"
 		"Tiger" 2
 		"Jaguar" 3
 		"Thorn" 2
-	variant 60
+	variant 40
 		"Rhino" 4
 		"Jaguar" 4
 		"Fox" 2
-	variant 50
+	variant 30
 		"Fox (Ion)" 2"
 		"Fox" 2
 		"Elephant" 2
-	variant 40
+	variant 30
 		"Cub" 8
+	variant 15
+		"Cub" 15
 
 
 
@@ -129,9 +130,9 @@ fleet "Small Arion Militia"
 		"Thorn" 4
 		"Fox (ion)" 2
 	variant 5
-		"Fox"
+		"Fox" 7
 
-fleet "large Arion Militia"
+fleet "Large Arion Militia"
 	government "Arion"
 	cargo 1
 	personality
@@ -152,12 +153,12 @@ fleet "large Arion Militia"
 		"Jaguar" 6
 	variant 20
 		"Fox" 9
-	variant 20
-		""
+	variant 5
+		"Jaguar" 12
 
 
 
-fleet "Insane Arion Militia"
+fleet "Insano Arion Militia"
 	government "Arion"
 	cargo 780
 	personality
@@ -269,4 +270,4 @@ fleet "hacking"
 		confusion 10
 		heroic opportunistic unconstrained
 	variant 1
-		"Pirate Arfecta" 5
+		"Pirate Arfecta" 1

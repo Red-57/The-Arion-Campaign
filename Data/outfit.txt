@@ -13,8 +13,8 @@ outfit "Arion Roaster"
 		sprite "projectile/Roaster"
 			"frame rate" 2.5
 		sound "detainer"
-		"hit effect" "detainer impact" 3
-		"hit effect" "detainer smoke" 5
+		"hit effect" "Roaster Impact" 3
+		"hit effect" "Roaster Smoke" 4
 		"inaccuracy" .4
 		"velocity" 16
 		"lifetime" 140
@@ -33,11 +33,12 @@ outfit "Arion Roaster"
 
 
 
-outfit "Arion Heavy Flamethrower"
+outfit "Arion Flamethrower"
 	lisences
 		"Arion Outfits"
 	cost 190000
-	thumbnail "outfit/flamethrower"
+	thumbnail "outfit/Aflamethrower"
+	category "Guns"
 	"mass" 12
 	"outfit space" -12
 	"weapon capacity" -12
@@ -98,7 +99,7 @@ effect "flamethrower hit"
 outfit "Roaster Turret"
 	lisences
 		"Arion Outfits"
-	category "Turret"
+	category "Turrets"
 	cost 1869000
 	thumbnail "outfit/Roaster Turret"
 	"mass" 86
@@ -106,13 +107,14 @@ outfit "Roaster Turret"
 	"outfit space" -86
 	"energy capacity" 1700
 	"turret mounts" -1
+	"hardpoint sprite" "hardpoint/Roaster_Turret"
+	"hardpoint offset" 7.0
 	weapon
 		sprite "projectile/Roaster"
 			"frame rate" 2.5
 		sound "detainer"
-		"hit effect" "detainer impact" 3
-		"hit effect" "detainer smoke" 5
-		"live effect" detainer sparks" 50
+		"hit effect" "Roaster Impact" 3
+		"hit effect" "Roaster Smoke" 4
 		"turret turn" 4.5
 		"inaccuracy" 0.5
 		"velocity" 16
@@ -129,6 +131,55 @@ outfit "Roaster Turret"
 		"heat damage" 470
 	description "this is the turreted version  of the powerful roaster cannon. it has a very long range and is able to disable ships from a very long range"
 
+
+effect "Roaster Smoke"
+	sprite "effect/Roaster Smoke"
+		"random start frame"
+		"frame rate" 8
+	"lifetime" 13
+
+
+effect "Roaster Impact"
+	sprite "effect/Roaster Impact"
+		"no repeat"
+		"frame rate" 40
+	"lifetime" 15
+	"velocity scale" -0.1
+
+outfit "Trapper Cannon"
+	lisences
+		"Arion Outfits"
+	category "Guns"
+	cost 1869000
+	thumbnail "outfit/Trapper"
+	mass 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"gun ports" -1
+	weapon
+		sprite "projectile/Trapper"
+		sound "particle"
+		"hit effect" "Trapper Impact"
+		"inaccuracy" 0.5
+		"reload" 20
+		"lifetime" 55
+		"velocity" 25
+		"firing force" 20
+		"firing energy" 40
+		"firing heat" 90
+		"hit force" 120
+		"shield damage" 70
+		"hull damage" 150
+
+
+effect "Trapper Impact"
+	sprite "effect/Trapper impact"
+			"no repeat"
+			"frame rate" 10
+		"lifetime" 70
+		"random angle" 2
+		"random spin" 10
+		"velocity scale" -.05
 
 
 
@@ -147,7 +198,7 @@ outfit "Arion Toaster"
 		sprite "projectile/Toaster"
 			"frame rate" 5
 		sound "repeater"
-		"hit effect" "repeater impact"
+		"hit effect" "Trapper Impact"
 		"inaccuracy" 4
 		"velocity" 15
 		"lifetime" 40
@@ -181,7 +232,7 @@ outfit "Arion Toaster Turret"
 		"hardpoint sprite" "hardpoint/Toaster turret"
 		"hardpoint offset" 7.
 		sound "repeater"
-		"hit effect" "repeater impact"
+		"hit effect" "Trapper Impact"
 		"inaccuracy" 3
 		"turret turn" 3.3
 		"velocity" 15
@@ -390,24 +441,33 @@ outfit "Ion Torpedo Launcher"
 	description "Ion Torpedoes are the main Arion Missile, causing large ammounts of hit force and even Ion damage they are powerful weapons."
 
 
-	outfit "Active Ion Torpedo"
-		weapon
-			sprite "projectile/ion Torpedo"
-				"frame rate" 2
-			"die effect" "small explosion"
-			"lifetime" 600
-			"acceleration" 1
-			"drag" .1
-			"turn" 1.2
-			"homing" 4
-			"radar tracking" .8
-			"optical tracking" .9
-			"missile strength" 40
-			"ion damage" 600
-			"shield damage" 1100
-			"hull damage" 300
-			"hit force" 1500
+outfit "Active Ion Torpedo"
+	weapon
+		sprite "projectile/ion Torpedo"
+			"frame rate" 2
+		"die effect" "Ion T Impact"
+		"lifetime" 600
+		"velocity" 4
+		"acceleration" 1
+		"drag" .1
+		"turn" 1.2
+		"homing" 4
+		"radar tracking" .8
+		"optical tracking" .9
+		"missile strength" 40
+		"ion damage" 600
+		"shield damage" 1100
+		"hull damage" 300
+		"hit force" 1500
 
+effect "Ion T Impact"
+	sprite "effect/Ion T Impact"
+		"no repeat"
+		"frame rate" 40
+	"lifetime" 13
+	"random spin" 10
+	"random velocity" 0.5
+	"velocity scale" -.01
 
 outfit "Systems AC (Large)"
 	lisences
@@ -419,7 +479,7 @@ outfit "Systems AC (Large)"
 	"outfit space" -45
 	"cooling" 50
 	"active cooling" 6
-	"energy storage" 17300
+	"energy capacity" 25800
 	description "this large systems center provides cooling and energy storage for larger arion vessels. it can handle lots of heat problems but as arion ships run hot they are used very often."
 
 outfit "Systems AC (Small)"
@@ -430,9 +490,9 @@ outfit "Systems AC (Small)"
 	cost 850000
 	"mass" 25
 	"outfit space" -25
-	"cooling" 20
-	"active cooling" 2
-	"energy storage" 9100
+	"cooling" 25
+	"active cooling" 3
+	"energy capacity" 13600
 	description "this is the smaller cousin to the Systems AC (large), while smaller it still useful in cooling and powering arion ships."
 
 
@@ -483,7 +543,7 @@ outfit "Arion Large Ramscoop"
 	thumbnail "outfit/arion ramscoop"
 	"mass" 23
 	"outfit space" -17
-	ramscoop" 11
+	"ramscoop" 11
 	description "This is the largest arion ramscoop, it is often utilized when a flamethrower is in use."
 
 outfit "Arion Small Ramscoop"
@@ -506,7 +566,7 @@ outfit "NT 100 Nutron Thruster""
 	"thrust" 19.8
 	"thrusting energy" 3.8
 	"thrusting heat" 3.5
-	"flare sprite" "flare/Small Nutron Flare"
+	"flare sprite" "effect/Small Nutron Flare"
 		"frame rate" 7.5
 	"flare sound" "plasma small"
 	description ""
@@ -521,7 +581,7 @@ outfit "NT 200 Nutron Thruster"
 	"thrust" 37.2
 	"thrusting energy" 6.9
 	"thrusting heat" 7.9
-	"flare sprite" "flare/Medium Nutron Thruster"
+	"flare sprite" "effect/Medium Nutron Flare"
 		"frame rate" 7
 	"flare sound" "plasma medium"
 	description ""
@@ -536,7 +596,7 @@ outfit "NT 300 Nutron Thruster"
 	"thrust" 78.0
 	"thrusting energy" 10.9
 	"thrusting heat" 14.7
-	"flare sprite" "flare/Large Nutron Flare"
+	"flare sprite" "effect/Large Nutron Flare"
 		"frame rate" 6.5
 	"flare sound" "plasma large"
 	description ""
@@ -555,7 +615,7 @@ outfit "NT 150 Nutron Steering"
 	"turn" 468.8
 	"turning energy" 1.4
 	"turning heat" 1.1
-	"steering flare sprite" "flare/Small Nutron Flare"
+	"steering flare sprite" "effect/Small Nutron Flare"
 		"frame rate" 7.5
 	"steering flare sound" "plasma small"
 	description "this is the smallest Arion engine"
@@ -570,7 +630,7 @@ outfit "NT 250 Nutron Steering"
 	"turn" 956.0
 	"turning energy" 3.5
 	"turning heat" 3.4
-	"steering flare sprite" "flare/Medium Nutron Flare"
+	"steering flare sprite" "effect/Medium Nutron Flare"
 		"frame rate" 7
 	"steering flare sound" "plasma medium"
 	description ""
@@ -586,7 +646,7 @@ outfit "NT 350 Nutron Steering"
 	"turn" 1999.6
 	"turning energy" 5.6
 	"turning heat" 7.2
-	"steering flare sprite" "flare/Large Nutron Flare"
+	"steering flare sprite" "effect/Large Nutron Flare"
 		"frame rate" 6.5
 	"steering flare sound" "plasma large"
 	description ""
@@ -602,7 +662,7 @@ outfit "NT 400 Nutron Thruster"
 	"thrust" 145.4
 	"thrusting energy" 78.8
 	"thrusting heat" 24.6
-	"flare sprite" "flare/Huge Nutron Flare"
+	"flare sprite" "effect/Huge Nutron Flare"
 		"frame rate" 6
 	"flare sound" "plasma huge"
 	description ""
@@ -611,14 +671,14 @@ outfit "NT 400 Nutron Thruster"
 outfit "NT 450 Nutron Steering"
 	category "Engines"
 	"cost" 1758000
-	thumbnail "outfit/huge nutron thruster"
+	thumbnail "outfit/huge nutron steering"
 	"mass" 78
 	"outfit space" -78
 	"engine capacity" -78
 	"turn" 5028.8
 	"turning energy" 12.6
 	"turning heat" 23
-	"steering flare sprite" "flare/Huge Nutron Flare"
+	"steering flare sprite" "effect/Huge Nutron Flare"
 		"frame rate" 6
 	"steering flare sound" "plasma huge"
 	description "this is the most powerful steering for the arion warships."
@@ -644,7 +704,7 @@ outfit "Arion Military Lisence"
 outfit "Arion Defense Gear"
 	lisences
 		"Arion Outfits"
-	category "Hand To Hand"
+	category "Hand to Hand"
 	thumbnail "outfit/Defense Gear"
 	"capture attack" 1.1
 	"capture defense" 9.1
@@ -654,7 +714,7 @@ outfit "Arion Defense Gear"
 outfit "Rocket Launcher"
 	lisences
 		"Arion outfits"
-	category "Hand To Hand"
+	category "Hand to Hand"
 	thumbnail "outfit/Rocket Launcher"
 	"capture attack" 5.8
 	"capture defense" 1.6

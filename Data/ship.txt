@@ -24,7 +24,7 @@ ship "Fox"
 	outfits
 		"Jump Drive"
 		"Hyperdrive"
-		"Arion Heavy Flamethrower" 2
+		"Arion Flamethrower" 2
 		"Arion Toaster" 2
 		"Arion Small Ramscoop"
 		"Tin Reactor Core" 2
@@ -33,14 +33,16 @@ ship "Fox"
 		"NT 250 Nutron Steering"
 		"NT 200 Nutron Thruster"
 
-	gun 12.5 -25.03 "Arion Heavy Flamethrower"
-	gun -12.5 -25.55 "Arion Heavy Flamethrower"
+	engine 42.71 68.31
+	engine -42.71 68.31
+	gun 12.5 -25.03 "Arion Flamethrower"
+	gun -12.5 -25.55 "Arion Flamethrower"
 	gun 17.19 -12.51 "Arion Toaster"
 	gun -17.19 -13.04 "Arion Toaster"
 	engine 42.71 68.31
 	engine -42.71 68.31
-	explode "tiny explosion" 1
-	explode "small explosion" 1
+	explode "small exposion" 33
+	explode "medium exposion" 1
 	"final explode" "final explosion small"
 	description "the fox is an agile warship used for zooming in and roasting enemy ships allowing the more heavy hitting ships to come and do their damage."
 
@@ -79,6 +81,8 @@ ship "Cub"
 		"NT 200 Nutron Thruster"
 		"NT 250 Nutron Steering"
 		"Arion Toaster" 2
+	engine 15 42
+	engine -15 42
 	gun 23 4.5 "Arion Toaster"
 	gun -23 4.5 "Arion Toaster"
 	gun 27 10 "Ion Torpedo Launcher"
@@ -107,9 +111,9 @@ ship "Lion"
 		"heat dissipation" 9.6
 		"fuel capacity" 900
 		"cargo space" 250
-		"outfit space" 1000
-		"weapon capacity" 1000
-		"engine capacity" 1000
+		"outfit space" 10000
+		"weapon capacity" 10000
+		"engine capacity" 10000
 		weapon
 			"blast radius" 2426
 			"shield damage" 24268
@@ -133,7 +137,10 @@ ship "Lion"
 		"Arion Large Ramscoop" 5
 		"NT 450 Nutron Steering" 1
 		"NT 400 Nutron Thruster" 1
-
+	engine 177.5 272
+	engine -187 272
+	engine 46.5 306.5
+	engine -46 306
 	gun 19.85 -239.09 "Trapper Cannon"
 	gun -22.68 -239.09 "Trapper Cannon"
 	gun 25.52 -233.43 "Arion Roaster"
@@ -188,6 +195,32 @@ ship "Lion"
 	fighter -196.01 175.43 under
 	fighter -225.27 216.36 under
 	fighter -157.98 105.26 under
+	drone 166 121
+	drone 138.5 193
+	drone 177 189
+	drone 212.5 234
+	drone 163.5 234.5
+	drone 75.5 -145
+	drone 112 23
+	drone 13.5 -120
+	drone 22 -62.5
+	drone 20 39.5
+	drone 40 111.5
+	drone 43.5 194
+	drone 43.5 -11
+	drone -166 121
+	drone -138.5 193
+	drone -177 189
+	drone -212.5 234
+	drone -163.5 234.5
+	drone -75.5 -145
+	drone -112 23
+	drone -13.5 -120
+	drone -22 -62.5
+	drone -20 39.5
+	drone -40 111.5
+	drone -43.5 194
+	drone -43.5 -11
 	explode "small explosion" 532
 	explode "medium explosion" 1
 	explode "large explosion" 54
@@ -329,7 +362,6 @@ ship "Jaguar"
 		"Ion Torpedo Launcher" 1
 		"Ion Torpedo" 30
 		"Iron Reactor Core"
-		"LP144a Battery Pack" 2
 		"NT 200 Nutron Thruster"
 		"NT 250 Nutron Steering"
 		"Arion Large Ramscoop"
@@ -356,8 +388,8 @@ ship "Tiger"
 	attributes
 		category "Medium Warship"
 		"cost" 9450000
-		"shields" 46000
-		"hull" 23000
+		"shields" 59000
+		"hull" 29000
 		"required crew" 25
 		"bunks" 50
 		"mass" 590
@@ -380,15 +412,12 @@ ship "Tiger"
 		"Ion Torpedo" 70
 		"Steel Reactor Core"
 		"Systems AC (Large)" 4
-		"NT 300 Nutron Thruster"
+		"NT 400 Nutron Thruster"
 		"NT 350 Nutron Steering"
 		"Barachio Class Regenerator"
 		"Hyperdrive"
 		"Jump Drive"
-		"Ramscoop"
-		"Tactical Scanner"
-	engine 84 123
-	engine -84 123
+		"Arion Large Ramscoop"
 	gun -23.07 -91.07 "Trapper Cannon"
 	gun 25.21 -93.21 "Trapper Cannon"
 	gun -29.5 -86.79 "Trapper Cannon"
@@ -416,8 +445,8 @@ ship "Thorn"
 	attributes
 		category "Fighter"
 		"cost" 2450000
-		"shield" 4000
-		"hull" 900
+		"shield" 7000
+		"hull" 1500
 		"required crew" 1
 		"bunks" 2
 		"mass" 25
@@ -440,12 +469,10 @@ ship "Thorn"
 		"Plastic Generator"
 		"Systems AC (Small)"
 		"NT 100 Nutron Thruster"
-		"NT 100 Nutron Steering"
-	gun 3 -14.5 "Arion Toaster"
-	gun -3.5 -15.5 "Arion Toaster"
-	turret 0 9 "Arion Whacker"
-	engine -0.5 24.5
-	explode "tiny explosion" 24
+		"NT 150 Nutron Steering"
+	turret 0.5 20 "Arion Whacker"
+	gun 6.5 -32 "Arion Toaster"
+	gun -7.5 -33 "Arion Toaster"
 	explode "small explosion" 15
 	"final explode" "final explode small"
 	description "this is the main Arion fighter, it holds 2 toasters in addition to an anti-missile turret"
@@ -456,8 +483,8 @@ ship "Infiltration Drone"
 	attributes
 		category "Drone"
 		"cost" 921000
-		"shields" 900
-		"hull" 1730
+		"shields" 1200
+		"hull" 3530
 		"required crew" 0
 		"bunks" 0
 		"mass" 30
@@ -483,10 +510,10 @@ ship "Infiltration Drone"
 		"Plastic Generator"
 		"Arion Small Ramscoop"
 		"Systems AC (Small)"
-	gun 0 -21 "Arion Flamethrower"
-	turret -0.5 2 "Arion Whacker"
-	engine 12 22.5
-	engine -12.5 22.5
+	gun -0.5 -26.5 "Arion Flamethrower"
+	turret -0.5 10 "Arion Whacker"
+	engine -17 27
+	engine 16.5 26.5
 	description "This small attack drone is used to disable enemys with it's flamethrowers while the larger heavier hitting ships come in to do the real damage"
 
 
