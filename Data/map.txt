@@ -28804,14 +28804,14 @@ planet Ostinto
 planet Larnin
 	government "Arion"
 	landscape land/snow8
-	description ''
-	spaceport ''
+	description "This is a beautiful planet, filled with high snowcapped peaks and rolling hills and snowforests. Larnin is also a cold planet by most reckoning but the Arion don't mind as their skin protects them from the cold. This is the capitol of Arion space, and according to custom there are no industrial buildings on the surface but the whole planet is vurtually a national park. The only part of the planet not protected by the government is the capitol building, a beautiful structure with tall flowing spires and large domes"
+	spaceport "The Spaceport is actually rather small"
 	security 0.9
 
 planet "Rowella Station"
 	government "Arion"
 	landscape land/station5
-	description 'This station is the center for Arion commerce and industrial production, with Larnin not having either shipyard or outfitter Rowella Station has both making it the ideal place to buy your high quality Arion equipment.'
+	description "This station is the center for Arion commerce and industrial production, with Larnin not having either shipyard or outfitter Rowella Station has both making it the ideal place to buy your high quality Arion equipment"
 	spaceport ''
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"

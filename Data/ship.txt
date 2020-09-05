@@ -137,6 +137,7 @@ ship "Lion"
 		"Arion Large Ramscoop" 5
 		"NT 450 Nutron Steering" 1
 		"NT 400 Nutron Thruster" 1
+		"T-Rex Class Regenerator"
 	engine 177.5 272
 	engine -187 272
 	engine 46.5 306.5
@@ -314,23 +315,24 @@ ship "Rhino"
 	outfits
 		"Defender Anti-Missile"
 		"Arion Whacker"
-		"Ion Torpedo Launcher" 2
-		"Ion Torpedo"
-		"Ion Torpedo Rack"
+		"Ion Torpedo Launcher" 4
+		"Ion Torpedo" 180
+		"Ion Torpedo Rack" 4
 		"Steel Reactor Core"
 		"Brachio Class Regenerator"
 		"NT 300 Nutron Thruster"
 		"NT 350 Nutron Steering"
 		"Arion Large Ramscoop"
 		"Systems AC (large)" 1
-		""
-	turret 0 -41.96 "Defender Anti-Missile"
-	turret 0 75 "Arion Whacker"
-	gun -44.58 -47.32 "Ion Torpedo"
-	gun 42.79 -49.11 "Ion Torpedo"
-	engine -65.97 124.11
-	engine 64.19 124.11
-	engine 0 117.86
+		"Scram Drive"
+		"Jump Drive"
+	gun -24.5 -57.5 "Ion Torpedo Launcher"
+	gun 27 -58 "Ion Torpedo Launcher"
+	gun -36.5 -33 "Ion Torpedo Launcher"
+	gun 38.5 -33 "Ion Torpedo Launcher"
+	turret 1.5 -36.5 "Defender Anti-Missile"
+	turret 2.5 78.5 "Arion Whacker"
+	engine 1.5 116.5
 	description "this is the smaller arion freighter, while still being able to carry lots of cargo the Rhino is slightly more manuverable than its larger counterpart"
 
 
@@ -470,6 +472,7 @@ ship "Thorn"
 		"Systems AC (Small)"
 		"NT 100 Nutron Thruster"
 		"NT 150 Nutron Steering"
+	engine 0 53.5
 	turret 0.5 20 "Arion Whacker"
 	gun 6.5 -32 "Arion Toaster"
 	gun -7.5 -33 "Arion Toaster"

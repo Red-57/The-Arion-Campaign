@@ -13,8 +13,7 @@ outfit "Arion Roaster"
 		sprite "projectile/Roaster"
 			"frame rate" 2.5
 		sound "detainer"
-		"hit effect" "Roaster Impact" 3
-		"hit effect" "Roaster Smoke" 4
+		"hit effect" "Ion T Impact" 1
 		"inaccuracy" .4
 		"velocity" 16
 		"lifetime" 140
@@ -107,14 +106,13 @@ outfit "Roaster Turret"
 	"outfit space" -86
 	"energy capacity" 1700
 	"turret mounts" -1
-	"hardpoint sprite" "hardpoint/Roaster_Turret"
+	"hardpoint sprite" "hardpoint/roaster turret"
 	"hardpoint offset" 7.0
 	weapon
 		sprite "projectile/Roaster"
 			"frame rate" 2.5
 		sound "detainer"
-		"hit effect" "Roaster Impact" 3
-		"hit effect" "Roaster Smoke" 4
+		"hit effect" "Ion T Impact" 1
 		"turret turn" 4.5
 		"inaccuracy" 0.5
 		"velocity" 16
@@ -139,12 +137,6 @@ effect "Roaster Smoke"
 	"lifetime" 13
 
 
-effect "Roaster Impact"
-	sprite "effect/Roaster Impact"
-		"no repeat"
-		"frame rate" 40
-	"lifetime" 15
-	"velocity scale" -0.1
 
 outfit "Trapper Cannon"
 	lisences
@@ -231,7 +223,7 @@ outfit "Arion Toaster Turret"
 	weapon
 		sprite "projectile/Toaster"
 			"frame rate" 5
-		"hardpoint sprite" "hardpoint/Toaster turret"
+		"hardpoint sprite" "hardpoint/toaster turret"
 		"hardpoint offset" 7.
 		sound "repeater"
 		"hit effect" "Trapper Impact"
@@ -258,19 +250,19 @@ outfit "Defender Anti-Missile"
 		"Arion Outfits"
 	category "Turrets"
 	cost 2850000
-	thumbnail "outfit/defender anti-missile"
+	thumbnail "outfit/Defender"
 	"mass" 34
 	"outfit space" -34
 	"weapon capacity" -34
 	"turret mounts" -1
 	weapon
-		"hardpoint sprite" "hardpoint/Defender anti-missile"
-		"hardpoint offset" 6.
+		"hardpoint sprite" "hardpoint/defender"
+		"hardpoint offset" 0
 		"hit effect" "wanderer anti-missile"
 		"anti-missile" 40
 		"velocity" 390
 		"lifetime" 1
-		"reload" 25
+		"reload" 20
 		"firing energy" 50
 		"firing heat" 34
 	description "This missile defense system is used by the larger Arion Battlecruisers while it has a very slow rate of fire it can destroy most missiles within range."
@@ -433,7 +425,7 @@ outfit "Ion Torpedo Launcher"
 		"lifetime" 80
 		"reload" 225
 		"firing energy" 8
-		"firing heat" 45
+		"firing heat"
 		"acceleration" .35
 		"drag" .025
 		"turn" 1.2
@@ -708,6 +700,7 @@ outfit "Arion Military Lisence"
 outfit "Arion Defense Gear"
 	lisences
 		"Arion Outfits"
+	cost 1000000
 	category "Hand to Hand"
 	thumbnail "outfit/Defense Gear"
 	"capture attack" 1.1
@@ -718,6 +711,7 @@ outfit "Arion Defense Gear"
 outfit "Rocket Launcher"
 	lisences
 		"Arion outfits"
+	cost 1800000
 	category "Hand to Hand"
 	thumbnail "outfit/Rocket Launcher"
 	"capture attack" 5.8
