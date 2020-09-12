@@ -26807,6 +26807,7 @@ planet "Korati Efreti"
 	spaceport `As the Korath civil war became more and more brutal, the safest home for those who wanted to avoid the fighting was right here in the shadow of the Quarg. This small station is still home to well over a thousand Korath, and they are constantly on the move from one section to another, their boots ringing loudly on the metal floors.`
 	spaceport `	The Korath studiously avoid staring at you or even making eye contact, but you get the sense that many of them are quite curious about who you are and what you are doing here.`
 	government "Kor Efret"
+	outfitter "efret"
 	bribe 0.1
 	security 0.5
 
@@ -28684,7 +28685,7 @@ planet Zug
 planet Toloplike
 	attributes
 	landscape land/dune4
-	description 'this planet is a desolate and  dreary one, the surface is covered in sand and the sandstorms are so powerful that to go outside you need to wear a speciaal sand suit. Toloplike is also the home of a rather large Kor Sestor drone factory in which sand goes in and machines of mass destruction come out. Of course you shouldn't be able to land here in the first place and even if you did you are probably about to die'
+	description "this planet is a desolate and  dreary one, the surface is covered in sand and the sandstorms are so powerful that to go outside you need to wear a special sand suit. Toloplike is also the home of a rather large Kor Sestor drone factory in which sand goes in and machines of mass destruction come out. Of course you shouldn't be able to land here in the first place and even if you did you are probably about to die"
 	government "Kor Sestor"
 	bribe 0
 
@@ -28704,7 +28705,7 @@ planet Patel
 planet Fairnorr
 	government "Arion"
 	landscape land/mountain1
-	description 'This Base'
+	description "This is one of the foremost Arion bases and it is very well defended"
 	spaceport ''
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"

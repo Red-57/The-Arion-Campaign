@@ -4,9 +4,9 @@ outfit "Arion Roaster"
 	category "Guns"
 	cost 1340000
 	thumbnail "outfit/Roaster"
-	"mass" 45
-	"outfit space" -45
-	"weapon capacity" -45
+	"mass" 55
+	"outfit space" -55
+	"weapon capacity" -55
 	"energy capacity" 1600
 	"gun ports" -1
 	weapon
@@ -14,22 +14,22 @@ outfit "Arion Roaster"
 			"frame rate" 2.5
 		sound "detainer"
 		"hit effect" "Ion T Impact" 1
-		"inaccuracy" .4
+		"inaccuracy" 6.4
 		"velocity" 16
 		"lifetime" 140
-		"reload" 40
-		"burst reload" 10
+		"reload" 60
+		"burst reload" 20
 		"burst count" 4
 		"firing energy" 956
 		"firing force" 90
 		"firing heat" 700
 		"hit force" 80
-		"shield damage" 250
+		"shield damage" 580
 		"heat damage" 470
-		"hull damage" 14
+		"hull damage" 220
 		"blast radius" 20
-	description "the Arion Roaster is a immensely powerful heat weapon capable of overheating enemy ships in a very small ammount of time."
-
+	description "The Arion Roaster is the most powerful weapon that they have developed so far, it is a plasma based weapon that fires a kind of gel at high velocity and very long range, it is, however, very large and its power requirements are immense so you would need quite a large ship to wield it"
+	description "One interesting thing about it is that the Korath Detainer was designed after it using the same superheated plasma, however their weapon was much less efficent and slowed down the enemy instead of heating it up."
 
 
 outfit "Arion Flamethrower"
@@ -106,28 +106,28 @@ outfit "Roaster Turret"
 	"outfit space" -86
 	"energy capacity" 1700
 	"turret mounts" -1
-	"hardpoint sprite" "hardpoint/roaster turret"
-	"hardpoint offset" 7.0
 	weapon
 		sprite "projectile/Roaster"
 			"frame rate" 2.5
+		"hardpoint sprite" "hardpoint/roaster turret"
+		"hardpoint offset" 7.
 		sound "detainer"
 		"hit effect" "Ion T Impact" 1
-		"turret turn" 4.5
-		"inaccuracy" 0.5
+		"turret turn" 8.5
+		"inaccuracy" 8.5
 		"velocity" 16
 		"lifetime" 140
-		"burst reload" 10
+		"burst reload" 20
 		"reload" 60
 		"burst count" 2
 		"firing energy" 856
 		"firing force" 50
 		"firing heat" 100
 		"hit force" 70
-		"shield damage" 480
-		"hull damage" 120
+		"shield damage" 580
+		"hull damage" 220
 		"heat damage" 470
-	description "this is the turreted version  of the powerful roaster cannon. it has a very long range and is able to disable ships from a very long range"
+	description "The Roaster Turret consists of a single roaster cannon mounted on a turret mount, it is a devastating weapon with the ability to shoot in all directions and it's powerful range it can take out most ships with only a couple of shots, due to the huge power and space requirements this weapon can only be mounted on the largest of ships."
 
 
 effect "Roaster Smoke"
@@ -161,6 +161,7 @@ outfit "Trapper Cannon"
 		"firing energy" 40
 		"firing heat" 90
 		"hit force" 120
+		"ion damage" 5
 		"shield damage" 70
 		"hull damage" 150
 
@@ -182,10 +183,9 @@ outfit "Arion Toaster"
 	category "Guns"
 	cost 2306000
 	thumbnail "outfit/Toaster"
-	"mass" 23
-	"outfit space" -23
-	"weapon capacity" -23
-	"energy capacity" 100
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
 	"gun ports" -1
 	weapon
 		sprite "projectile/Toaster"
@@ -200,7 +200,7 @@ outfit "Arion Toaster"
 		"burst reload" 4
 		"burst count" 4
 		"cluster"
-		"firing energy" 55
+		"firing energy" 35
 		"firing heat" 240
 		"shield damage" 38
 		"hull damage" 77
@@ -214,11 +214,10 @@ outfit "Arion Toaster Turret"
 	category "Turrets"
 	cost 5230300
 	thumbnail "outfit/Toaster Turret"
-	"mass" 56
-	"outfit space" -56
-	"weapon capacity" -56
-	"energy capacity" 200
-	"required crew" 3
+	"mass" 39
+	"outfit space" -39
+	"weapon capacity" -39
+	"required crew" 1
 	"turret mounts" -1
 	weapon
 		sprite "projectile/Toaster"
@@ -236,8 +235,8 @@ outfit "Arion Toaster Turret"
 		"burst reload" 2
 		"burst count" 8
 		"cluster"
-		"firing energy" 75
-		"firing heat" 340
+		"firing energy" 50
+		"firing heat" 330
 		"shield damage" 38
 		"hull damage" 77
 		"heat damage" 21
@@ -283,7 +282,7 @@ outfit "Titanium Reactor Core"
 	cost 24578980
 	thumbnail "outfit/Titanium"
 	"mass" 170
-	"outfit space" 170
+	"outfit space" -170
 	"energy generation" 59.3
 	"heat generation" 90
 	description "this is the most powerful arion reactor used mostly for the lion warships although you will sometimes see them on other ships."
@@ -307,7 +306,7 @@ outfit "Steel Reactor Core"
 outfit "Iron Reactor Core"
 	lisences
 		"Arion Outfits"
-		category "Power"
+	category "Power"
 	cost 12670000
 	thumbnail "outfit/Iron"
 	"mass" 64
@@ -319,7 +318,7 @@ outfit "Iron Reactor Core"
 outfit "Tin Reactor Core"
 	lisences
 		"Arion Outfits"
-		category "Power"
+	category "Power"
 	cost 834500
 	thumbnail "outfit/Tin"
 	mass 56
@@ -334,7 +333,7 @@ outfit "Plastic Generator"
 	thumbnail "outfit/Plastic"
 	lisences
 		"Arion Outfits"
-		category "power"
+	category "power"
 	cost 1280000
 	mass 19
 	"outfit space" -19
@@ -386,7 +385,7 @@ outfit "Ion Torpedo"
 	cost 17400
 	"mass" .2
 	"Ion Torpedo capacity" -1
-	description "this is the ammo for the Ion Torpedo launcher"
+	description "This is the Ammunition for the Ion Torpedo Launcher"
 
 outfit "Ion Torpedo Rack"
 	lisences
@@ -398,6 +397,7 @@ outfit "Ion Torpedo Rack"
 	"Ion Torpedo capacity" 15
 	ammo "Ion Torpedo"
 	"outfit space" 12
+	description "Using this outfit you can incease the ammount of Ion torpedos that you can hold"
 
 outfit "Ion Torpedo Launcher"
 	lisences
@@ -406,8 +406,8 @@ outfit "Ion Torpedo Launcher"
 	cost 1280000
 	thumbnail "outfit/Ion Torpedo Launcher"
 	"mass" 17
-	"outfit space" -34
-	"weapon capacity" -34
+	"outfit space" -28
+	"weapon capacity" -28
 	"gun ports" -1
 	"required crew" 1
 	"Ion Torpedo capacity" 30
@@ -433,7 +433,7 @@ outfit "Ion Torpedo Launcher"
 		"optical tracking" .9
 		"missile strength" 40
 		"submunition" "Active Ion Torpedo" 1
-	description "Ion Torpedoes are the main Arion Missile, causing large ammounts of hit force and even Ion damage they are powerful weapons."
+	description "Ion Torpedos are powerful missiles that disable ships for small periods of time using ionic damage. These missiles are commenly used by the Arion people and are often coupled with heat damaging weapons so as to  disable in mutiple ways"
 
 
 outfit "Active Ion Torpedo"
@@ -540,7 +540,7 @@ outfit "Arion Large Ramscoop"
 	"mass" 23
 	"outfit space" -17
 	"ramscoop" 11
-	description "This is the largest arion ramscoop, it is often utilized when a flamethrower is in use."
+	description "This is the largest Arion ramscoop, it is often utilized when a flamethrower is in use."
 
 outfit "Arion Small Ramscoop"
 	categor "Systems"

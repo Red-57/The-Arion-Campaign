@@ -2,9 +2,10 @@
 mission "First Contact: Arion”
 	landing
 	source
-		attributes "Arion"
+		government "Arion"
 	on offer
 		conversation
+			label "hi"
 			`This planet seems to be populated by tall stick-like aliens, that all seem very interested in your ship. One of the aliens eventually walks up to you and does some sort of weird bow that you assume is the greeting, he then starts talking to you in a strange language that you do not understand.
 			choice
 				`	(Make some gesture to show that you do not understand.)`
@@ -28,7 +29,7 @@ mission "First Contact: Arion”
 			`	"How long have you known the Drak" you ask Tamerqun. We have always  been the servants or messengers of the Drak doing their wishes and obeying their commands. `
 			choice
 				`"is there anything I can do to help you?"
-
+				goto help
 			label help
 			`	"No we have no need of your assistance at the moment, but we will contact you immediately when we do."`
 				decline
@@ -69,11 +70,11 @@ mission "Arion Messengers"
 		attributes "Arion"
 	to offer
 		has "First Contact: Arion"
-		has "Main Plot Completed"
 		has "First Contact: Wanderers" offered
 		has "First Contact: Hai" offered
 	on offer
 		conversation
+			label hi
 			`as you are repairing this ship you find that the captain welcomes you warmly on board and makes you a cup of tea. As you are talking he mentions the korath and begins telling you about how they have begun rebuilding jump drives and how they are attacking the Arion Militia bases. After a while talking he asks you "I would like you to send a message about these renewed attacks to our capitol on Larnin"
 			choice
 				'	"Sure I'd be glad to"

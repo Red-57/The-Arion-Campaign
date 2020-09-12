@@ -62,9 +62,9 @@ ship "Cub"
 		"heat dissipation" 0.9
 		"fuel capacity" 1100
 		"cargo space" 15
-		"outfit space" 1200
-		"weapon capacity" 1200
-		"engine capacity" 200
+		"outfit space" 280
+		"weapon capacity" 90
+		"engine capacity" 75
 		weapon
 			"blast radius" 150
 			"shield damage" 1500
@@ -77,7 +77,7 @@ ship "Cub"
 		"Arion Small Ramscoop"
 		"Ion Torpedo Launcher" 2
 		"Ion Torpedo" 60
-		"Systems AC (small)" 2
+		"Systems AC (Small)"
 		"NT 200 Nutron Thruster"
 		"NT 250 Nutron Steering"
 		"Arion Toaster" 2
@@ -101,7 +101,7 @@ ship "Lion"
 	thumbnail "thumbnail/lion"
 	attributes
 		category "Heavy Warship"
-		"cost" 169016700
+		"cost" 269016700
 		"shields" 149000
 		"hull" 93680
 		"required crew" 310
@@ -138,34 +138,35 @@ ship "Lion"
 		"NT 450 Nutron Steering" 1
 		"NT 400 Nutron Thruster" 1
 		"T-Rex Class Regenerator"
-	engine 177.5 272
-	engine -187 272
-	engine 46.5 306.5
-	engine -46 306
-	gun 19.85 -239.09 "Trapper Cannon"
-	gun -22.68 -239.09 "Trapper Cannon"
-	gun 25.52 -233.43 "Arion Roaster"
-	gun -25.52 -233.43 "Arion Roaster"
-	gun 70.88 -196.65 "Arion Toaster"
-	gun -70.88 -196.65 "Arion Toaster"
-	gun 76.55 -188.16 "Arion Roaster"
-	gun -76.55 -190.99 "Arion Roaster"
-	gun 167.27 52.35 "Ion Torpedo"
-	gun -172.94 55.18 "Ion Torpedo"
-	gun 175.77 83.47 "Ion Torpedo"
-	gun -184.28 83.47 "Ion Torpedo"
-	turret -36.86 -165.53 "Arion Toaster Turret"
-	turret 34.02 -165.53 "Arion Toaster Turret"
-	turret -76.55 -9.9 "Arion Toaster Turret"
-	turret 68.04 -7.07 "Arion Toaster Turret"
-	turret -48.2 -9.9 "Arion Roaster Turret"
-	turret 42.53 -9.9 "Arion Roaster Turret"
-	turret -36.86 151.38 "Defender Anti-Missile"
-	turret 34.02 151.38 "Defender Anti-Missile"
-	turret -144.59 190.99 "Arion Roaster Turret"
-	turret 136.08 193.82 "Arion Roaster Turret"
-	turret -104.9 193.82 "Defender Anti-Missile"
-	turret 96.39 193.82 "Defender Anti-Missile"
+	engine -46 296.5
+	engine 46 297.5
+	engine -170.5 262.5
+	engine 170 262
+	gun 22 -252.5 "Trapper Cannon"
+	gun -19 -253.5 "Trapper Cannon"
+	gun -23 -248.5 "Arion Roaster"
+	gun 26 -247.5 "Arion Roaster"
+	gun -73 -212.5 "Arion Toaster"
+	gun 73 -212 "Arion Toaster"
+	gun -77 -203 "Arion Roaster"
+	gun 76.5 -203.5 "Arion Roaster"
+	gun -178.5 48.5 "Ion Torpedo"
+	gun 179.5 48.5 "Ion Torpedo"
+	gun -188.5 79 "Ion Torpedo"
+	gun 189 79 "Ion Torpedo"
+	turret -41.5 -182 "Arion Toaster Turret"
+	turret 42 -182 "Arion Toaster Turret"
+	turret -88 -40 "Arion Toaster Turret"
+	turret 88 -40 "Arion Toaster Turret"
+	turret -55 -39 "Arion Roaster Turret"
+	turret 56 -39.5 "Arion Roaster Turret"
+	turret -35 153 "Defender Anti-Missile"
+	turret 35 153.5 "Defender Anti-Missile"
+	turret -144 181.5 "Arion Roaster Turret"
+	turret 145.5 181.5 "Arion Roaster Turret"
+	turret -104.5 181.5 "Defender Anti-Missile"
+	turret 107.5 181 "Defender Anti-Missile"
+
 	fighter 67.29 -195.9 under
 	fighter 90.69 -152.04 under
 	fighter 26.33 -128.65 under
@@ -240,7 +241,7 @@ ship "Elephant"
 	thumbnail "thumbnail/Elephant"
 	attributes
 		category "Heavy Freighter"
-		"cost" 25678940
+		"cost" 56678940
 		"shields" 23670
 		"hull" 45780
 		"required crew" 57
@@ -294,7 +295,7 @@ ship "Rhino"
 	thumbnail "thumbnail/Rhino"
 	attributes
 		category "Heavy Freighter"
-		"cost" 16738900
+		"cost" 44738900
 		"shields" 18670
 		"hull" 34780
 		"required crew" 35
@@ -346,12 +347,12 @@ ship "Jaguar"
 	thumbnail "thumbnail/Jaguar"
 	attributes
 		category "Light Warship"
-		"cost" 5340000
+		"cost" 29340000
 		"shields" 29000
 		"hull" 15400
 		"required crew" 10
 		"bunks" 14
-		"mass" 250
+		"mass" 150
 		"drag" 5
 		"heat dissipation" 0.8
 		"fuel capacity" 700
@@ -382,14 +383,14 @@ ship "Jaguar"
 	explode "medium explosion" 8
 	explode "large explosion" 24
 	"final explode" "final explosion small"
-	description "this warship is the smallest of the arion attack ships, when used in a fleet they can be formidable, but their shields aren't strong enough to hold up against larger ships."
+	description "Jaguars are powerful light warships for the Arion people, they are used as the main dealer of Ion damage in a battle, often fondly called the "Ionic Bazookas" their use of ion damage can be formidable but when used with other more damaging ships it can be deadly."
 
 ship "Tiger"
 	sprite "ship/tiger"
 	thumbnail "thumbnail/Tiger"
 	attributes
 		category "Medium Warship"
-		"cost" 9450000
+		"cost" 46450000
 		"shields" 59000
 		"hull" 29000
 		"required crew" 25
@@ -600,7 +601,7 @@ ship "Heliarch Resistor"
 		"hull" 1360
 		"required crew" 1
 		"bunks" 1
-		"mass" 57
+		"mass" 25
 		"drag" 5.2
 		"heat dissipation" 0.1
 		"fuel capacity" 0
@@ -614,9 +615,7 @@ ship "Heliarch Resistor"
 			"hit force" 900
 	outfits
 		"Bombardment Cannon" 2
-		"Small Reactor Modual"
 		"Small Shield Module"
-		"Small Battery Module"
 		"Small Thrust Module"
 		"Small Steering Module"
 		"Small Battery Module"
