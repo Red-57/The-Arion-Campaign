@@ -22,9 +22,9 @@ outfit "Arion Roaster"
 		"burst count" 4
 		"firing energy" 956
 		"firing force" 90
-		"firing heat" 700
+		"firing heat" 1000
 		"hit force" 80
-		"shield damage" 580
+		"shield damage" 780
 		"heat damage" 470
 		"hull damage" 220
 		"blast radius" 20
@@ -56,7 +56,7 @@ outfit "Arion Flamethrower"
 		"firing energy" .50
 		"firing fuel" .083
 		"firing heat" 2
-	description "the Arion Heavy Flamethrower is a Devastating weapon designed to overheat the enemy."
+	description 'A common saying among the arion is "don't let the enemy shoot back" Arion Flamethrowers live that saying to the full, making sure that the enemy can't use their weapons or other systems. They were one of the first Arion weapons that they  developed, seeking to disable the enemy using heat rather then let the enemy keep shooting, '
 
 outfit "Heavy Flamethrower Projectile"
 	weapon
@@ -120,11 +120,11 @@ outfit "Roaster Turret"
 		"burst reload" 20
 		"reload" 60
 		"burst count" 2
-		"firing energy" 856
+		"firing energy" 1156
 		"firing force" 50
 		"firing heat" 100
 		"hit force" 70
-		"shield damage" 580
+		"shield damage" 750
 		"hull damage" 220
 		"heat damage" 470
 	description "The Roaster Turret consists of a single roaster cannon mounted on a turret mount, it is a devastating weapon with the ability to shoot in all directions and it's powerful range it can take out most ships with only a couple of shots, due to the huge power and space requirements this weapon can only be mounted on the largest of ships."
@@ -195,13 +195,13 @@ outfit "Arion Toaster"
 		"fire effect" "Trapper Impact"
 		"inaccuracy" 4
 		"velocity" 15
-		"lifetime" 40
+		"lifetime" 60
 		"reload" 10
 		"burst reload" 4
 		"burst count" 4
 		"cluster"
 		"firing energy" 35
-		"firing heat" 240
+		"firing heat" 540
 		"shield damage" 38
 		"hull damage" 77
 		"heat damage" 21
@@ -212,7 +212,7 @@ outfit "Arion Toaster Turret"
 	lisences
 		"Arion Outfits"
 	category "Turrets"
-	cost 5230300
+	cost 1230300
 	thumbnail "outfit/Toaster Turret"
 	"mass" 39
 	"outfit space" -39
@@ -230,7 +230,7 @@ outfit "Arion Toaster Turret"
 		"inaccuracy" 3
 		"turret turn" 3.3
 		"velocity" 15
-		"lifetime" 40
+		"lifetime" 60
 		"reload" 5
 		"burst reload" 2
 		"burst count" 8
@@ -256,20 +256,18 @@ outfit "Defender Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hardpoint sprite" "hardpoint/defender"
-		"hardpoint offset" 0
-		"hit effect" "wanderer anti-missile"
-		"anti-missile" 40
-		"velocity" 390
+		"hardpoint offset" 9
+		"fire effect" "Defender anti-missile"
+		"anti-missile" 60
+		"velocity" 740
 		"lifetime" 1
-		"reload" 20
+		"reload" 40
 		"firing energy" 50
 		"firing heat" 34
 	description "This missile defense system is used by the larger Arion Battlecruisers while it has a very slow rate of fire it can destroy most missiles within range."
 
-effect "wanderer anti-missile"
-	sprite "effect/wanderer anti-missile"
-		"no repeat"
-		"frame rate" 6
+effect "Defender anti-missile"
+	sprite "effect/Defender"
 	sound "heavy anti-missile"
 	"lifetime" 31
 	"velocity scale" 1
@@ -284,7 +282,7 @@ outfit "Titanium Reactor Core"
 	"mass" 170
 	"outfit space" -170
 	"energy generation" 59.3
-	"heat generation" 90
+	"heat generation" 120
 	description "this is the most powerful arion reactor used mostly for the lion warships although you will sometimes see them on other ships."
 
 
@@ -300,7 +298,7 @@ outfit "Steel Reactor Core"
 	"mass" 98
 	"outfit space" -98
 	"energy generation" 34
-	"heat generation" 36
+	"heat generation" 86
 	description "this is another powerful arion power generator, while not as powerful as the Titanium version it still generates enough power for a big medium warship."
 
 outfit "Iron Reactor Core"
@@ -311,7 +309,7 @@ outfit "Iron Reactor Core"
 	thumbnail "outfit/Iron"
 	"mass" 64
 	"energy generation" 21
-	"heat generation" 30
+	"heat generation" 50
 	description "0"
 
 
@@ -324,7 +322,7 @@ outfit "Tin Reactor Core"
 	mass 56
 	"outfit space" -56
 	"energy generation" 17
-	"heat generation" 26
+	"heat generation" 36
 	description "0"
 
 
@@ -333,12 +331,12 @@ outfit "Plastic Generator"
 	thumbnail "outfit/Plastic"
 	lisences
 		"Arion Outfits"
-	category "power"
+	category "Power"
 	cost 1280000
 	mass 19
 	"outfit space" -19
 	"energy generation" 4.5
-	"heat generation" 9.9
+	"heat generation" 17.9
 	description "with none of their larger generators fitting on fighters or drones the Arion developed this flimsy plastic generator to power those smaller ships"
 
 
@@ -396,7 +394,7 @@ outfit "Ion Torpedo Rack"
 	"mass" 2.4
 	"Ion Torpedo capacity" 15
 	ammo "Ion Torpedo"
-	"outfit space" 12
+	"outfit space" -12
 	description "Using this outfit you can incease the ammount of Ion torpedos that you can hold"
 
 outfit "Ion Torpedo Launcher"
@@ -409,7 +407,6 @@ outfit "Ion Torpedo Launcher"
 	"outfit space" -28
 	"weapon capacity" -28
 	"gun ports" -1
-	"required crew" 1
 	"Ion Torpedo capacity" 30
 	weapon
 		sprite "projectile/Ion Torpedo Activating"
@@ -421,11 +418,11 @@ outfit "Ion Torpedo Launcher"
 		"hit effect" "Trapper Impact"
 		"die effect" "Trapper Impact"
 		"inaccuracy" 4
-		"velocity" 4
-		"lifetime" 80
+		"velocity" 8
+		"lifetime" 90
 		"reload" 225
 		"firing energy" 8
-		"firing heat"
+		"firing heat" 92
 		"acceleration" .35
 		"drag" .025
 		"turn" 1.2
@@ -442,8 +439,8 @@ outfit "Active Ion Torpedo"
 			"frame rate" 2
 		"die effect" "Ion T Impact"
 		"hit effect" "Trapper Impact"
-		"lifetime" 600
-		"velocity" 4
+		"lifetime" 1200
+		"velocity" 12
 		"acceleration" 1
 		"drag" .1
 		"turn" 1.2
@@ -653,9 +650,9 @@ outfit "NT 400 Nutron Thruster"
 	"cost" 2733000
 	thumbnail "outfit/huge nutron thruster"
 	"mass" 118
-	"outfit Space" -118
+	"outfit space" -118
 	"engine capacity" -118
-	"thrust" 145.4
+	"thrust" 125.4
 	"thrusting energy" 78.8
 	"thrusting heat" 24.6
 	"flare sprite" "effect/Huge Nutron Flare"
@@ -671,7 +668,7 @@ outfit "NT 450 Nutron Steering"
 	"mass" 78
 	"outfit space" -78
 	"engine capacity" -78
-	"turn" 5028.8
+	"turn" 3028.8
 	"turning energy" 12.6
 	"turning heat" 23
 	"steering flare sprite" "effect/Huge Nutron Flare"
@@ -705,6 +702,7 @@ outfit "Arion Defense Gear"
 	thumbnail "outfit/Defense Gear"
 	"capture attack" 1.1
 	"capture defense" 9.1
+	"outfit space" -2
 	description "this is a powerful weapon used to defend arion warships in hand to hand combat"
 
 

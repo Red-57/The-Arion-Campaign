@@ -13,9 +13,9 @@ ship "Fox"
 		"heat dissipation" 0.9
 		"fuel capacity" 600
 		"cargo space" 20
-		"outfit space" 1000
-		"weapon capacity" 1000
-		"engine capacity" 1000
+		"outfit space" 350
+		"weapon capacity" 55
+		"engine capacity" 80
 		weapon
 			"blast radius" 89.1
 			"shield damage" 891
@@ -44,7 +44,7 @@ ship "Fox"
 	explode "small exposion" 33
 	explode "medium exposion" 1
 	"final explode" "final explosion small"
-	description "the fox is an agile warship used for zooming in and roasting enemy ships allowing the more heavy hitting ships to come and do their damage."
+	description "The Fox is a fast and agile warship that is used to overheat the enemy."
 
 
 ship "Cub"
@@ -107,13 +107,13 @@ ship "Lion"
 		"required crew" 310
 		"bunks" 345
 		"mass" 1200
-		"drag" 6.8
+		"drag" 34.8
 		"heat dissipation" 9.6
 		"fuel capacity" 900
 		"cargo space" 250
-		"outfit space" 10000
-		"weapon capacity" 10000
-		"engine capacity" 10000
+		"outfit space" 2235
+		"weapon capacity" 1090
+		"engine capacity" 250
 		weapon
 			"blast radius" 2426
 			"shield damage" 24268
@@ -130,14 +130,16 @@ ship "Lion"
 		"Ion Torpedo" 220
 		"Ion Torpedo Rack" 4
 		"Titanium Reactor Core" 3
-		"Systems AC (Large)" 13
+		"Systems AC (Large)" 6
 		"Arion Toaster Turret" 4
 		"Defender Anti-Missile" 4
 		"Arion Roaster Turret" 4
 		"Arion Large Ramscoop" 5
 		"NT 450 Nutron Steering" 1
 		"NT 400 Nutron Thruster" 1
+		"NT 250 Nutron Steering"
 		"T-Rex Class Regenerator"
+		"Outfits Expansion" 6
 	engine -46 296.5
 	engine 46 297.5
 	engine -170.5 262.5
@@ -150,20 +152,20 @@ ship "Lion"
 	gun 73 -212 "Arion Toaster"
 	gun -77 -203 "Arion Roaster"
 	gun 76.5 -203.5 "Arion Roaster"
-	gun -178.5 48.5 "Ion Torpedo"
-	gun 179.5 48.5 "Ion Torpedo"
-	gun -188.5 79 "Ion Torpedo"
-	gun 189 79 "Ion Torpedo"
+	gun -178.5 48.5 "Ion Torpedo Launcher"
+	gun 179.5 48.5 "Ion Torpedo launcher"
+	gun -188.5 79 "Ion Torpedo Launcher"
+	gun 189 79 "Ion Torpedo Launcher"
 	turret -41.5 -182 "Arion Toaster Turret"
 	turret 42 -182 "Arion Toaster Turret"
 	turret -88 -40 "Arion Toaster Turret"
 	turret 88 -40 "Arion Toaster Turret"
-	turret -55 -39 "Arion Roaster Turret"
-	turret 56 -39.5 "Arion Roaster Turret"
+	turret -55 -39 "Roaster Turret"
+	turret 56 -39.5 "Roaster Turret"
 	turret -35 153 "Defender Anti-Missile"
 	turret 35 153.5 "Defender Anti-Missile"
-	turret -144 181.5 "Arion Roaster Turret"
-	turret 145.5 181.5 "Arion Roaster Turret"
+	turret -144 181.5 "Roaster Turret"
+	turret 145.5 181.5 "Roaster Turret"
 	turret -104.5 181.5 "Defender Anti-Missile"
 	turret 107.5 181 "Defender Anti-Missile"
 
@@ -197,43 +199,42 @@ ship "Lion"
 	fighter -196.01 175.43 under
 	fighter -225.27 216.36 under
 	fighter -157.98 105.26 under
-	drone 166 121 under
-	drone 138.5 193 under
-	drone 177 189 under
-	drone 212.5 234 under
-	drone 163.5 234.5 under
-	drone 75.5 -145 under
-	drone 112 23 under
-	drone 13.5 -120 under
-	drone 22 -62.5 under
-	drone 20 39.5 under
-	drone 40 111.5 under
-	drone 43.5 194 under
-	drone 43.5 -11 under
-	drone -166 121 under
-	drone -138.5 193 under
-	drone -177 189 under
-	drone -212.5 234 under
-	drone -163.5 234.5 under
-	drone -75.5 -145 under
-	drone -112 23 under
-	drone -13.5 -120 under
-	drone -22 -62.5 under
-	drone -20 39.5 under
-	drone -40 111.5 under
-	drone -43.5 194 under
-	drone -43.5 -11 under
+	drone 166 121
+	drone 138.5 193
+	drone 177 189
+	drone 212.5 234
+	drone 163.5 234.5
+	drone 75.5 -145
+	drone 112 23
+	drone 13.5 -120
+	drone 22 -62.5
+	drone 20 39.5
+	drone 40 111.5
+	drone 43.5 194
+	drone 43.5 -11
+	drone -166 121
+	drone -138.5 193
+	drone -177 189
+	drone -212.5 234
+	drone -163.5 234.5
+	drone -75.5 -145
+	drone -112 23
+	drone -13.5 -120
+	drone -22 -62.5
+	drone -20 39.5
+	drone -40 111.5
+	drone -43.5 194
+	drone -43.5 -11
 	explode "small explosion" 532
 	explode "medium explosion" 1
 	explode "large explosion" 54
 	explode "huge explosion" 1
 	explode "medium explosion" 1
 	explode "large explosion" 1
-	explode "Ion T Impact" 22
 	"final explode" "final explosion large"
 	description "The Lion is the largest ship used by the arion militia. it is used as a mass carrier and battleship."
 	description "This mega warship is powerful enough to take on 3 Kar Ik Vots and win!"
-#the lion has 22 fighter bays and 26 drone bays
+#the lion has 30 fighter bays and 26 drone bays
 
 
 ship "Elephant"
@@ -246,14 +247,14 @@ ship "Elephant"
 		"hull" 45780
 		"required crew" 57
 		"bunks" 72
-		"mass" 1500
-		"drag" 16.9
+		"mass" 1700
+		"drag" 85.9
 		"heat dissipation" 1
 		"fuel capacity" 700
-		"cargo space" 1200
-		"outfit space" 1000
-		"weapon capacity" 1000
-		"engine capacity" 1000
+		"cargo space" 900
+		"outfit space" 790
+		"weapon capacity" 230
+		"engine capacity" 155
 		weapon
 			"blast radius" 694.5
 			"shield damage" 6945
@@ -269,7 +270,7 @@ ship "Elephant"
 		"Defender Anti-Missile"
 		"Arion Large Ramscoop"
 		"T-Rex Class Regenerator"
-		"NT 400 Nutron Thruster"
+		"NT 300 Nutron Thruster"
 		"NT 450 Nutron Steering"
 		"Arion Large Ramscoop"
 		"Scram Drive"
@@ -301,13 +302,13 @@ ship "Rhino"
 		"required crew" 35
 		"bunks" 57
 		"mass" 900
-		"drag" 16.9
+		"drag" 45.9
 		"heat dissipation" 1
 		"fuel capacity" 600
 		"cargo space" 450
-		"outfit space" 1000
-		"weapon capacity" 1000
-		"engine capacity" 1000
+		"outfit space" 560
+		"weapon capacity" 170
+		"engine capacity" 115
 		weapon
 			"blast radius" 534.5
 			"shield damage" 5345
@@ -320,12 +321,12 @@ ship "Rhino"
 		"Ion Torpedo" 180
 		"Ion Torpedo Rack" 4
 		"Steel Reactor Core"
-		"Brachio Class Regenerator"
+		"Barachio Class Regenerator"
 		"NT 300 Nutron Thruster"
 		"NT 350 Nutron Steering"
 		"Arion Large Ramscoop"
-		"Systems AC (large)" 1
-		"Scram Drive"
+		"Systems AC (Large)" 1
+		"Hyperdrive"
 		"Jump Drive"
 	gun -24.5 -57.5 "Ion Torpedo Launcher"
 	gun 27 -58 "Ion Torpedo Launcher"
@@ -353,13 +354,13 @@ ship "Jaguar"
 		"required crew" 10
 		"bunks" 14
 		"mass" 150
-		"drag" 5
+		"drag" 4
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 15
-		"outfit space" 1000
-		"weapon capacity" 1000
-		"engine capacity" 1000
+		"outfit space" 400
+		"weapon capacity" 205
+		"engine capacity" 900
 	outfits
 		"Trapper Cannon" 4
 		"Ion Torpedo Launcher" 1
@@ -400,9 +401,9 @@ ship "Tiger"
 		"heat dissipation" 0.9
 		"fuel capacity" 1000
 		"cargo space" 40
-		"outfit space" 1000
-		"weapon capacity" 1000
-		"engine capacity" 1000
+		"outfit space" 845
+		"weapon capacity" 310
+		"engine capacity" 170
 		weapon
 			"blast radius" 330
 			"shield damage" 3300
@@ -410,7 +411,7 @@ ship "Tiger"
 			"hit force" 4950
 	outfits
 		"Trapper Cannon" 4
-		"Toaster Turret" 2
+		"Arion Toaster Turret" 2
 		"Ion Torpedo Launcher" 2
 		"Ion Torpedo" 70
 		"Steel Reactor Core"
@@ -427,8 +428,8 @@ ship "Tiger"
 	gun 30.57 -86.79 "Trapper Cannon"
 	gun -75.63 -30 "Ion Torpedo Launcher"
 	gun 75.63 -27.86 "Ion Torpedo Launcher"
-	turret -46.67 34.29 "Toaster Turret"
-	turret 46.67 33.21 "Toaster Turret"
+	turret -46.67 34.29 "Arion Toaster Turret"
+	turret 46.67 33.21 "Arion Toaster Turret"
 	engine -17.7 69.64
 	engine 17.7 68.57
 	drone 24 -7 under
@@ -448,7 +449,7 @@ ship "Thorn"
 	attributes
 		category "Fighter"
 		"cost" 2450000
-		"shield" 7000
+		"shields" 7000
 		"hull" 1500
 		"required crew" 1
 		"bunks" 2
@@ -456,9 +457,9 @@ ship "Thorn"
 		"drag" 0.6
 		"fuel capacity" 400
 		"heat dissipation" 0.7
-		"outfit space" 100000
-		"weapon capacity" 40
-		"engine capacity" 40
+		"outfit space" 140
+		"weapon capacity" 42
+		"engine capacity" 34
 		weapon
 			"blast radius" 18
 			"shield damage" 180
@@ -496,9 +497,9 @@ ship "Infiltration Drone"
 		"heat dissipation" 0.8
 		"fuel capacity" 300
 		"cargo space" 0
-		"outfit space" 100
-		"weapon capacity" 50
-		"engine capacity" 50
+		"outfit space" 110
+		"weapon capacity" 25
+		"engine capacity" 25
 		weapon
 			"blast radius" 19.3
 			"shield damage" 193
