@@ -1,15 +1,15 @@
 person "Red 5"
-    government "Author"
-    frequency 300
-    personality
-        vindictive heroic unconstrained
-    phrase
-        word
-            "I hope that you are enjoying the mod!"
-        word
-            "There are many new places to explore"
-            "There is a new race of aliens to explore"
-            "There is new technology to use"
+	government "Author"
+	frequency 300
+	personality
+		vindictive heroic unconstrained
+	phrase
+		word
+			"I hope that you are enjoying the mod!"
+		word
+			"There are many new places to explore"
+			"There is a new race of aliens to explore"
+			"There is new technology to use"
         word
             "poke around and you just might find something!"
             "look around and you could get rich!"
@@ -106,12 +106,12 @@ person "The Flying Chipmunk"
             "weapon capacity" 615789
             "engine capacity" 150
             weapon
-                "blast radius" 400
-                "shield damage" 4000
-                "hull damage" 2000
-                "hit force" 3000
+                "blast radius" 4000
+                "shield damage" 40000
+                "hull damage" 20000
+                "hit force" 30000
         outfits
-		"Hai Tracker Pod" 16
+			"Hai Tracker Pod" 16
 			"Hai Tracker" 1120
 			"Tracker Storage Pod" 8
 			"Point Defense Turret" 4
@@ -182,52 +182,143 @@ person "Peregrine"
 				"Not to mention the weaponized pigs that need carting off to someplace."
 			word
 				"So do enjoy yourself will you."
-	ship "PRaven"
-		sprite "ship/raven"
-		thumbnail "thumbnail/raven"
-		attributes
-			"never disabled"
-			category "Light Warship"
-			"cost" 2200000
-			"shields" 77000
-			"hull" 14000
-			"required crew" 1
-			"bunks" 0
-			"mass" 130
-			"drag" 3.7
-			"heat dissipation" .8
-			"fuel capacity" 500
-			"cargo space" 30
-			"outfit space" 0
-			"weapon capacity" 0
-			"engine capacity" 0
-			weapon
-				"blast radius" 60
-				"shield damage" 600
-				"hull damage" 300
-				"hit force" 900
-		outfits
-			"Quarg Skylance" 2
-			"Quarg Anti-Missile"
-			"Antimatter Core"
-			"Nanotech Battery"
-			"Quantum Shield Generator"
-			"Laser Rifle" 2
-			"Large Heat Shunt"
-			"Stellar Class Thruster" 2
-			"Stellar Class Steering" 2
-			"Scram Drive"
+ship "Modified Falcon"
+	sprite "ship/MPeregrinee"
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		"cost" 50000000
+		"shields" 40000
+		"shield generation" 20
+		"hull" 30000
+		"hull repair rate" 20
+		"required crew" 1
+		"bunks" 500
+		"mass" 390
+		"drag" 5.5
+		"heat dissipation" 189
+		"fuel capacity" 2900
+		"cargo space" 500
+		"afterburner fuel" -.678
+		"outfit space" 2500
+		"weapon capacity" 900
+		"engine capacity" 900
+		"ramscoop" 8
+		"energy storage" 120000
+		"energy generation" 1200
+		weapon
+			"blast radius" 700000
+			"shield damage" 700000
+			"hull damage" 350000
+			"hit force" 105
+	outfits
+		"Peregrines Yanker" 2
+		"Peregrines Puncher" 2
+		"Peregrines Freeze-ray"
+		"A865 Atomic Steering" 1
+		"A860 Atomic Thruster" 1
+		"Ionic Afterburner" 6
+		"Blue Sun Reactor" 2
+		"Wanderer Ramscoop" 4
+		"Hyperdrive"
+		"Jump Drive"
+		"Heavy Rocket" 100
+		"Puncher Turret" 2
+		"Point Defense Turret" 2
+	gun 17 -92 "Peregrines Yanker"
+	gun -17 -92 "Peregrines Yanker"
+	gun 49.23 3.21 "Peregrines Puncher"
+	gun -48.16 3.21 "Peregrines Puncher"
+	gun -100.6 23.57 "Peregrines Freeze-ray"
+	gun 97.39 24.64 "Peregrines Freeze-ray"
+	turret -19.26 -26.79 "Puncher Turret"
+	turret 19.26 -27.86 "Puncher Turret"
+	turret -61 39.64 "Point Defense Turret"
+	turret 59.93 39.64 "Point Defense Turret"
+	engine -16.05 147.86 1.2
+	engine 18.19 148.93 1.2
+	engine -52.44 124.29 1.9
+	engine 52.44 124.29 1.9
+	explode "medium explosion" 46
+	explode "large explosion" 61
+	explode "huge explosion" 47
+	explode "nuke explosion" 59
+	"final explode" "final explosion large"
+	description "0"
 
-		engine -12 43
-		engine 12 43
-		turret -28 2 "Quarg Skylance"
-		turret 28 2 "Quarg Skylance"
-		turret 1.5 7 "Quarg Anti-Missile"
-		leak "leak" 60 50
-		leak "flame" 50 80
-		explode "medium explosion" 24
-		explode "large explosion" 16
-		explode "tiny explosion" 28
-		explode "small explosion" 40
-		"final explode" "final explosion small"
-		description "The Lionheart Raven is their most popular warship, an agile and elegant vessel that can nevertheless deal out and absorb considerable damage. Ravens are a favorite ship for bounty hunters, because they are more than a match for pirate interceptors and can be used by a skilled pilot to take down much larger ships as well."
+
+
+outfit "Peregrines Yanker"
+	mass 20
+	"outfit space" -20
+	"weapon space" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/electron"
+			"frame rate" 6
+		"shield damage" 1
+		"lifetime" 1
+		"velocity" 450
+		reload 1
+		"hull damage" 2
+		"slowing damage" 5
+		"hit force" -100
+
+
+outfit "Peregrines Puncher"
+	mass 20
+	"outfit space" -20
+	"weapon space" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/disruptor"
+			"frame rate" 20
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"shield damage" 50
+		"hull damage" 50
+
+outfit "Peregrines Freeze-ray"
+	mass 20
+	"outfit space" -20
+	"weapon space" -20
+	"gun ports" -1
+	"Heavy Rocket Capacity" 50
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		"hit effect" "effect/roaster impact"
+		"trigger radius" 600
+		"blast radius" 70000
+		"missile strength" 400
+		"slowing damage" 20000
+		"ion damage" 20000
+		"heat damage" 20000
+		"homing" 4
+		"velocity" 12
+		"reload" 50
+		"safe"
+		"lifetime" 1500
+		"turn" 4
+		"optical tracking" 2
+		"radar tracking" 4
+		icon "icon/nuke"
+		ammo "Heavy Rocket"
+
+
+outfit "Puncher Turret"
+	mass 50
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts"-1
+	weapon
+		sprite "projectile/disruptor"
+			"frame rate" 20
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"shield damage" 100
+		"hull damage" 100
+		"hardpoint sprite" "hardpoint/electron turret"

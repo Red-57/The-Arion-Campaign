@@ -8,12 +8,9 @@ shipyard "Arion Advanced"
 	"Rhino"
 	"Infiltration Drone"
 	"Cub"
-	"Heliarch Torturer"
-	"Heliarch Resistor"
+	"Modified Falcon"
 
-shipyard "efret"
-	"Kar Ik Vot 349"
-	""
+
 
 
 shipyard "Arion Basics"
@@ -63,7 +60,8 @@ outfitter "Arion Advanced"
 	"NT 400 Nutron Thruster"
 	"NT 150 Nutron Steering"
 	"NT 100 Nutron Thruster"
-	"bafterburner"
+
+
 
 
 

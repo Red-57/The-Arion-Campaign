@@ -1,15 +1,18 @@
 mission "death on toloplike"
+	description "you are about to die"
 	scource
-		planet: "Toloplike"
+		"Toloplike"
 	landing
 	on offer
 		conversation
-				label "HI"
+			label "HI"
 			'As you land your ship on a nearby airfield you realize that you have been spotted by the Korath Drones'
 			choice
 				'Take off and run'
 					launch
 				'Hide'
+					goto die
+			label die
 			'You get off your ship and hide in a nearby shipping container. Unfortunately the Korath Drones spot you and shoot you on the spot'
 				die
 

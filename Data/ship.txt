@@ -10,7 +10,7 @@ ship "Fox"
 		"bunks" 5
 		"mass" 100
 		"drag" 2.8
-		"heat dissipation" 0.9
+		"heat dissipation" 15
 		"fuel capacity" 600
 		"cargo space" 20
 		"outfit space" 350
@@ -626,3 +626,5 @@ ship "Heliarch Resistor"
 	gun -7 -22 "Bombardment Cannon"
 	engine 4 22
 	engine -4 22
+	explode "explode/small explosion" 50
+	"final explode" "final explode large"

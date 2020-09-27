@@ -8,9 +8,27 @@ ship "Fox (Ion)"
 		"NT 200 Nutron Thruster"
 		"Ion Torpedo Launcher" 2
 		"Arion Flamethrower" 2
+		"Ion Torpedo" 45
+		"Ion Torpedo Rack"
+	"Ion Torpedo Launcher"
+	"Arion Flamethrower"
+	"Arion Flamethrower"
+
+
+
+ship "Tiger (Toaster)"
+	outfits
+		"Roaster Turret" 2
+		"Arion Toaster" 4
+		"Ion Torpedo Launcher" 2
+		"Titanium Reactor Core"
+		"Outfits Expansion" 2
+		"Barachio Class Regenerator"
 		"Ion Torpedo" 60
-	"Ion Torpedo Launcher"
-	"Ion Torpedo Launcher"
-	"Arion Flamethrower"
-	"Arion Flamethrower"
-	
+		"Arion Large Ramscoop"
+	"Arion Toaster"
+	"Arion Toaster"
+	"Arion Toaster"
+	"Arion Toaster"
+	"Arion Roaster Turret"
+	"Arion Roaster Turret"
