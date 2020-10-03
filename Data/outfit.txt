@@ -498,7 +498,7 @@ outfit "T-Rex Class Regenerator"
 	"outfit space" -50
 	"shield generation" 4.1
 	"shield energy" 8.9
-	"hull regen" 3.2
+	"hull repair rate" 3.2
 	"hull energy" 5.8
 	description  "this is the most powerful arion shield/hull generator it repowers the shields and can even patch up the hull during combat."
 
@@ -513,7 +513,7 @@ outfit "Barachio Class Regenerator"
 	"outfit space" -30
 	"shield generation" 2.9
 	"shield energy" 7.9
-	"hull regen" 2.2
+	"hull repair rate" 2.2
 	"hull energy" 4.2
 	description  "this is the second powerful arion shield/hull generator, it repowers the shields and can even patch up the hull during combat."
 
@@ -525,7 +525,7 @@ outfit "Raptor Class Regenerator"
 	"outfit space" -15
 	"shield generation" 1.4
 	"shield energy" 4.9
-	"hull generation" 2.2
+	"hull repair rate" 2.2
 	"hull energy" 2.8
 	description  "this is the Smallest arion shield/hull generator it repowers the shields and can even patch up the hull during combat."
 

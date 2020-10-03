@@ -166,7 +166,8 @@ person "Peregrine"
 	government "Author"
 	frequency 400
 	personality
-		heroic unconstrained surveillance opportunistic
+		confusion 5
+		heroic unconstrained surveillance opportunistic plunders
 
 		phrase
 			word
@@ -182,49 +183,49 @@ person "Peregrine"
 				"Not to mention the weaponized pigs that need carting off to someplace."
 			word
 				"So do enjoy yourself will you."
-ship "Modified Falcon"
-	sprite "ship/MPeregrinee"
-	"never disabled"
-	attributes
-		category "Heavy Warship"
-		"cost" 50000000
-		"shields" 40000
-		"shield generation" 20
-		"hull" 30000
-		"hull repair rate" 20
-		"required crew" 1
-		"bunks" 500
-		"mass" 390
-		"drag" 5.5
-		"heat dissipation" 189
-		"fuel capacity" 2900
-		"cargo space" 500
-		"afterburner fuel" -.678
-		"outfit space" 2500
-		"weapon capacity" 900
-		"engine capacity" 900
-		"ramscoop" 8
-		"energy storage" 120000
-		"energy generation" 1200
-		weapon
-			"blast radius" 700000
-			"shield damage" 700000
-			"hull damage" 350000
-			"hit force" 105
-	outfits
-		"Peregrines Yanker" 2
-		"Peregrines Puncher" 2
-		"Peregrines Freeze-ray"
-		"A865 Atomic Steering" 1
-		"A860 Atomic Thruster" 1
-		"Ionic Afterburner" 6
-		"Blue Sun Reactor" 2
-		"Wanderer Ramscoop" 4
-		"Hyperdrive"
-		"Jump Drive"
-		"Heavy Rocket" 100
-		"Puncher Turret" 2
-		"Point Defense Turret" 2
+	ship "Modified Falcon"
+		sprite "ship/MPeregrinee"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			"cost" 50000000
+			"shields" 40000
+			"shield generation" 20
+			"hull" 30000
+			"hull repair rate" 20
+			"required crew" 1
+			"bunks" 500
+			"mass" 390
+			"drag" 5.5
+			"heat dissipation" 189
+			"fuel capacity" 2900
+			"cargo space" 500
+			"afterburner fuel" -.678
+			"outfit space" 2500
+			"weapon capacity" 900
+			"engine capacity" 900
+			"ramscoop" 8
+			"energy storage" 120000
+			"energy generation" 1200
+			weapon
+				"blast radius" 700000
+				"shield damage" 700000
+				"hull damage" 350000
+				"hit force" 105
+		outfits
+			"Peregrines Yanker" 2
+			"Peregrines Puncher" 2
+			"Peregrines Freeze-ray"
+				"A865 Atomic Steering" 1
+				"A860 Atomic Thruster" 1
+				"Ionic Afterburner" 6
+			"Blue Sun Reactor" 2
+			"Wanderer Ramscoop" 4
+			"Hyperdrive"
+			"Jump Drive"
+			"Heavy Rocket" 100
+			"Puncher Turret" 2
+			"Point Defense Turret" 2
 	gun 17 -92 "Peregrines Yanker"
 	gun -17 -92 "Peregrines Yanker"
 	gun 49.23 3.21 "Peregrines Puncher"
@@ -322,3 +323,153 @@ outfit "Puncher Turret"
 		"shield damage" 100
 		"hull damage" 100
 		"hardpoint sprite" "hardpoint/electron turret"
+
+
+
+person "Fred Jones"
+	government "Author"
+	frequency 200
+	personality
+		heroic unconstrained surveillance opportunistic
+		confusion 5
+
+		phrase "Friendly Booster"
+			word
+				"I always wanted a spaceship and now look at me! I've got one all to my own"
+				"To Infinity and Beyond!"
+				"This mod is great right!"
+				"there are some cool things to do here!"
+	ship "Booster"
+
+ship "Booster"
+	sprite "ship/Booster"
+	"never disabled"
+	attributes
+		category "Transport"
+		"cost" 50000000
+		"shields" 40000
+		"hull" 80000
+		"required crew" 1
+		"bunks" 500
+		"mass" 390
+		"drag" 5.5
+		"heat dissipation" 1890
+		"fuel capacity" 2900
+		"cargo space" 500
+		"outfit space" 2500
+		"weapon capacity" 900
+		"engine capacity" 900
+		weapon
+			"blast radius" 1200
+			"shield damage" 12000
+			"hull damage" 600
+			"hit force" 18000
+	outfits
+		"Triple Plasma Core" 3
+		"Cargo Scanner" 3
+		"Outfit Scanner" 3
+		"Systems Core (Large)" 3
+		"S-970 Regenerator" 3
+		"Plasma Turret" 10
+		"Tyrant Plasma Thruster" 2
+		"Tyrant Plasma Steering" 2
+	turret -196.15 -44.87 "Plasma Turret"
+	turret 0 -34.62 "Plasma Turret"
+	turret 189.74 -38.46 "Plasma Turret"
+	turret -58.97 -129.5 "Plasma Turret"
+	turret 69.23 -108.98 "Plasma Turret"
+	turret 85.9 51.29 "Plasma Turret"
+	turret 123.08 41.03 "Plasma Turret"
+	turret -126.92 -16.67 "Plasma Turret"
+	turret -114.1 42.31 "Plasma Turret"
+	turret 67.95 -105.14 "Plasma Turret"
+	gun 188.46 -103.85
+	gun -197.44 -105.14
+	engine -194.87 106.42 1.9
+	engine -1.28 173.09 1.9
+	engine 192.31 108.98 1.9
+	description "0"
+
+
+
+person "Power 10"
+	government "Author"
+	frequency 200
+	personality
+		unconstrained surveillance opportunistic mining harvests
+		confusion 5
+	ship "Comet #1582"
+	phrase "Friendly Author"
+
+
+f
+ship "Comet #1582"
+	sprite "ship/comet"
+	"never disabled"
+	attributes
+		category "Transport"
+		"cost" 9000000
+		"shields" 1000000
+		"hull" 1000000
+		"required crew" 1
+		"bunks" 12
+		"mass" -300
+		"drag" 2
+		"heat dissipation" 678880000000000000
+		"fuel capacity" 9000
+		"cargo space" 200
+		"outfit space" 10000
+		"weapon capacity" 0
+		"engine capacity" 300
+		"ramscoop" 150
+		"asteroid scan power" 1000
+		"tactical scan power" 1000
+		"outfit scan power" 1000
+		"cargo scan power" 1000
+		weapon
+			"blast radius" 200000000
+			"shield damage" 2000000000
+			"hull damage" 10000000000
+			"hit force" 30000000000
+	outfits
+		"Electron Beam" 2
+		"Blue Sun Reactor" 22
+		"Large Radar Jammer" 28
+		"Ionico Afterburner" 5
+		"Steering (Stellar Class)" 5
+		"Hyperdrive"
+	engine 2.5 -0.5 1.9
+	gun -14.5 -12 "Electron Beam"
+	gun 17 -11 "Electron Beam"
+	explode "plasma explosion" 12
+	explode "tiny explosion" 16
+	explode "small explosion" 21
+	"final explode" "final explosion small"
+	description "0"
+
+
+
+
+
+
+outfit "Ionico Afterburner"
+	category "Engines"
+	"cost" 340000
+	thumbnail "outfit/ionic afterburner"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"afterburner thrust" 70.0
+	"afterburner effect" "ionico afterburner"
+	description "The ionico afterburner was designed by the Syndicate to compensate for the primary weakness of an ordinary afterburner: namely, that it consumes hyperspace fuel at a prodigious rate. Ionic afterburners instead use a small amount of fuel combined with a large burst of energy from your ship's batteries to achieve the same effect."
+
+effect "ionico afterburner"
+	sprite "effect/ionic afterburner"
+		"no repeat"
+		"frame rate" 15
+	sound "ionic afterburner"
+	"lifetime" 2400
+	"random angle" 360
+	"random spin" 30
+	"random velocity" 1.
+	"velocity scale" 1.

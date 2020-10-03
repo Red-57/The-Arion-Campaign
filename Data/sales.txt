@@ -8,8 +8,7 @@ shipyard "Arion Advanced"
 	"Rhino"
 	"Infiltration Drone"
 	"Cub"
-	"Modified Falcon"
-
+	"Comet #1582"
 
 
 
