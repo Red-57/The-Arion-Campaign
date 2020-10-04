@@ -32,3 +32,101 @@ ship "Tiger (Toaster)"
 	"Arion Toaster"
 	"Arion Roaster Turret"
 	"Arion Roaster Turret"
+
+
+
+
+
+
+#Korath jump Variants
+hip "Kar Ik Vot 349 (Jump)"
+	outfits
+		"Korath Detainer" 2
+		"Korath Piercer Launcher" 2
+		"Korath Piercer" 94
+		"Korath Piercer Rack" 2
+		"Korath Warder" 2
+		"Korath Repeater Turret" 6
+
+		"Triple Plasma Core"
+		"Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 4
+		"Small Heat Shunt" 2
+		"Control Transceiver"
+
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+		"Jump Drive"
+
+
+
+
+ship "Tek Far 71 - Lek (Jump)"
+	outfits
+		"Korath Detainer"
+		"Korath Piercer Launcher" 2
+		"Korath Piercer" 62
+		"Korath Banisher"
+		"Korath Warder" 2
+
+		"Double Plasma Core"
+		"Generator (Furnace Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt"
+		"Control Transceiver"
+
+		"Thruster (Lunar Class)"
+		"Steering (Lunar Class)"
+		"Jump Drive"
+
+
+ship "Tek Far 78 - Osk (Jump)"
+	outfits
+		"Korath Detainer"
+		"Korath Piercer Launcher" 3
+		"Korath Piercer" 93
+		"Korath Banisher"
+		"Korath Warder" 2
+
+		"Double Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt"
+		"Control Transceiver"
+
+		"Thruster (Lunar Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"
+
+
+ship "Tek Far 109"
+	outfits
+		"Korath Detainer"
+		"Korath Piercer Launcher" 2
+		"Korath Piercer" 62
+		"Korath Banisher" 2
+
+		"Double Plasma Core"
+		"Systems Core (Medium)"
+		"Small Heat Shunt" 2
+		"Control Transceiver"
+
+		"Thruster (Lunar Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"
+
+ship "Met Par Tek 53"
+	outfits
+		"Korath Repeater" 3
+		"Korath Repeater Turret" 6
+
+		"Double Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt" 3
+		"Control Transceiver"
+
+		"Thruster (Lunar Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"
