@@ -28755,7 +28755,7 @@ planet Setoric
 	government "Arion"
 	landscape land/water5
 	description ''
-	spaceport 'This is another military base so there are patrols every hour through the spaceport, it is maybe this that deterrs you from robbing the local bank'
+	spaceport 'This is another military base so there are patrols every hour through the spaceport, it is maybe this that deters you from robbing the local bank'
 	shipyard "Arion Basics"
 	outfitter "Arion Basics"
 	security 0.9
@@ -28806,14 +28806,14 @@ planet Larnin
 	government "Arion"
 	landscape land/snow8
 	description "This is a beautiful planet, filled with high snowcapped peaks and rolling hills and snowforests. Larnin is also a cold planet by most reckoning but the Arion don't mind as their skin protects them from the cold. This is the capitol of Arion space, and according to custom there are no industrial buildings on the surface but the whole planet is vurtually a national park. The only part of the planet not protected by the government is the capitol building, a beautiful structure with tall flowing spires and large domes"
-	spaceport "The Spaceport is actually rather small"
+	spaceport "To get to the spaceport you have to take a sky-tram up to a large semi-orbital station. This spaceport was built to be the center of the Arion government and only a small number of little landing stations are actually situated on the planets surface, Due to the Arion love for beauty and nature they did not want to spoil the surface with any of the large buildings needed to keep a spaceport running so they built these large stations to accommodate any incoming ships."
 	security 0.9
 
 planet "Rowella Station"
 	government "Arion"
 	landscape land/station5
 	description "This station is the center for Arion commerce and industrial production, with Larnin not having either shipyard or outfitter Rowella Station has both making it the ideal place to buy your high quality Arion equipment"
-	spaceport ''
+	spaceport 'The spaceport on Rowella Station is a bustleing crowd of Arion workers and other visitors from other parts of hte  world, The main Arion production factories are situated here and so there are also many workers that come here to the bar to have a drink and chat with their friends'
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"
 	security 0.9

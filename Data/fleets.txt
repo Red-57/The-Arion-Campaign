@@ -42,7 +42,7 @@ fleet "Small Arion Merchents"
 		confusion 30
 		timid frugal
 	variant 60
-		"Fox"
+		"Fox (Ion)"
 		"Rhino"
 	variant 30
 		"Fox" 2
@@ -51,19 +51,19 @@ fleet "Small Arion Merchents"
 		"Rhino" 2
 		"Tiger" 1
 		"Thorn" 2
-		"Infeltration Drone" 2
+		"Infiltration Drone" 2
 	variant 20
 		"Rhino" 2
-		"Jaguar" 2
+		"Jaguar (Roaster)" 2
 	variant 20
 		"Fox"
 		"Rhino" 2
 	variant 40
-		"Cub" 3
+		"Cub (Toaster)" 3
 	variant 20
 		"Cub" 2
-		"Rhino" 1
-		"Fox" 1
+		"Rhino (Weapons)" 1
+		"Fox (Toaster)" 1
 
 fleet "Large Arion Merchents"
 	governmnet "Arion"
@@ -72,20 +72,20 @@ fleet "Large Arion Merchents"
 		confusion 30
 		timid frugal
 	variant 40
-		"Elephant"
-		"Tiger"
+		"Elephant (Weapons)"
+		"Tiger (Spammer)"
 		"Thorn" 2
 	variant 35
 		"Elephant" 2
-		"Tiger"
-		"Thorn" 2
+		"Tiger (Toaster)"
+		"Thorn (Torpedo)" 2
 		"Jaguar"
 	variant 10
 		"Elephant" 5
 		"Tiger" 2
 		"Lion"
-		"Thorn" 26
-		"Infiltration Drone" 30
+		"Thorn (Torpedo)" 30
+		"Infiltration Drone" 26
 		"Rhino" 4
 	variant 15
 		"Elephant" 3
@@ -103,8 +103,8 @@ fleet "Large Arion Merchents"
 	variant 30
 		"Cub" 8
 	variant 15
-		"Cub" 15
-
+		"Cub" 10
+		"Cub (Toaster)" 5
 
 
 
@@ -118,13 +118,14 @@ fleet "Small Arion Militia"
 		"Tiger"
 		"Thorn" 2
 	variant 5
-		"Tiger"
-		"Fox"
+		"Tiger (Toaster)"
+		"Fox (Ion)"
 		"Thorn" 2
 	variant 5
-		"Tiger" 2
+		"Tiger (Spammer)" 2
 		"Jaguar" 2
-		"Thorn" 2
+		"Thorn" 4
+		"Infiltration Drone" 4
 	variant 3
 		"Tiger" 2
 		"Thorn" 4
@@ -139,22 +140,25 @@ fleet "Large Arion Militia"
 		confusion 10                                                                                                                                                                      heroic opportunistic unconstrained
 	variant 20
 		"Tiger" 3
-		"Thorn" 6
-		"Fox" 2
+		"Thorn" 3
+		"Thorn (Torpedo)" 3
+		"Infiltration Drone" 6
+		"Fox (Toaster)" 2
 	variant 20
-		"Lion"
-		"Thorn" 22
+		"Lion (Dreadnought)"
+		"Thorn" 30
 		"Infiltration Drone" 26
 	variant 4
-		"Lion" 3
-		"Thorn" 66
-		"Infiltration Drone" 96
+		"Lion" 2
+		"Lion (Dreadnought)"
+		"Thorn" 90
+		"Infiltration Drone" 78
 	variant 20
 		"Jaguar" 6
 	variant 20
 		"Fox" 9
 	variant 5
-		"Jaguar" 12
+		"Jaguar (Roaster)" 12
 
 
 

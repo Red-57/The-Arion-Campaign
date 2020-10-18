@@ -1,5 +1,5 @@
-person "Red 5"
-	government "Author"
+person "Red 57"
+	government "Pirate"
 	frequency 300
 	personality
 		vindictive heroic unconstrained
@@ -10,60 +10,60 @@ person "Red 5"
 			"There are many new places to explore"
 			"There is a new race of aliens to explore"
 			"There is new technology to use"
-        word
-            "poke around and you just might find something!"
-            "look around and you could get rich!"
-            "there is enough gold for all!"
-            "There is a world for you to save!"
-    ship "Lion"
-    ship "Thorn" "Epic 1"
-    ship "Thorn" "Epic 2"
-    ship "Thorn" "Epic 3"
-    ship "Thorn" "Epic 4"
-    ship "Thorn" "Epic 5"
-    ship "Thorn" "Epic 6"
-    ship "Thorn" "Epic 7"
-    ship "Thorn" "Epic 8"
-    ship "Thorn" "Epic 9"
-    ship "Thorn" "Epic 10"
-    ship "Thorn" "Epic 11"
-    ship "Thorn" "Epic 12"
-    ship "Thorn" "Epic 13"
-    ship "Thorn" "Epic 14"
-    ship "Thorn" "Epic 15"
-    ship "Thorn" "Epic 16"
-    ship "Thorn" "Epic 17"
-    ship "Thorn" "Epic 18"
-    ship "Thorn" "Epic 19"
-    ship "Thorn" "Epic 20"
-    ship "Thorn" "Epic 21"
-    ship "Thorn" "Epic 22"
-    ship "Infiltration Drone" "Amazing 1"
-    ship "Infiltration Drone" "Amazing 2"
-    ship "Infiltration Drone" "Amazing 3"
-    ship "Infiltration Drone" "Amazing 4"
-    ship "Infiltration Drone" "Amazing 5"
-    ship "Infiltration Drone" "Amazing 6"
-    ship "Infiltration Drone" "Amazing 7"
-    ship "Infiltration Drone" "Amazing 8"
-    ship "Infiltration Drone" "Amazing 9"
-    ship "Infiltration Drone" "Amazing 10"
-    ship "Infiltration Drone" "Amazing 11"
-    ship "Infiltration Drone" "Amazing 12"
-    ship "Infiltration Drone" "Amazing 13"
-    ship "Infiltration Drone" "Amazing 14"
-    ship "Infiltration Drone" "Amazing 15"
-    ship "Infiltration Drone" "Amazing 16"
-    ship "Infiltration Drone" "Amazing 17"
-    ship "Infiltration Drone" "Amazing 18"
-    ship "Infiltration Drone" "Amazing 19"
-    ship "Infiltration Drone" "Amazing 20"
-    ship "Infiltration Drone" "Amazing 21"
-    ship "Infiltration Drone" "Amazing 22"
-    ship "Infiltration Drone" "Amazing 23"
-    ship "Infiltration Drone" "Amazing 24"
-    ship "Infiltration Drone" "Amazing 25"
-    ship "Infiltration Drone" "Amazing 26"
+		word
+			"poke around and you just might find something!"
+			"look around and you could get rich!"
+			"there is enough gold for all!"
+			"There is a world for you to save!"
+	ship "Lion"
+	ship "Thorn" "Epic 1"
+	ship "Thorn" "Epic 2"
+	ship "Thorn" "Epic 3"
+	ship "Thorn" "Epic 4"
+	ship "Thorn" "Epic 5"
+	ship "Thorn" "Epic 6"
+	ship "Thorn" "Epic 7"
+	ship "Thorn" "Epic 8"
+	ship "Thorn" "Epic 9"
+	ship "Thorn" "Epic 10"
+	ship "Thorn" "Epic 11"
+	ship "Thorn" "Epic 12"
+	ship "Thorn" "Epic 13"
+	ship "Thorn" "Epic 14"
+	ship "Thorn" "Epic 15"
+	ship "Thorn" "Epic 16"
+	ship "Thorn" "Epic 17"
+	ship "Thorn" "Epic 18"
+	ship "Thorn" "Epic 19"
+	ship "Thorn" "Epic 20"
+	ship "Thorn" "Epic 21"
+	ship "Thorn" "Epic 22"
+	ship "Infiltration Drone" "Amazing 1"
+	ship "Infiltration Drone" "Amazing 2"
+	ship "Infiltration Drone" "Amazing 3"
+	ship "Infiltration Drone" "Amazing 4"
+	ship "Infiltration Drone" "Amazing 5"
+	ship "Infiltration Drone" "Amazing 6"
+	ship "Infiltration Drone" "Amazing 7"
+	ship "Infiltration Drone" "Amazing 8"
+	ship "Infiltration Drone" "Amazing 9"
+	ship "Infiltration Drone" "Amazing 10"
+	ship "Infiltration Drone" "Amazing 11"
+	ship "Infiltration Drone" "Amazing 12"
+	ship "Infiltration Drone" "Amazing 13"
+	ship "Infiltration Drone" "Amazing 14"
+	ship "Infiltration Drone" "Amazing 15"
+	ship "Infiltration Drone" "Amazing 16"
+	ship "Infiltration Drone" "Amazing 17"
+	ship "Infiltration Drone" "Amazing 18"
+	ship "Infiltration Drone" "Amazing19"
+	ship "Infiltration Drone" "Amazing 20"
+	ship "Infiltration Drone" "Amazing 21"
+	ship "Infiltration Drone" "Amazing 22"
+	ship "Infiltration Drone" "Amazing 23"
+	ship "Infiltration Drone" "Amazing 24"
+	ship "Infiltration Drone" "Amazing 25"
+	ship "Infiltration Drone" "Amazing 26"
 
 
 
@@ -72,9 +72,9 @@ person "Red 5"
 
 
 person "The Flying Chipmunk"
-    government "Marauder"
+	government "Marauder"
 	frequency 300
-    personality
+	personality
         vindictive heroic unconstrained
     phrase
         word
@@ -88,7 +88,7 @@ person "The Flying Chipmunk"
             "look around and you could get rich!"
             "there is enough gold for all!"
             "There is a world for you to save!"
-    ship "Spamming for life"
+	ship "Spamming for life"
         sprite "ship/hai shield beetle"
         "never disabled"
         attributes
@@ -97,22 +97,22 @@ person "The Flying Chipmunk"
             "hull" 12400
             "required crew" 47
             "bunks" 95
-            "mass" 650
+            "mass" 0
             "drag" 8.8
-            "heat dissipation" 0.8
-            "fuel capacity" 500
-            "cargo space" 214
+            "heat dissipation" 200000000
+            "fuel capacity" 5000000
+            "cargo space" 214000000
             "outfit space" 165347859678235
             "weapon capacity" 615789
-            "engine capacity" 150
+            "engine capacity" 1500000
             weapon
                 "blast radius" 4000
                 "shield damage" 40000
                 "hull damage" 20000
                 "hit force" 30000
         outfits
-			"Hai Tracker Pod" 16
-			"Hai Tracker" 1120
+			"Hai Tracker Pod" 24
+			"Hai Tracker" 2120
 			"Tracker Storage Pod" 8
 			"Point Defense Turret" 4
 			"Boulder Reactor"
@@ -125,6 +125,18 @@ person "The Flying Chipmunk"
 			`"Bufaer" Atomic Steering` 4
 		engine -44 133
 		engine 44 133
+		gun -22 -102 "Hai Tracker Pod"
+		gun 22 -102 "Hai Tracker Pod"
+		gun -34 -68 "Hai Tracker Pod"
+		gun 34 -68 "Hai Tracker Pod"
+		gun -49 -38 "Hai Tracker Pod"
+		gun 49 -38 "Hai Tracker Pod"
+		gun -61 -14 "Hai Tracker Pod"
+		gun 61 -14 "Hai Tracker Pod"
+		gun -87.28 31.82 "Hai Tracker Pod"
+		gun -75.71 9.64 "Hai Tracker Pod"
+		gun -40.99 -43.39 "Hai Tracker Pod"
+		gun -25.56 -77.14 "Hai Tracker Pod"
 		gun -22 -102 "Hai Tracker Pod"
 		gun 22 -102 "Hai Tracker Pod"
 		gun -34 -68 "Hai Tracker Pod"

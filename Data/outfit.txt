@@ -122,7 +122,7 @@ outfit "Roaster Turret"
 		"burst count" 2
 		"firing energy" 1156
 		"firing force" 50
-		"firing heat" 100
+		"firing heat" 370
 		"hit force" 70
 		"shield damage" 750
 		"hull damage" 220
@@ -158,12 +158,13 @@ outfit "Trapper Cannon"
 		"lifetime" 55
 		"velocity" 25
 		"firing force" 20
-		"firing energy" 40
-		"firing heat" 90
+		"firing energy" 50
+		"firing heat" 220
 		"hit force" 120
 		"ion damage" 5
 		"shield damage" 70
 		"hull damage" 150
+	description "The Trapper Cannon is a powerful cannon that the Arion use to stop enemys from escaping the system, it does very high damage but it uses a lot of energy and any ship big enough to house it would still need support cooling for its heat output"
 
 
 effect "Trapper Impact"
@@ -201,7 +202,7 @@ outfit "Arion Toaster"
 		"burst count" 4
 		"cluster"
 		"firing energy" 35
-		"firing heat" 540
+		"firing heat" 140
 		"shield damage" 38
 		"hull damage" 77
 		"heat damage" 21
@@ -240,7 +241,7 @@ outfit "Arion Toaster Turret"
 		"shield damage" 38
 		"hull damage" 77
 		"heat damage" 21
-	description "the Turreted version of the Arion Toaster is a devastating weapon capable of smashing enemy lines, due to it's size, however, it requires 3 extra people to operate it"
+	description "The Ario Toaster Turret is a powerful weapon mounting two toaster cannons on a rotating turret, The Toaster is generally used as an anti fighter cannon utilizing it's fast turret turn to shoot down the enemy."
 
 
 
@@ -256,7 +257,7 @@ outfit "Defender Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hardpoint sprite" "hardpoint/defender"
-		"hardpoint offset" 9
+		"hardpoint offset" 20
 		"fire effect" "Defender anti-missile"
 		"anti-missile" 60
 		"velocity" 740
@@ -264,12 +265,13 @@ outfit "Defender Anti-Missile"
 		"reload" 40
 		"firing energy" 50
 		"firing heat" 34
-	description "This missile defense system is used by the larger Arion Battlecruisers while it has a very slow rate of fire it can destroy most missiles within range."
+	description "This missile defense system is used by the larger Arion Battlecruisers, while it has a very slow rate of fire it can destroy most missiles within range."
 
 effect "Defender anti-missile"
 	sprite "effect/Defender"
+		"frame rate" 10
 	sound "heavy anti-missile"
-	"lifetime" 31
+	"lifetime" 10
 	"velocity scale" 1
 
 
@@ -283,7 +285,7 @@ outfit "Titanium Reactor Core"
 	"outfit space" -170
 	"energy generation" 59.3
 	"heat generation" 170
-	description "this is the most powerful arion reactor used mostly for the lion warships although you will sometimes see them on other ships."
+	description "this is the most powerful arion reactor used mostly for the lion although you will sometimes see them on other ships."
 
 
 
@@ -354,7 +356,7 @@ outfit "Arion Whacker"
 	weapon
 		"hardpoint sprite" "hardpoint/Whackerhardpoint"
 		"hardpoint offset" 3.
-		"hit effect" "korath warder"
+		"hit effect" "Arion Whacker"
 		"anti-missile" 10
 		"velocity" 350
 		"lifetime" 1
@@ -366,7 +368,7 @@ outfit "Arion Whacker"
 
 
 effect "Arion Whacker"
-		sprite "effect/Whacker"
+	sprite "effect/Whacker"
 		"no repeat"
 		"frame rate" 6
 	sound "warder"
@@ -418,7 +420,7 @@ outfit "Ion Torpedo Launcher"
 		"hit effect" "Trapper Impact"
 		"die effect" "Trapper Impact"
 		"inaccuracy" 4
-		"velocity" 8
+		"velocity" 2
 		"lifetime" 90
 		"reload" 225
 		"firing energy" 8
@@ -440,7 +442,7 @@ outfit "Active Ion Torpedo"
 		"die effect" "Ion T Impact"
 		"hit effect" "Trapper Impact"
 		"lifetime" 1200
-		"velocity" 12
+		"velocity" 3
 		"acceleration" 1
 		"drag" .1
 		"turn" 1.2
@@ -448,10 +450,10 @@ outfit "Active Ion Torpedo"
 		"radar tracking" .8
 		"optical tracking" .9
 		"missile strength" 40
-		"ion damage" 600
+		"ion damage" 400
 		"shield damage" 1100
 		"hull damage" 300
-		"hit force" 1500
+		"hit force" 500
 
 effect "Ion T Impact"
 	sprite "effect/Ion T Impact"

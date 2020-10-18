@@ -13,8 +13,8 @@ ship "Fox"
 		"heat dissipation" 15
 		"fuel capacity" 600
 		"cargo space" 20
-		"outfit space" 350
-		"weapon capacity" 55
+		"outfit space" 351
+		"weapon capacity" 56
 		"engine capacity" 80
 		weapon
 			"blast radius" 89.1
@@ -44,7 +44,7 @@ ship "Fox"
 	explode "small exposion" 33
 	explode "medium exposion" 1
 	"final explode" "final explosion small"
-	description "The Fox is a fast and agile warship that is used to overheat the enemy."
+	description "The Fox was originally designed to house two of the Arion Flamethrowers, when toting these it can really help out the bigger ships by disabling the enemy before it deisables them."
 
 
 ship "Cub"
@@ -92,7 +92,7 @@ ship "Cub"
 	explode "tiny explosion" 9
 	explode "small explosion" 33
 	"final explode" "final explosion small"
-	description "this is a small transport used to quickly ferry passengers from point A to B"
+	description "This is a small transport used to quickly ferry passengers from point A to B. Arion officials generally use these transports due to their speedy engines and semi comfortable living space."
 
 
 
@@ -133,17 +133,16 @@ ship "Lion"
 		"Systems AC (Large)" 6
 		"Arion Toaster Turret" 4
 		"Defender Anti-Missile" 4
-		"Arion Roaster Turret" 4
 		"Arion Large Ramscoop" 5
 		"NT 450 Nutron Steering" 1
 		"NT 400 Nutron Thruster" 1
 		"NT 250 Nutron Steering"
 		"T-Rex Class Regenerator"
 		"Outfits Expansion" 6
-	engine -46 296.5
-	engine 46 297.5
-	engine -170.5 262.5
-	engine 170 262
+	engine -46 296.5 1.6
+	engine 46 297.5 1.6
+	engine -170.5 262.5 1.2
+	engine 170 262 1.2
 	gun 22 -252.5 "Trapper Cannon"
 	gun -19 -253.5 "Trapper Cannon"
 	gun -23 -248.5 "Arion Roaster"
@@ -247,14 +246,14 @@ ship "Elephant"
 		"hull" 45780
 		"required crew" 57
 		"bunks" 72
-		"mass" 1700
-		"drag" 85.9
+		"mass" 1000
+		"drag" 20.9
 		"heat dissipation" 1
 		"fuel capacity" 700
 		"cargo space" 900
-		"outfit space" 790
+		"outfit space" 720
 		"weapon capacity" 230
-		"engine capacity" 155
+		"engine capacity" 70
 		weapon
 			"blast radius" 694.5
 			"shield damage" 6945
@@ -270,23 +269,27 @@ ship "Elephant"
 		"Defender Anti-Missile"
 		"Arion Large Ramscoop"
 		"T-Rex Class Regenerator"
-		"NT 300 Nutron Thruster"
-		"NT 450 Nutron Steering"
+		"NT 200 Nutron Thruster"
+		"NT 250 Nutron Steering"
 		"Arion Large Ramscoop"
 		"Scram Drive"
 		"Jump Drive"
-	gun 21 -126.5 "Ion Torpedo Launcher"
-	gun -21.5 -127.5 "Ion Torpedo Launcher"
-	gun -32.5 -107.5 "Ion Torpedo Launcher"
-	gun 31.5 -108.5 "Ion Torpedo Launcher"
-	gun -48.5 -81 "Ion Torpedo Launcher"
-	gun 46.5 -81 "Ion Torpedo Launcher"
-	turret -1 18.5 "Defender Anti-Missile"
-	turret -93 -43.5 "Arion Whacker"
-	turret 89.5 -43.5 "Arion Whacker"
-	engine -2.5 170.5
+	gun -14.5 -223 "Ion Torpedo Launcher"
+	gun 13.5 -222.5 "Ion Torpedo Launcher"
+	gun -24.5 -199 "Ion Torpedo Launcher"
+	gun 25 -199.5 "Ion Torpedo Launcher"
+	gun -56 -164 "Ion Torpedo Launcher"
+	gun 56.5 -164.5 "Ion Torpedo Launcher"
+	turret -34 -128 "Arion Whacker"
+	turret 33.5 -128 "Arion Whacker"
+	turret 0 122.5 "Defender Anti-Missile"
+	engine -84.5 131.5 1.2
+	engine 84 132 1.2
+	engine 0 246 1.8
+	engine -15 242 0.5
+	engine 14 242 0.5
 	"final explode" "final explosion large"
-	description "This is the Largest Arion Freighter, able to haul cargo anywhere in a very short ammount of time."
+	description "This is the Largest Arion Freighter, able to haul cargo anywhere in an almost reasonable of time. It was originally designed to carry metal and ore from the outliying planets to Rowella Station where the ore and metal was turned into new ships for the Arion Navy."
 
 
 
@@ -328,14 +331,16 @@ ship "Rhino"
 		"Systems AC (Large)" 1
 		"Hyperdrive"
 		"Jump Drive"
-	gun -24.5 -57.5 "Ion Torpedo Launcher"
-	gun 27 -58 "Ion Torpedo Launcher"
-	gun -36.5 -33 "Ion Torpedo Launcher"
-	gun 38.5 -33 "Ion Torpedo Launcher"
-	turret 1.5 -36.5 "Defender Anti-Missile"
-	turret 2.5 78.5 "Arion Whacker"
-	engine 1.5 116.5
-	description "this is the smaller arion freighter, while still being able to carry lots of cargo the Rhino is slightly more manuverable than its larger counterpart"
+	gun -14 -144 "Ion Torpedo Launcher"
+	gun 15.5 -144.5 "Ion Torpedo Launcher"
+	gun -25 -122 "Ion Torpedo Launcher"
+	gun 25.5 -121.5 "Ion Torpedo Launcher"
+	turret -40 -35 "Defender Anti-Missile"
+	turret 39.5 -35 "Defender Anti-Missile"
+	engine 0 169 1.3
+	engine -13 166 0.7
+	engine 13 166.5 0.7
+	description "this is the smaller arion freighter, while still being able to carry lots of cargo the Rhino is slightly more manuverable than its larger counterpart. When the Arion needed a faster freighter to outrun the Korath the Rhino was designed."
 
 
 
@@ -360,7 +365,7 @@ ship "Jaguar"
 		"cargo space" 15
 		"outfit space" 400
 		"weapon capacity" 205
-		"engine capacity" 900
+		"engine capacity" 75
 	outfits
 		"Trapper Cannon" 4
 		"Ion Torpedo Launcher" 1
@@ -384,7 +389,7 @@ ship "Jaguar"
 	explode "medium explosion" 8
 	explode "large explosion" 24
 	"final explode" "final explosion small"
-	description "Jaguars are powerful light warships for the Arion people, they are used as the main dealer of Ion damage in a battle, often fondly called the "Ionic Bazookas" their use of ion damage can be formidable but when used with other more damaging ships it can be deadly."
+	description "Jaguars are powerful light warships for the Arion people, they are used as the main dealer of Ion damage in a battle, often fondly called the 'Ionic Bazookas' due their use of ion damage can be formidable but when used with other more damaging ships it can be deadly."
 
 ship "Tiger"
 	sprite "ship/tiger"
@@ -405,10 +410,10 @@ ship "Tiger"
 		"weapon capacity" 310
 		"engine capacity" 170
 		weapon
-			"blast radius" 330
-			"shield damage" 3300
-			"hull damage" 1650
-			"hit force" 4950
+			"blast radius" 33000000000
+			"shield damage" 3300000
+			"hull damage" 16500000
+			"hit force" 1000
 	outfits
 		"Trapper Cannon" 4
 		"Arion Toaster Turret" 2
@@ -422,41 +427,39 @@ ship "Tiger"
 		"Hyperdrive"
 		"Jump Drive"
 		"Arion Large Ramscoop"
-	gun -23.07 -91.07 "Trapper Cannon"
-	gun 25.21 -93.21 "Trapper Cannon"
-	gun -29.5 -86.79 "Trapper Cannon"
-	gun 30.57 -86.79 "Trapper Cannon"
-	gun -75.63 -30 "Ion Torpedo Launcher"
-	gun 75.63 -27.86 "Ion Torpedo Launcher"
-	turret -46.67 34.29 "Arion Toaster Turret"
-	turret 46.67 33.21 "Arion Toaster Turret"
-	engine -17.7 69.64
-	engine 17.7 68.57
+	gun -24.5 -92.5 "Trapper Cannon"
+	gun 23 -93.5 "Trapper Cannon"
+	gun -30 -87.5 "Trapper Cannon"
+	gun 29 -88.5 "Trapper Cannon"
+	gun -79.5 -30.5 "Ion Torpedo Launcher"
+	gun 78.5 -31 "Ion Torpedo Launcher"
+	turret -46 34.5 "Arion Toaster Turret"
+	turret 46.5 35 "Arion Toaster Turret"
+	engine -14 66.5
+	engine 13.5 66
+	engine 30.5 64.5 0.6
+	engine -30.5 64.5 0.6
 	drone 24 -7 under
 	drone -24 -7 under
 	fighter 52 20 under
 	fighter -52 20 under
-	explode "tiny explosion" 18
-	explode "small explosion" 20
-	explode "medium explosion" 8
-	explode "large explosion" 24
-	"final explode" "final explode medium"
+	"final explode" "final explode huge"
 	description "This is the main attack ship of the Arion People. it is fast and agile and is able to carry two fighters into battle."
-
+	description "The darker steel used in constructing the Tiger and the Lion is a type of Reinforced Alloy that is both strong and light (But very expensive) it is the main reason for the Tiger's strong Hull"
 ship "Thorn"
 	sprite "ship/Thorn"
 	thumbnail "thumbnail/Thorn"
 	attributes
 		category "Fighter"
-		"cost" 2450000
+		"cost" 6450000
 		"shields" 7000
 		"hull" 1500
 		"required crew" 1
 		"bunks" 2
-		"mass" 25
+		"mass" 40
 		"drag" 0.6
 		"fuel capacity" 400
-		"heat dissipation" 0.7
+		"heat dissipation" 12
 		"outfit space" 140
 		"weapon capacity" 42
 		"engine capacity" 34
@@ -474,22 +477,24 @@ ship "Thorn"
 		"Systems AC (Small)"
 		"NT 100 Nutron Thruster"
 		"NT 150 Nutron Steering"
-	engine 0 53.5
-	turret 0.5 20 "Arion Whacker"
-	gun 6.5 -32 "Arion Toaster"
-	gun -7.5 -33 "Arion Toaster"
+	gun -5.5 -28 "Arion Toaster"
+	gun 4.5 -27.5 "Arion Toaster"
+	turret -0.5 36 "Arion Whacker"
+	engine -7.5 50 1.4
+	engine 6.5 50 1.4
 	explode "small explosion" 15
 	"final explode" "final explode small"
-	description "this is the main Arion fighter, it holds 2 toasters in addition to an anti-missile turret"
+	description "this is the main Arion fighter, it holds 2 toasters in addition to an anti-missile turret. When used in bulk these fighters can cause enormous damage in a very short ammount of time."
+
 
 ship "Infiltration Drone"
 	sprite "ship/Drone"
 	thumbnail "thumbnail/Drone"
 	attributes
 		category "Drone"
-		"cost" 921000
+		"cost" 3921000
 		"shields" 1200
-		"hull" 3530
+		"hull" 3930
 		"required crew" 0
 		"bunks" 0
 		"mass" 30
@@ -517,9 +522,9 @@ ship "Infiltration Drone"
 		"Systems AC (Small)"
 	gun -0.5 -26.5 "Arion Flamethrower"
 	turret -0.5 10 "Arion Whacker"
-	engine -17 27
-	engine 16.5 26.5
-	description "This small attack drone is used to disable enemys with it's flamethrowers while the larger heavier hitting ships come in to do the real damage"
+	engine -17 27 0.6
+	engine 16.5 26.5 0.6
+	description "This small attack drone is used to disable enemies with it's flamethrowers while the larger heavier hitting ships come in to do the real damage."
 
 
 
