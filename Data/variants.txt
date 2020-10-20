@@ -187,30 +187,25 @@ ship "Lion" "Lion (Dreadnought)"
 		"T-Rex Class Regenerator" 6
 		"Titanium Reactor Core" 3
 		"Trapper Cannon" 4
-	gun 22 -252.5 "Trapper Cannon"
-	gun -19 -253.5 "Trapper Cannon"
-	gun -23 -248.5 "Trapper Cannon"
-	gun 26 -247.5 "Trapper Cannon"
-	gun -73 -212.5 "Arion Roaster"
-	gun 73 -212 "Arion Roaster"
-	gun -77 -203 "Arion Roaster"
-	gun 76.5 -203.5 "Arion Roaster"
-	gun -178.5 48.5 "Arion Toaster"
-	gun 179.5 48.5
-	gun -188.5 79
-	gun 189 79
-	turret -41.5 -182 "Arion Toaster Turret"
-	turret 42 -182 "Arion Toaster Turret"
-	turret -88 -40 "Arion Toaster Turret"
-	turret 88 -40 "Arion Toaster Turret"
-	turret -55 -39 "Roaster Turret"
-	turret 56 -39.5 "Roaster Turret"
-	turret -35 153 "Roaster Turret"
-	turret 35 153.5 "Roaster Turret"
-	turret -144 181.5 "Roaster Turret"
-	turret 145.5 181.5 "Roaster Turret"
-	turret -104.5 181.5
-	turret 107.5 181
+	"Trapper Cannon"
+	"Trapper Cannon"
+	"Trapper Cannon"
+	"Trapper Cannon"
+	"Arion Roaster"
+	"Arion Roaster"
+	"Arion Roaster"
+	"Arion Roaster"
+	"Arion Toaster"
+	"Arion Toaster Turret"
+	"Arion Toaster Turret"
+	"Arion Toaster Turret"
+	"Arion Toaster Turret"
+	"Roaster Turret"
+	"Roaster Turret"
+	"Roaster Turret"
+	"Roaster Turret"
+	"Roaster Turret"
+	"Roaster Turret"
 
 #Korath jump Variants
 hip "Kar Ik Vot 349" "Kar Ik Vot 349 (Jump)"

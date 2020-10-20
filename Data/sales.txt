@@ -126,6 +126,7 @@ outfitter "All Outfits"
 	"NT 150 Nutron Steering"
 	"NT 100 Nutron Thruster"
 	"Fuel Pod"
+	"Outfit Scanner"
 
 shipyard "All Ships"
 	"Lion"
