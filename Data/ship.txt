@@ -30,8 +30,8 @@ ship "Fox"
 		"Tin Reactor Core" 2
 		"Raptor Class Regerator"
 		"Systems AC (Small)" 2
-		"NT 250 Nutron Steering"
-		"NT 200 Nutron Thruster"
+		"NT 250 Neutron Steering"
+		"NT 200 Neutron Thruster"
 
 	engine 42.71 68.31
 	engine -42.71 68.31
@@ -78,8 +78,8 @@ ship "Cub"
 		"Ion Torpedo Launcher" 2
 		"Ion Torpedo" 60
 		"Systems AC (Small)"
-		"NT 200 Nutron Thruster"
-		"NT 250 Nutron Steering"
+		"NT 200 Neutron Thruster"
+		"NT 250 Neutron Steering"
 		"Arion Toaster" 2
 	engine 15 42
 	engine -15 42
@@ -134,9 +134,9 @@ ship "Lion"
 		"Arion Toaster Turret" 4
 		"Defender Anti-Missile" 4
 		"Arion Large Ramscoop" 5
-		"NT 450 Nutron Steering" 1
-		"NT 400 Nutron Thruster" 1
-		"NT 250 Nutron Steering"
+		"NT 450 Neutron Steering" 1
+		"NT 400 Neutron Thruster" 1
+		"NT 250 Neutron Steering"
 		"T-Rex Class Regenerator"
 		"Outfits Expansion" 6
 	engine -46 296.5 1.6
@@ -269,8 +269,8 @@ ship "Elephant"
 		"Defender Anti-Missile"
 		"Arion Large Ramscoop"
 		"T-Rex Class Regenerator"
-		"NT 200 Nutron Thruster"
-		"NT 250 Nutron Steering"
+		"NT 200 Neutron Thruster"
+		"NT 250 Neutron Steering"
 		"Arion Large Ramscoop"
 		"Scram Drive"
 		"Jump Drive"
@@ -325,8 +325,8 @@ ship "Rhino"
 		"Ion Torpedo Rack" 4
 		"Steel Reactor Core"
 		"Barachio Class Regenerator"
-		"NT 300 Nutron Thruster"
-		"NT 350 Nutron Steering"
+		"NT 300 Neutron Thruster"
+		"NT 350 Neutron Steering"
 		"Arion Large Ramscoop"
 		"Systems AC (Large)" 1
 		"Hyperdrive"
@@ -371,8 +371,8 @@ ship "Jaguar"
 		"Ion Torpedo Launcher" 1
 		"Ion Torpedo" 30
 		"Iron Reactor Core"
-		"NT 200 Nutron Thruster"
-		"NT 250 Nutron Steering"
+		"NT 200 Neutron Thruster"
+		"NT 250 Neutron Steering"
 		"Arion Large Ramscoop"
 		"Systems AC (Large)"
 		"Raptor Class Regenerator"
@@ -421,8 +421,8 @@ ship "Tiger"
 		"Ion Torpedo" 70
 		"Steel Reactor Core"
 		"Systems AC (Large)" 4
-		"NT 400 Nutron Thruster"
-		"NT 350 Nutron Steering"
+		"NT 400 Neutron Thruster"
+		"NT 350 Neutron Steering"
 		"Barachio Class Regenerator"
 		"Hyperdrive"
 		"Jump Drive"
@@ -443,9 +443,14 @@ ship "Tiger"
 	drone -24 -7 under
 	fighter 52 20 under
 	fighter -52 20 under
+	explode "tiny explosion" 24
+	explode "small explosion" 30
+	explode "medium explosion" 13
+	explode "large explosion" 44
 	"final explode" "final explode huge"
 	description "This is the main attack ship of the Arion People. it is fast and agile and is able to carry two fighters into battle."
 	description "The darker steel used in constructing the Tiger and the Lion is a type of Reinforced Alloy that is both strong and light (But very expensive) it is the main reason for the Tiger's strong Hull"
+
 ship "Thorn"
 	sprite "ship/Thorn"
 	thumbnail "thumbnail/Thorn"
@@ -475,8 +480,8 @@ ship "Thorn"
 		"Raptor Class Regenerator"
 		"Plastic Generator"
 		"Systems AC (Small)"
-		"NT 100 Nutron Thruster"
-		"NT 150 Nutron Steering"
+		"NT 100 Neutron Thruster"
+		"NT 150 Neutron Steering"
 	gun -5.5 -28 "Arion Toaster"
 	gun 4.5 -27.5 "Arion Toaster"
 	turret -0.5 36 "Arion Whacker"
@@ -515,8 +520,8 @@ ship "Infiltration Drone"
 		"Arion Small Ramscoop"
 		"Raptor Class Regenorator"
 		"Arion Whacker"
-		"NT 150 Nutron Steering"
-		"NT 100 Nutron Thruster"
+		"NT 150 Neutron Steering"
+		"NT 100 Neutron Thruster"
 		"Plastic Generator"
 		"Arion Small Ramscoop"
 		"Systems AC (Small)"
@@ -633,3 +638,199 @@ ship "Heliarch Resistor"
 	engine -4 22
 	explode "explode/small explosion" 50
 	"final explode" "final explode large"
+f
+ship "Catamount"
+	sprite "ship/Catamount"
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		"cost" 900000000
+		"shields" 400000
+		"hull" 20000
+		"required crew" 900
+		"bunks" 1400
+		"mass" 5000
+		"drag" 40
+		"heat dissipation" 12
+		"fuel capacity" 900
+		"cargo space" 500
+		"outfit space" 5000
+		"weapon capacity" 5000
+		"engine capacity" 5000
+		weapon
+			"blast radius" 4200
+			"shield damage" 42000
+			"hull damage" 21000
+			"hit force" 63000
+	outfits
+		"Trapper Cannon" 10
+		"Ion Torpedo Launcher" 4
+		"Ion Torpedo" 120
+		"Scram Drive"
+		"Hyperdrive"
+		"Arion Roaster" 2
+		"Roaster Turret" 10
+		"Toaster Turret" 4
+		"Defender Anti-Missile" 6
+		"T-Rex Class Regenerator" 6
+		"Titanium Reactor Core" 6
+		"Systems AC (Large)" 12
+		"NT 400 Neutron Thruster" 2
+		"NT 450 Neutron Steering" 2
+	gun -107 -386 "Trapper Cannon"
+	gun -107 -386 "Trapper Cannon"
+	gun 110 -386 "Trapper Cannon"
+	gun 110 -386 "Trapper Cannon"
+	gun -103.5 -386.5 "Trapper Cannon"
+	gun -103.5 -386.5 "Trapper Cannon"
+	gun 104.5 -386.5 "Trapper Cannon"
+	gun 104.5 -386.5 "Trapper Cannon"
+	gun -98 -386 "Trapper Cannon"
+	gun -98 -386 "Trapper Cannon"
+	gun 100.5 -386 "Arion Roaster"
+	gun 100.5 -386 "Arion Roaster"
+	gun -30 -425 "Ion Torpedo Launcher"
+	gun 30.5 -426.5 "Ion Torpedo Launcher"
+	gun -24.5 -433.5 "Ion Torpedo Launcher"
+	gun 25 -434 "Ion Torpedo Launcher"
+	turret -108 -305 "Roaster Turret"
+	turret 108 -305 "Roaster Turret"
+	turret -67.5 -255.5 "Toaster Turret"
+	turret 68 -255.5 "Toaster Turret"
+	turret -26.5 -262.5 "Toaster Turret"
+	turret 25.5 -262 "Toaster Turret"
+	turret -214.5 -200 "Roaster Turret"
+	turret 215.5 -200.5 "Roaster Turret"
+	turret -67.5 -188 "Roaster Turret"
+	turret 68 -187 "Roaster Turret"
+	turret -94 -151 "Roaster Turret"
+	turret 94 -151 "Roaster Turret"
+	turret -86 29.5 "Roaster Turret"
+	turret -120.5 62.5 "Roaster Turret"
+	turret 88 29.5 "Defender Anti-Missile"
+	turret 122.5 62.5 "Defender Anti-Missile"
+	turret -30 289 "Defender Anti-Missile"
+	turret 30 289 "Defender Anti-Missile"
+	turret -43.5 397 "Defender Anti-Missile"
+	turret 45.5 398 "Defender Anti-Missile"
+	engine -83.5 485
+	engine 83 485
+	engine -63.5 505 1.5
+	engine 64.5 506.5 1.5
+	engine -40 488.5 1.1
+	engine 40.5 487 1.1
+	engine -0.5 532 2.5
+	drone 87.33 114.55 under
+	drone 141.92 114.55 under
+	drone 87.33 147.27 under
+	drone 141.92 147.27 under
+	drone 98.25 180 under
+	drone 152.83 180 under
+	drone 103.71 212.73 under
+	drone 158.29 207.27 under
+	drone 109.17 245.45 under
+	drone 163.75 240 under
+	drone 114.63 272.73 under
+	drone 169.21 272.73 under
+	drone 120.08 305.45 under
+	drone 174.67 305.45 under
+	drone 125.54 338.18 under
+	drone 174.67 338.18 under
+	drone 131 370.91 under
+	drone 180.13 370.91 under
+	fighter 158.29 163.64 under
+	fighter 163.75 196.36 under
+	fighter 212.88 196.36 under
+	fighter 169.21 229.09 under
+	fighter 223.79 223.64 under
+	fighter 180.13 256.36 under
+	fighter 229.25 256.36 under
+	fighter 180.13 289.09 under
+	fighter 234.71 289.09 under
+	fighter 185.58 321.82 under
+	fighter 240.17 321.82 under
+	fighter 191.04 349.09 under
+	fighter 245.63 354.55 under
+	fighter 196.5 381.82 under
+	fighter 245.63 381.82 under
+	fighter 201.96 414.55 under
+	fighter 251.08 414.55 under
+	fighter 234.71 240 under
+	fighter 283.83 240 under
+	fighter 240.17 272.73 under
+	fighter 289.29 272.73 under
+	fighter 245.63 305.45 under
+	fighter 294.75 305.45 under
+	fighter 256.54 332.73 under
+	fighter 305.67 338.18 under
+	fighter 262 365.45 under
+	fighter 305.67 370.91 under
+	fighter 262 398.18 under
+	fighter 311.13 403.64 under
+	fighter 267.46 430.91 under
+	fighter 322.04 430.91 under
+	fighter 272.92 463.64 under
+	fighter 322.04 463.64 under
+	fighter 278.38 496.36 under
+	fighter 327.5 496.36 under
+	drone -87.33 114.55 under
+	drone -141.92 114.55 under
+	drone -87.33 147.27 under
+	drone -141.92 147.27 under
+	drone -98.25 180 under
+	drone -152.83 180 under
+	drone -103.71 212.73 under
+	drone -158.29 207.27 under
+	drone -109.17 245.45 under
+	drone -163.75 240 under
+	drone -114.63 272.73 under
+	drone -169.21 272.73 under
+	drone -120.08 305.45 under
+	drone -174.67 305.45 under
+	drone -125.54 338.18 under
+	drone -174.67 338.18 under
+	drone -131 370.91 under
+	drone -180.13 370.91 under
+	fighter -158.29 163.64 under
+	fighter -163.75 196.36 under
+	fighter -212.88 196.36 under
+	fighter -169.21 229.09 under
+	fighter -223.79 223.64 under
+	fighter -180.13 256.36 under
+	fighter -229.25 256.36 under
+	fighter -180.13 289.09 under
+	fighter -234.71 289.09 under
+	fighter -185.58 321.82 under
+	fighter -240.17 321.82 under
+	fighter -191.04 349.09 under
+	fighter -245.63 354.55 under
+	fighter -196.5 381.82 under
+	fighter -245.63 381.82 under
+	fighter -201.96 414.55 under
+	fighter -251.08 414.55 under
+	fighter -234.71 240 under
+	fighter -283.83 240 under
+	fighter -240.17 272.73 under
+	fighter -289.29 272.73 under
+	fighter -245.63 305.45 under
+	fighter -294.75 305.45 under
+	fighter -256.54 332.73 under
+	fighter -305.67 338.18 under
+	fighter -262 365.45 under
+	fighter -305.67 370.91 under
+	fighter -262 398.18 under
+	fighter -311.13 403.64 under
+	fighter -267.46 430.91 under
+	fighter -322.04 430.91 under
+	fighter -272.92 463.64 under
+	fighter -322.04 463.64 under
+	fighter -278.38 496.36 under
+	fighter -327.5 496.36 under
+	explode "small explosion" 33
+	explode "medium explosion" 97
+	explode "large explosion" 86
+	explode "huge explosion" 124
+	explode "nuke explosion" 54
+	"final explode" "final explosion large"
+	description "0"
+#Catamount has 36 drone and 70 fighter bays#

@@ -4,8 +4,8 @@ ship "Fox" "Fox (Ion)"
 		"Tin Reactor Core" 2
 		"Raptor Class Regerator"
 		"Systems AC (Small)" 2
-		"NT 250 Nutron Steering"
-		"NT 200 Nutron Thruster"
+		"NT 250 Neutron Steering"
+		"NT 200 Neutron Thruster"
 		"Ion Torpedo Launcher" 2
 		"Arion Flamethrower" 2
 		"Ion Torpedo" 45
@@ -23,8 +23,8 @@ ship "Fox" "Fox (Toaster)"
 		"Tin Reactor Core" 2
 		"Raptor Class Regerator"
 		"Systems AC (Small)" 2
-		"NT 250 Nutron Steering"
-		"NT 200 Nutron Thruster"
+		"NT 250 Neutron Steering"
+		"NT 200 Neutron Thruster"
 
 ship "Cub" "Cub (Toaster)"
 	outfits
@@ -33,8 +33,8 @@ ship "Cub" "Cub (Toaster)"
 		"Tin Reactor Core"
 		"Arion Small Ramscoop"
 		"Systems AC (Small)"
-		"NT 200 Nutron Thruster"
-		"NT 250 Nutron Steering"
+		"NT 200 Neutron Thruster"
+		"NT 250 Neutron Steering"
 		"Arion Toaster" 4
 
 ship "Rhino" "Rhino (Weapons)"
@@ -46,8 +46,8 @@ ship "Rhino" "Rhino (Weapons)"
 		"Ion Torpedo Rack" 4
 		"Steel Reactor Core"
 		"Barachio Class Regenerator"
-		"NT 300 Nutron Thruster"
-		"NT 350 Nutron Steering"
+		"NT 300 Neutron Thruster"
+		"NT 350 Neutron Steering"
 		"Arion Large Ramscoop"
 		"Systems AC (Large)" 1
 		"Hyperdrive"
@@ -64,8 +64,8 @@ ship "Elephant" "Elephant (Weapons)"
 		"Arion Whacker"
 		"Arion Large Ramscoop"
 		"T-Rex Class Regenerator"
-		"NT 200 Nutron Thruster"
-		"NT 250 Nutron Steering"
+		"NT 200 Neutron Thruster"
+		"NT 250 Neutron Steering"
 		"Arion Large Ramscoop"
 		"Scram Drive"
 		"Jump Drive"
@@ -80,8 +80,8 @@ ship "Thorn" "Thorn (Torpedo)"
 		"Raptor Class Regenerator"
 		"Plastic Generator"
 		"Systems AC (Small)"
-		"NT 100 Nutron Thruster"
-		"NT 150 Nutron Steering"
+		"NT 100 Neutron Thruster"
+		"NT 150 Neutron Steering"
 
 ship "Tiger" "Tiger (Toaster)"
 	outfits
@@ -115,9 +115,9 @@ ship "Tiger" "Tiger (Spammer)"
 		"Hyperdrive"
 		"Iron Reactor Core"
 		"Steel Reactor Core"
-		"NT 250 Nutron Steering"
-		"NT 400 Nutron Thruster"
-		"NT 100 Nutron Thruster"
+		"NT 250 Neutron Steering"
+		"NT 400 Neutron Thruster"
+		"NT 100 Neutron Thruster"
 	"Trapper Cannon"
 	"Trapper Cannon"
 	"Ion Torpedo Launcher"
@@ -140,8 +140,8 @@ ship "Lion" "Lion (Transport)"
 		"Bunk Room" 52
 		"Systems AC (Large)" 6
 		"Titanium Reactor Core" 2
-		"NT 400 Nutron Thruster"
-		"NT 450 "Nutron Steering"
+		"NT 400 Neutron Thruster"
+		"NT 450 "Neutron Steering"
 
 ship "Jaguar" "Jaguar (Spammer)"
 	outfits
@@ -155,8 +155,8 @@ ship "Jaguar" "Jaguar (Spammer)"
 		"Systems AC (Large)"
 		"Raptor Class Regenerator"
 		"Iron Reactor Core"
-		"NT 150 Nutron Steering"
-		"NT 300 Nutron Thruster"
+		"NT 150 Neutron Steering"
+		"NT 300 Neutron Thruster"
 
 ship "Jaguar" "Jaguar (Roaster)"
 	outfits
@@ -168,8 +168,8 @@ ship "Jaguar" "Jaguar (Roaster)"
 		"Systems AC (Large)"
 		"Raptor Class Regenerator"
 		"Iron Reactor Core"
-		"NT 150 Nutron Steering"
-		"NT 300 Nutron Thruster"
+		"NT 150 Neutron Steering"
+		"NT 300 Neutron Thruster"
 
 
 ship "Lion" "Lion (Dreadnought)"
@@ -178,8 +178,8 @@ ship "Lion" "Lion (Dreadnought)"
 		"Arion Toaster"
 		"Arion Toaster Turret" 4
 		"Jump Drive"
-		"NT 400 Nutron Thruster"
-		"NT 450 Nutron Steering"
+		"NT 400 Neutron Thruster"
+		"NT 450 Neutron Steering"
 		"Outfits Expansion" 12
 		"Roaster Turret" 6
 		"Scram Drive"

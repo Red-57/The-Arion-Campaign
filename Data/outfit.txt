@@ -551,10 +551,10 @@ outfit "Arion Small Ramscoop"
 	description "this is the smaller arion ramscoop it is good for smaller ships using fuel guzzling weapons."
 
 
-outfit "NT 100 Nutron Thruster""
+outfit "NT 100 Neutron Thruster""
 	category "Engines"
 	"cost" 249000
-	thumbnail "outfit/small nutron thruster"
+	thumbnail "outfit/small Nutron thruster"
 	"mass" 17
 	"outfit space" -17
 	"engine capacity" -17
@@ -566,10 +566,10 @@ outfit "NT 100 Nutron Thruster""
 	"flare sound" "plasma small"
 	description ""
 
-outfit "NT 200 Nutron Thruster"
+outfit "NT 200 Neutron Thruster"
 	category "Engines"
 	"cost" 539000
-	thumbnail "outfit/medium nutron thruster"
+	thumbnail "outfit/medium Nutron thruster"
 	"mass" 40
 	"outfit space" -40
 	"engine capacity" -40
@@ -581,10 +581,10 @@ outfit "NT 200 Nutron Thruster"
 	"flare sound" "plasma medium"
 	description ""
 
-outfit "NT 300 Nutron Thruster"
+outfit "NT 300 Neutron Thruster"
 	category "Engines"
 	"cost" 1216000
-	thumbnail "outfit/large nutron thruster"
+	thumbnail "outfit/large Nutron thruster"
 	"mass" 65
 	"outfit space" -65
 	"engine capacity" -65
@@ -600,10 +600,10 @@ outfit "NT 300 Nutron Thruster"
 
 
 
-outfit "NT 150 Nutron Steering"
+outfit "NT 150 Neutron Steering"
 	category "Engines"
 	"cost" 221000
-	thumbnail "outfit/small nutron steering"
+	thumbnail "outfit/small Nutron steering"
 	"mass" 7
 	"outfit space" -7
 	"engine capacity" -7
@@ -615,10 +615,10 @@ outfit "NT 150 Nutron Steering"
 	"steering flare sound" "plasma small"
 	description "this is the smallest Arion engine"
 
-outfit "NT 250 Nutron Steering"
+outfit "NT 250 Neutron Steering"
 	category "Engines"
 	"cost" 473000
-	thumbnail "outfit/medium nutron steering"
+	thumbnail "outfit/medium Nutron steering"
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
@@ -631,10 +631,10 @@ outfit "NT 250 Nutron Steering"
 	description ""
 
 
-outfit "NT 350 Nutron Steering"
+outfit "NT 350 Neutron Steering"
 	category "Engines"
 	"cost" 1077000
-	thumbnail "outfit/large nutron steering"
+	thumbnail "outfit/large Nutron steering"
 	"mass" 50
 	"outfit space" -50
 	"engine capacity" -50
@@ -647,15 +647,15 @@ outfit "NT 350 Nutron Steering"
 	description ""
 
 
-outfit "NT 400 Nutron Thruster"
+outfit "NT 400 Neutron Thruster"
 	category "Engines"
 	"cost" 2733000
-	thumbnail "outfit/huge nutron thruster"
+	thumbnail "outfit/huge Nutron thruster"
 	"mass" 118
 	"outfit space" -118
 	"engine capacity" -118
 	"thrust" 125.4
-	"thrusting energy" 78.8
+	"thrusting energy" 25.8
 	"thrusting heat" 24.6
 	"flare sprite" "effect/Huge Nutron Flare"
 		"frame rate" 6
@@ -663,10 +663,10 @@ outfit "NT 400 Nutron Thruster"
 	description ""
 
 
-outfit "NT 450 Nutron Steering"
+outfit "NT 450 Neutron Steering"
 	category "Engines"
 	"cost" 1758000
-	thumbnail "outfit/huge nutron steering"
+	thumbnail "outfit/huge Nutron steering"
 	"mass" 78
 	"outfit space" -78
 	"engine capacity" -78
