@@ -13,10 +13,11 @@ outfit "Arion Roaster"
 		sprite "projectile/Roaster"
 			"frame rate" 2.5
 		sound "detainer"
+		"live effect"
 		"hit effect" "Ion T Impact" 1
 		"inaccuracy" 6.4
 		"velocity" 16
-		"lifetime" 140
+		"lifetime" 1
 		"reload" 60
 		"burst reload" 20
 		"burst count" 4
@@ -28,8 +29,42 @@ outfit "Arion Roaster"
 		"heat damage" 470
 		"hull damage" 220
 		"blast radius" 20
+		"submunition" "Roaster Fragment" 1
+		submunition "roaster Fragment" 4
 	description "The Arion Roaster is the most powerful weapon that they have developed so far, it is a plasma based weapon that fires a kind of gel at high velocity and very long range, it is, however, very large and its power requirements are immense so you would need quite a large ship to wield it"
 	description "One interesting thing about it is that the Korath Detainer was designed after it using the same superheated plasma, however their weapon was much less efficent and slowed down the enemy instead of heating it up."
+
+outfit "Roaster Fragment"
+	weapon
+		sprite "projectile/Roaster"
+			"frame rate" 2.5
+		sound "detainer"
+		"live effect"
+		"hit effect" "Ion T Impact" 1
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 140
+		"hit force" 80
+		"shield damage" 780
+		"heat damage" 470
+		"hull damage" 220
+		"blast radius" 20
+
+outfit "roaster Fragment"
+	weapon
+		sprite "projectile/Roaster"
+			"frame rate" 2.5
+		sound "detainer"
+		"live effect"
+		"hit effect" "Ion T Impact" 1
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 140
+		"hit force" 80
+		"shield damage" 100
+		"heat damage" 470
+		"hull damage" 70
+		"blast radius" 20
 
 
 outfit "Arion Flamethrower"
@@ -49,12 +84,12 @@ outfit "Arion Flamethrower"
 		sound "flamethrower"
 		icon "icon/flamethrower"
 		"submunition" "Heavy Flamethrower Projectile"
-		"inaccuracy" 12
+		"inaccuracy" 5
 		"velocity" 9
 		"lifetime" 8
 		"reload" 1
-		"firing energy" .50
-		"firing fuel" .083
+		"firing energy" 9
+		"firing fuel" .099
 		"firing heat" 2
 	description 'A common saying among the arion is "don't let the enemy shoot back" Arion Flamethrowers live that saying to the full, making sure that the enemy can't use their weapons or other systems. They were one of the first Arion weapons that they  developed, seeking to disable the enemy using heat rather then let the enemy keep shooting, '
 
@@ -65,7 +100,7 @@ outfit "Heavy Flamethrower Projectile"
 			"random start frame"
 		"hit effect" "flamethrower hit"
 		"die effect" "flamethrower die"
-		"inaccuracy" 20
+		"inaccuracy" 15
 		"lifetime" 22
 		"shield damage" .8
 		"hull damage" .7
@@ -385,7 +420,7 @@ outfit "Ion Torpedo"
 	cost 17400
 	"mass" .2
 	"Ion Torpedo capacity" -1
-	description "This is the Ammunition for the Ion Torpedo Launcher"
+	description "This is the Ammunition for the Ion Torpedo Launcher, You can't install more of these without more storage. The Ion Torpedo consists of a small warhead and a casing holding the initial propellant the casing falls away on impact and the warhead fires away."
 
 outfit "Ion Torpedo Rack"
 	lisences
@@ -397,7 +432,7 @@ outfit "Ion Torpedo Rack"
 	"Ion Torpedo capacity" 15
 	ammo "Ion Torpedo"
 	"outfit space" -12
-	description "Using this outfit you can incease the ammount of Ion torpedos that you can hold"
+	description "Using this outfit you can incease the ammount of Ion torpedos that you can hold by 15 Torpedoes."
 
 outfit "Ion Torpedo Launcher"
 	lisences
@@ -441,6 +476,7 @@ outfit "Active Ion Torpedo"
 			"frame rate" 2
 		"die effect" "Ion T Impact"
 		"hit effect" "Trapper Impact"
+		"live effect" "Trapper Impact" 40
 		"lifetime" 1200
 		"velocity" 3
 		"acceleration" 1
@@ -554,7 +590,7 @@ outfit "Arion Small Ramscoop"
 outfit "NT 100 Neutron Thruster""
 	category "Engines"
 	"cost" 249000
-	thumbnail "outfit/small Nutron thruster"
+	thumbnail "outfit/small nutron thruster"
 	"mass" 17
 	"outfit space" -17
 	"engine capacity" -17
@@ -569,7 +605,7 @@ outfit "NT 100 Neutron Thruster""
 outfit "NT 200 Neutron Thruster"
 	category "Engines"
 	"cost" 539000
-	thumbnail "outfit/medium Nutron thruster"
+	thumbnail "outfit/medium nutron thruster"
 	"mass" 40
 	"outfit space" -40
 	"engine capacity" -40
@@ -584,7 +620,7 @@ outfit "NT 200 Neutron Thruster"
 outfit "NT 300 Neutron Thruster"
 	category "Engines"
 	"cost" 1216000
-	thumbnail "outfit/large Nutron thruster"
+	thumbnail "outfit/large nutron thruster"
 	"mass" 65
 	"outfit space" -65
 	"engine capacity" -65
@@ -603,7 +639,7 @@ outfit "NT 300 Neutron Thruster"
 outfit "NT 150 Neutron Steering"
 	category "Engines"
 	"cost" 221000
-	thumbnail "outfit/small Nutron steering"
+	thumbnail "outfit/small nutron steering"
 	"mass" 7
 	"outfit space" -7
 	"engine capacity" -7
@@ -618,7 +654,7 @@ outfit "NT 150 Neutron Steering"
 outfit "NT 250 Neutron Steering"
 	category "Engines"
 	"cost" 473000
-	thumbnail "outfit/medium Nutron steering"
+	thumbnail "outfit/medium nutron steering"
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
@@ -634,7 +670,7 @@ outfit "NT 250 Neutron Steering"
 outfit "NT 350 Neutron Steering"
 	category "Engines"
 	"cost" 1077000
-	thumbnail "outfit/large Nutron steering"
+	thumbnail "outfit/large nutron steering"
 	"mass" 50
 	"outfit space" -50
 	"engine capacity" -50
@@ -650,7 +686,7 @@ outfit "NT 350 Neutron Steering"
 outfit "NT 400 Neutron Thruster"
 	category "Engines"
 	"cost" 2733000
-	thumbnail "outfit/huge Nutron thruster"
+	thumbnail "outfit/huge nutron thruster"
 	"mass" 118
 	"outfit space" -118
 	"engine capacity" -118
@@ -666,7 +702,7 @@ outfit "NT 400 Neutron Thruster"
 outfit "NT 450 Neutron Steering"
 	category "Engines"
 	"cost" 1758000
-	thumbnail "outfit/huge Nutron steering"
+	thumbnail "outfit/huge nutron steering"
 	"mass" 78
 	"outfit space" -78
 	"engine capacity" -78

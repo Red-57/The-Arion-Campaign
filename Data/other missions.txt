@@ -1,21 +1,23 @@
 mission "death on toloplike"
 	description "you are about to die"
-	scource
-		"Toloplike"
+	scource "Toloplike"
 	landing
+	repeat
 	on offer
 		conversation
 			label "HI"
-			'As you land your ship on a nearby airfield you realize that you have been spotted by the Korath Drones'
+			`	"As you land your ship on a nearby airfield you realize that you have been spotted by the Korath Drones"`
 			choice
-				'Take off and run'
+				`Take off and run`
 					launch
-				'Hide'
+				`Hide`
 					goto die
 			label die
-			'You get off your ship and hide in a nearby shipping container. Unfortunately the Korath Drones spot you and shoot you on the spot'
+			`"You get off your ship and hide in a nearby shipping container. Unfortunately the Korath Drones spot you and shoot you on the spot"`
 				die
 
 	npc kill
-		fleet
-			"Large Kor Sestor" 12
+		personality heroic waiting
+		system "Oggsworth"
+		government "Kor Sestor"
+		fleet "Large Kor Sestor" 1222

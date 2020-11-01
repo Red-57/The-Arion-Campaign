@@ -228,7 +228,7 @@ system Itirum
 
 system Oggsworth
 	pos 237.814 -135.229
-	government Kor Sestor
+	government "Kor Sestor"
 	habitable 8640
 	belt 1464
 	link Ikosek
@@ -467,7 +467,7 @@ system Etselec
 		distance 563.84
 		period 196.086
 	object Patel
-		sprite planet/jupiter
+		sprite planet/dust2
 		distance 1105.6
 		period 538.407
 		object

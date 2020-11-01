@@ -93,6 +93,8 @@ ship "Tiger" "Tiger (Toaster)"
 		"Barachio Class Regenerator"
 		"Ion Torpedo" 60
 		"Arion Large Ramscoop"
+		"NT 350 Neutron Steering"
+		"NT 400 Neutron Thruster"
 	"Arion Toaster"
 	"Arion Toaster"
 	"Arion Toaster"

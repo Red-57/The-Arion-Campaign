@@ -435,10 +435,40 @@ ship "Tiger"
 	gun 78.5 -31 "Ion Torpedo Launcher"
 	turret -46 34.5 "Arion Toaster Turret"
 	turret 46.5 35 "Arion Toaster Turret"
-	engine -14 66.5
-	engine 13.5 66
-	engine 30.5 64.5 0.6
-	engine -30.5 64.5 0.6
+	engine -14 66.5 10
+	engine 13.5 66 10
+	engine 30.5 64.5 10
+	engine -30.5 64.5 10
+	"steering engine" 22 -48
+		zoom 0.3
+		left
+		under
+		angle -45
+	"steering engine" 21 -37.5
+		zoom 0.3
+		left
+		under
+		angle -45
+	"steering engine" 24.5 -23
+		zoom 0.3
+		left
+		under
+		angle -45
+	"steering engine" -22 -48
+		zoom 0.3
+		right
+		under
+		angle 45
+	"steering engine" -21 -37.5
+		zoom 0.3
+		right
+		under
+		angle 45
+	"steering engine" -24.5 -23
+		zoom 0.3
+		right
+		under
+		angle 45
 	drone 24 -7 under
 	drone -24 -7 under
 	fighter 52 20 under
