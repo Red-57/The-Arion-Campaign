@@ -435,10 +435,10 @@ ship "Tiger"
 	gun 78.5 -31 "Ion Torpedo Launcher"
 	turret -46 34.5 "Arion Toaster Turret"
 	turret 46.5 35 "Arion Toaster Turret"
-	engine -14 66.5 10
-	engine 13.5 66 10
-	engine 30.5 64.5 10
-	engine -30.5 64.5 10
+	engine -14 66.5
+	engine 13.5 66
+	engine 30.5 64.5 0.6
+	engine -30.5 64.5 0.6
 	"steering engine" 22 -48
 		zoom 0.3
 		left
@@ -557,8 +557,8 @@ ship "Infiltration Drone"
 		"Systems AC (Small)"
 	gun -0.5 -26.5 "Arion Flamethrower"
 	turret -0.5 10 "Arion Whacker"
-	engine -17 27 0.6
-	engine 16.5 26.5 0.6
+	engine -17 27
+	engine 16.5 26.5 
 	description "This small attack drone is used to disable enemies with it's flamethrowers while the larger heavier hitting ships come in to do the real damage."
 
 
