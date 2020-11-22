@@ -1,5 +1,4 @@
 shipyard "Arion Advanced"
-	"Lion"
 	"Jaguar"
 	"Thorn"
 	"Tiger"
@@ -8,9 +7,9 @@ shipyard "Arion Advanced"
 	"Rhino"
 	"Infiltration Drone"
 	"Cub"
-	"Catamount"
 
-
+shipyard "Lion"
+	"Lion"
 
 shipyard "Arion Basics"
 	"Rhino"
@@ -62,8 +61,14 @@ outfitter "Arion Advanced"
 	"NT 150 Neutron Steering"
 	"NT 100 Neutron Thruster"
 	"Fuel Pod"
+	"Local Map"
 
 
+shipyard "Skytech"
+	"Jaguar"
+	"Tiger"
+	"Cub"
+	"Lion"
 
 
 
@@ -82,7 +87,7 @@ outfitter "Arion Basics"
 	"Ion Torpedo Rack"
 	"NT 150 Neutron Steering"
 	"NT 100 Neutron Thruster"
-
+	"Local Map"
 
 
 outfitter "All Outfits"
@@ -139,3 +144,8 @@ shipyard "All Ships"
 	"Rhino"
 	"Infiltration Drone"
 	"Cub"
+	"Puma"
+	
+	
+shipyard "Rhino"
+	Rhino

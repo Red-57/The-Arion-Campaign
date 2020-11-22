@@ -66,7 +66,7 @@ fleet "Small Arion Merchents"
 		"Fox (Toaster)" 1
 
 fleet "Large Arion Merchents"
-	governmnet "Arion"
+	government "Arion"
 	cargo 5
 	personality
 		confusion 30
@@ -113,7 +113,7 @@ fleet "Small Arion Militia"
 	cargo 1
 	personality
 		confusion 10
-		heroic opportunistic unconstrained
+		heroic opportunistic unconstrained vindictive
 	variant 5
 		"Tiger"
 		"Thorn" 2
@@ -137,7 +137,8 @@ fleet "Large Arion Militia"
 	government "Arion"
 	cargo 1
 	personality
-		confusion 10                                                                                                                                                                      heroic opportunistic unconstrained
+		confusion 10
+		heroic opportunistic unconstrained vindictive
 	variant 20
 		"Tiger" 3
 		"Thorn" 3
@@ -167,7 +168,7 @@ fleet "Insano Arion Militia"
 	cargo 780
 	personality
 		confusion 10
-		heroic opportunistic unconstrained
+		heroic opportunistic unconstrained vindictive
 	variant 1
 		"Lion" 5
 		"Tiger" 25
@@ -278,7 +279,7 @@ fleet "hacking"
 
 
 
-fleet "Large Kor Sestor"
+fleet "Sestor (Jump)"
 	government "Kor Sestor"
 	names "kor sestor"
 	fighters "kor sestor fighter"
