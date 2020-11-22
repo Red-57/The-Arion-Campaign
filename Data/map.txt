@@ -874,7 +874,7 @@ system Puttlearn
 
 system Iser
 	pos -1377.78 -412.781
-	government Arion
+	government "Arion"
 	habitable 480
 	belt 1459
 	link Sheblon
@@ -899,18 +899,18 @@ system Iser
 	fleet "Large Arion Merchents" 1200
 
 	object
-		sprite star/g0
+		sprite "star/g0"
 		period 10
-	object "Ronlino"
-		sprite planet/ice2
+	object Ronlino
+		sprite "planet/ice2"
 		distance 265.81
 		period 52.7479
 		object
-			sprite planet/miranda
+			sprite "planet/miranda"
 			distance 118
 			period 16.1133
 	object
-		sprite planet/rock15
+		sprite "planet/rock15"
 		distance 526.81
 		period 147.173
 	object
@@ -1557,7 +1557,7 @@ system "Forbatoo"
     government Uninhabited
     habitable 486.68
     belt 1133
-    link "system b"
+    link "Ostio"
     asteroids "small rock" 9 1.8876
     asteroids "medium rock" 2 1.815
     asteroids "large rock" 30 1.9118
@@ -1613,7 +1613,7 @@ planet "29 Pug"
 planet Toloplike
 	attributes
 	landscape land/dune4
-	description "this planet is a desolate and  dreary one, the surface is covered in sand and the sandstorms are so powerful that to go outside you need to wear a special sand suit. Toloplike is also the home of a rather large Kor Sestor drone factory in which sand goes in and machines of mass destruction come out. Of course you shouldn't be able to land here in the first place and even if you did you are probably about to die"
+	description "this planet is a desolate and  dreary one, the surface is covered in sand and the sandstorms are so powerful that to go outside you need to wear a special sand suit. Toloplike is also the home of a rather large Kor Sestor drone factory in which sand goes in and machines of mass destruction come out. Of course you shouldn`t be able to land here in the first place and even if you did you are probably about to die"
 	government "Kor Sestor"
 	bribe 0
 
@@ -1621,11 +1621,10 @@ planet Toloplike
 planet Patel
 	government "Arion"
 	landscape land/lava2
-	description "Patel is a volcanic planet that has a mind of it's own, every year erruptions happen and entire communities have to be evacuated due to the volitile nature of the planet. Several attempts, it seems, have been made to terraform the landscape to make it more inviting but due to the lack of funding and the Arion's general non-interest in the subject the projects were stoped."
-	description "When you step off your ship you are immediatly in awe of the clean empty landscapes that are devoid of all of the mining equipment that you saw on other planets, eventually someone explaines to you that the mining actually happens underground to prevent the Kor Sestor from learning of a more accessable access to material."
+	description "Patel is a volcanic planet that has a mind of it`s own, every year erruptions happen and entire communities have to be evacuated due to the volitile nature of the planet. Several attempts, it seems, have been made to terraform the landscape to make it more inviting but due to the lack of funding and the Arion`s general non-interest in the subject the projects were stoped."
+	description "	When you step off your ship you are immediatly in awe of the clean empty landscapes that are devoid of all of the mining equipment that you saw on other planets, eventually someone explaines to you that the mining actually happens underground to prevent the Kor Sestor from learning of a more accessable access to material."
 	spaceport "The spaceport on Patel is actually an underground bunker with huge doors that open up to allow ships to exit, "
 	shipyard "Arion Basics"
-	outfitter "Arion Advanced"
 	security 0.9
 	tribute 1240000
 		threshold 60000000
@@ -1635,9 +1634,8 @@ planet Fairnorr
 	government "Arion"
 	landscape land/mountain1
 	description "Like Trattoria, Fairnorr is also a Mining planet, most of the fuel that the Arion use is drilled from the many wells that dot the countryside. When you land on the planet you are surprised to see that there is a surprising ammount of Tourisim on Fairnorr, it seems that young Arion people come here to get a sence of adventure from the ever present threat of the Korath."
-	spaceport "When you walk into the spaceport you are immediatly scanned with a metal detector and you are forced hand over your blaster for the duration of your drink, The Arion are particularly strict about the 'no bar fights' rule so you suppose that this is one of their measures to stop that."
-	spaceport "The view from the spaceport is actually pretty great, it is situated on the side of a large mountain and it has a panoramic window for you to see all of the mining and drilling fields that are around the countryside."
-	shipyard "Arion Advanced"
+	spaceport "When you walk into the spaceport you are immediatly scanned with a metal detector and you are forced hand over your blaster for the duration of your drink, The Arion are particularly strict about the `no bar fights` rule so you suppose that this is one of their measures to stop that."
+	spaceport "	The view from the spaceport is actually pretty great, it is situated on the side of a large mountain and it has a panoramic window for you to see all of the mining and drilling fields that are around the countryside."
 	outfitter "Arion Advanced"
 	security 0.9
 	tribute 1240000
@@ -1648,7 +1646,7 @@ planet Trattoria
 	government "Arion"
 	landscape land/beach6
 	description "When the Arion claimed this planet they soon discovered that it was rich in the types of metals and ore that would be needed to construct larger and more powerful ships, they soon began to mine these minerals and ship them out to other planets where they could build them into ships. After a while a small community formed and a Military base was set up. When the Kor Sestor began to attack convoys carrying the precious metals A larger Military Garrison was built to insure the security of the Area"
-	spaceport " "
+	spaceport "The spaceport on Trattoria is on the top of a huge spiral tower that holds most of the landing platforms provided for civilian use. The many floors inside the tower provide stunning views of bland grey plains filled with oil and ore mines."
 	security 0.9
 	tribute 1240000
 		threshold 60000000
@@ -1660,8 +1658,9 @@ planet "Wormhole Omega"
 planet Carnlee
 	government "Arion"
 	landscape land/beach3
-	description ''
-	spaceport ''
+	description `Carnlee is a grassy planet with rolling hills and large lakes, most of the major citys are situated on the water and have thriving fishing industries,`
+	description `Carnlee is the biggest agricultural planet in Arion space. It provides food and fabrics for most of the other planets. It also produces "Sintet" a potato like plant that the Arions love.`
+	spaceport `Carnlee has a very small spaceport due to it's rural population. due to it's distance from the seat of government, Carnlee is run by a primarily consrvative government.`
 	security 0.9
 
 
@@ -1669,23 +1668,25 @@ planet Narkin
 	attributes
 	government "Arion"
 	landscape land/canyon8
-	description ''
-	spaceport ''
+	description `Narkin is another highly poplated planet that is the home of Stellar Mechanics, the largest industrial company in Arion space. Narkin `
+	spaceport `With stellar mechanics holding most of the Jobs on the planet it is no surprise that many, many advirtisments fill the spaceport. One thing you notice about the spaceport is that it has a very large and intricate dome on top, you wonder whether the buliding was used for anything else other than a spaceport before this.`
 	security 0.9
 
 
 planet Ronlino
 	government "Arion"
 	landscape land/fields6
-	description" "
-	spaceport ''
+	description `Ronlino is a grassy planet with many wide open spaces and rolling hills. There are many different types of wildlife on Ronlino and it has a wide range of crocodile like creatures.`
+	description `	Ronlino is the most populated of any of the Arion planets. and with a GDP of over Quadrillion credits. The huge economy is helped by the fact that Skytech is based here, Skytech has designed and produced all of the Cub line of starships and are continuing to build them.`
+	spaceport `The spaceport on Ronlino is practically a city inside a city, with enormous malls and landing platforms it is the center of the shipping industry the entire Ronlino Economy. There is a surprising ammount of advertising all around the spaceport on other Arion planets there seem to be restrictions about the use of billboards but you assume that no such restrictions apply here.`
+	shipyard "Skytech"
 	security 0.9
 
 planet Setoric
 	government "Arion"
 	landscape land/water5
-	description
-	spaceport 'This is another military base so there are patrols every hour through the spaceport, it is maybe this that deters you from robbing the local bank'
+	description `Setoric is the one planet in Arion space that does not have the right atmosphere for natural life, The Arion have tried many attempts at terraforming but to no avail.`
+	spaceport `Setoric is a desolate planet and since no-one else wanted to settle there there militia put a base there so that it would not take up any space used for commerce. The military base is situated in the middle of the ocean for extra protection.`
 	shipyard "Arion Basics"
 	outfitter "Arion Basics"
 	security 0.9
@@ -1693,25 +1694,27 @@ planet Setoric
 planet Aliea
 	government "Arion"
 	landscape land/forest2
-	description " "
-	spaceport " "
-	shipyard "Arion Basics"
+	description "There isn't much on Aliea accept trees and trees and more trees. The forests are quite beautiful in their own sense but offer little difference to anything else in the galaxy."
+	description "	Aliea's main source of income is it's huge banking system, all of the major banks in Arion space are located here."
+	spaceport "The spaceport on Aliea is built up around one of the bigger banks on the planet. in general there is nothing too strange or un-ordinary about the spaceport other then the adds for all of the banks and restaurant that seem to be taking up more space than normal."
 	outfitter "Arion Basics"
 	security 0.9
 
 planet Tonyara
 	government "Arion"
 	landscape land/sea8
-	description " "
-	spaceport " "
+	description "Tonyara is a planet with rolling hills and large oceans, there are many kinds of fish in these waters but they are mostly poisonous."
+	description "	Tonyara is an unusually average planet with basically everything average, it has a medium sized economy, medium sized planet, medium sized popluation. The only real atraction is the hotsprings that you sometimes find."
+	spaceport "Tonyara's spaceport is built off the largest hotspring that you have ever seen, it is over 200 meters long and quite hot. the fumes from the spring help to give electricity to the surrounding countryside and they also help to cook the food. you can't help but wonder wether your food would taste better if it was cooked over a normal fire."
 	outfitter "Arion Advanced"
 	security 0.9
 
 planet Redic
 	government "Arion"
 	landscape land/mountain2
-	description "As the Headquarters for the Arion militia, this planet has been soley converted into a military base. there are patrols everywhere and the largest prison complex you have ever seen is right next to the landing platform. "
-	spaceport " "
+	description "Redic is a mountainous planet, it`s peaks are taller then any you have seen before. there is one big city on Redic: Trenter, it is up in the mountains and the buildings are situated on many supports."
+	description "	Redic is the Headquarters for the Arion Navy. It has a large economy of normal cities and factories but with the militia there it is mostly weapons development."
+	spaceport "The spaceport on Redic is situated around the peak of one of the taller mountains, it provides a brilliant view of the landscape and offers wonderful beverages too! Inside the spaceport there are a large variaty of different shops, however at each exit there are armed guards to check you before you make your way to a skytram."
 	shipyard "Arion Advanced"
 	outfitter "Arion Advanced"
 	security 0.9
@@ -1719,23 +1722,28 @@ planet Redic
 planet Cavoi
 	government "Arion"
 	landscape land/sea12-sfiera
-	description " "
-	spaceport " "
+	description "Cavoi is a beautiful planet with many mountains and lovely forests. it has one small ocean and there are rumors of a strange sea monster that lives in the deep."
+	description "	Cavoi was once the original home of the Arion. As they began to develope spacefaring technology they moved further and further away from their home. A great asteroid hit the planet and many of the people on it were only saved because the Quarg jumped them out to another Arion planet. Cavoi has regrown since then and has a thriving population, however the seat of government has still been left on Larnin for more cerimonial reasons."
+	spaceport "The spaceport on Cavoi was left in ruins until just recently, The new walls and shiny paint alert you to the fact that the Arion people have only just started to come back."
+	spaceport "	Inside the great halls and buildings are many museums telling about the Arion history and their story. It seems that the Arion feel that they owe a great debt to the Quarg even though they often compete with them."
 	shipyard "Arion Basics"
 	security 0.9
 
 planet Ostinto
 	government "Arion"
-	landscape land/badlands9-harro
-	description ''
-	spaceport ''
+	landscape land/lava5
+	description "Ostinto is a quiet planet with stormy innards, there are erruptions every day and the Arions that live there are forced to live in underground bunkers for most of the time. "
+	description "	Due to it`s stormy climate, with not many normal settlers coming there, Skytech (a large industrial coorperation) decided to produce the Lion on Ostinto. The production of the Lion has helped more people to come the Ostinto to look for jobs then otherwise would."
+	spaceport "The spaceport on Ostinto is a medium sized collection of buildings an warehouses that for some reason seem to never be occupied. The only time at which there seem to be any people is at lunch and dinner. This, you realize is due to the fact that most of the people working in the Shipyards are not able to hang around in the Spaceport unless it is at one of their breaks"
 	outfitter "Arion Advanced"
+	shipyard "Lion"
+	shipyard "Arion Advanced"
 	security 0.9
 
 planet Larnin
 	government "Arion"
 	landscape land/snow8
-	description "This is a beautiful planet, filled with high snowcapped peaks and rolling hills and snowforests. Larnin is also a cold planet by most reckoning but the Arion don't mind as their skin protects them from the cold. This is the capitol of Arion space, and according to custom there are no industrial buildings on the surface but the whole planet is vurtually a national park. The only part of the planet not protected by the government is the capitol building, a beautiful structure with tall flowing spires and large domes"
+	description "This is a beautiful planet, filled with high snowcapped peaks and rolling hills and snowforests. Larnin is also a cold planet by most reckoning but the Arion don`t mind as their skin protects them from the cold. This is the capitol of Arion space, and according to custom there are no industrial buildings on the surface but the whole planet is vurtually a national park. The only part of the planet not protected by the government is the capitol building, a beautiful structure with tall flowing spires and large domes"
 	spaceport "To get to the spaceport you have to take a sky-tram up to a large semi-orbital station. This spaceport was built to be the center of the Arion government and only a small number of little landing stations are actually situated on the planets surface, Due to the Arion love for beauty and nature they did not want to spoil the surface with any of the large buildings needed to keep a spaceport running so they built these large stations to accommodate any incoming ships."
 	security 0.9
 
@@ -1743,17 +1751,19 @@ planet "Rowella Station"
 	government "Arion"
 	landscape land/station5
 	description "This station is the center for Arion commerce and industrial production, with Larnin not having either shipyard or outfitter Rowella Station has both making it the ideal place to buy your high quality Arion equipment"
-	spaceport 'The spaceport on Rowella Station is a bustleing crowd of Arion workers and other visitors from other parts of the world, The main Arion production factories are situated here and so there are also many workers that come here to the bar to have a drink and chat with their friends'
+	spaceport `The spaceport on Rowella Station is a bustleing crowd of Arion workers and other visitors from other parts of the world, The main Arion production factories are situated here and so there are also many workers that come here to the bar to have a drink and chat with their friends`
 	shipyard "Arion Advanced"
+	shipyard "Lion"
 	outfitter "Arion Advanced"
 	security 0.9
 
 planet Pantalion
 	government "Arion"
 	landscape land/sky5
-	description ''
-	spaceport ''
-	shipyard "Arion Basics"
+	description `Pantalion is a planet with tall mountains and huge soaring trees.`
+	description `	Pantalion is the smallest shipbuilding planet you have ever seen, with only one ship produced`
+	spaceport `the spaceport on Pantalion is actually a Ginormous tree house built ontop of a couple of insanly large trees, you hope that they don't fall down under you!`
+	shipyard "Rhino"
 	outfitter "Arion Advanced"
 	security 0.9
 
@@ -1761,5 +1771,5 @@ planet Verterra
 	government "Arion"
 	landscape land/forest5
 	description "Verterra seems to be exactly the same as Earth, the only difference is that the Arion seem to have imposed strict climate contrlolling regulations that have halted any pollution on the planet"
-	spaceport ''
+	spaceport `The spaceport bears a small resemblance to the quarg spaceports, with long tall hallways that make you wonder whether anyone else ever lived here before`
 	security 0.9
