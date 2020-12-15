@@ -1,5 +1,5 @@
 person "Red 57"
-	government "Pirate"
+	government "Author"
 	frequency 300
 	personality
 		vindictive heroic unconstrained
@@ -277,45 +277,45 @@ person "Red 57"
 
 
 person "The Flying Chipmunk"
-	government "Marauder"
+	government "Author"
 	frequency 300
 	personality
-        vindictive heroic unconstrained
-    phrase
-        word
-            "I hope that you are enjoying the mod!"
-        word
-            "There are many new places to explore"
-            "There is a new race of aliens to explore"
-            "There is new technology to use"
-        word
-            "poke around and you just might find something!"
-            "look around and you could get rich!"
-            "there is enough gold for all!"
-            "There is a world for you to save!"
+		vindictive heroic unconstrained
+	phrase
+		word
+			"I hope that you are enjoying the mod!"
+		word
+			"There are many new places to explore"
+			"There is a new race of aliens to explore"
+			"There is new technology to use"
+		word
+		"poke around and you just might find something!"
+		"look around and you could get rich!"
+		"there is enough gold for all!"
+		"There is a world for you to save!"
 	ship "Spamming for life"
-        sprite "ship/hai shield beetle"
-        "never disabled"
-        attributes
-            category "Heavy Warship"
-            "shields" 44780
-            "hull" 12400
-            "required crew" 47
-            "bunks" 95
-            "mass" 0
-            "drag" 8.8
-            "heat dissipation" 200000000
-            "fuel capacity" 5000000
-            "cargo space" 214000000
-            "outfit space" 165347859678235
-            "weapon capacity" 615789
-            "engine capacity" 1500000
-            weapon
-                "blast radius" 4000
-                "shield damage" 40000
-                "hull damage" 20000
-                "hit force" 30000
-        outfits
+		sprite "ship/hai shield beetle"
+		"never disabled"
+		attributes
+			category "Heavy Warship"
+			"shields" 44780
+			"hull" 12400
+			"required crew" 47
+			"bunks" 95
+			"mass" 0
+			"drag" 8.8
+			"heat dissipation" 200000000
+			"fuel capacity" 5000000
+			"cargo space" 214000000
+			"outfit space" 165347859678235
+			"weapon capacity" 615789
+			"engine capacity" 1500000
+			weapon
+				"blast radius" 4000
+				"shield damage" 40000
+				"hull damage" 20000
+				"hit force" 30000
+		outfits
 			"Hai Tracker Pod" 24
 			"Hai Tracker" 2120
 			"Tracker Storage Pod" 8
@@ -615,54 +615,50 @@ person "Power 10"
 	personality
 		unconstrained surveillance opportunistic mining harvests
 		confusion 5
-	ship "Comet #1582"
 	phrase "Friendly Author"
-
-
-f
-ship "Comet #1582"
-	sprite "ship/comet"
-	"never disabled"
-	attributes
-		category "Transport"
-		"cost" 9000000
-		"shields" 1000000
-		"hull" 1000000
-		"required crew" 1
-		"bunks" 12
-		"mass" -300
-		"drag" 2
-		"heat dissipation" 678880000000000000
-		"fuel capacity" 9000
-		"cargo space" 200
-		"outfit space" 10000
-		"weapon capacity" 0
-		"engine capacity" 300
-		"ramscoop" 150
-		"asteroid scan power" 1000
-		"tactical scan power" 1000
-		"outfit scan power" 1000
-		"cargo scan power" 1000
-		weapon
-			"blast radius" 200000000
-			"shield damage" 2000000000
-			"hull damage" 10000000000
-			"hit force" 30000000000
-	outfits
-		"Electron Beam" 2
-		"Blue Sun Reactor" 22
-		"Large Radar Jammer" 28
-		"Ionico Afterburner" 5
-		"Steering (Stellar Class)" 5
-		"Hyperdrive"
-	engine 2.5 -0.5 1.9
-	gun -14.5 -12 "Electron Beam"
-	gun 17 -11 "Electron Beam"
-	explode "plasma explosion" 12
-	explode "tiny explosion" 16
-	explode "small explosion" 21
-	"final explode" "final explosion small"
-	description "0"
+	ship "Comet #1582"
+		sprite "ship/comet"
+		"never disabled"
+		attributes
+			category "Transport"
+			"cost" 9000000
+			"shields" 1000000
+			"hull" 1000000
+			"required crew" 1
+			"bunks" 12
+			"mass" -300
+			"drag" 2
+			"heat dissipation" 678880000000000000
+			"fuel capacity" 9000
+			"cargo space" 200
+			"outfit space" 10000
+			"weapon capacity" 0
+			"engine capacity" 300
+			"ramscoop" 150
+			"asteroid scan power" 1000
+			"tactical scan power" 1000
+			"outfit scan power" 1000
+			"cargo scan power" 1000
+			weapon
+				"blast radius" 200000000
+				"shield damage" 2000000000
+				"hull damage" 10000000000
+				"hit force" 30000000000
+		outfits
+			"Electron Beam" 2
+			"Blue Sun Reactor" 22
+			"Large Radar Jammer" 28
+			"Ionico Afterburner" 5
+			"Steering (Stellar Class)" 5
+			"Hyperdrive"
+		engine 2.5 -0.5 1.9
+		gun -14.5 -12 "Electron Beam"
+		gun 17 -11 "Electron Beam"
+		explode "plasma explosion" 12
+		explode "tiny explosion" 16
+		explode "small explosion" 21
+		"final explode" "final explosion small"
+		description "0"
 
 
 

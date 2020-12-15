@@ -1,6 +1,6 @@
 mission "death on toloplike"
 	description "you are about to die"
-	scource "Toloplike"
+	source "Toloplike"
 	landing
 	repeat
 	on offer
@@ -17,7 +17,7 @@ mission "death on toloplike"
 				die
 
 	npc kill
-		personality heroic waiting
+		personality heroic
 		system "Oggsworth"
 		government "Kor Sestor"
-		fleet "Large Kor Sestor" 1222
+		fleet "Large Kor Sestor" 122

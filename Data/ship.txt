@@ -13,9 +13,10 @@ ship "Fox"
 		"heat dissipation" 15
 		"fuel capacity" 600
 		"cargo space" 20
-		"outfit space" 351
+		"outfit space" 336
 		"weapon capacity" 56
 		"engine capacity" 80
+		"ramscoop" 5
 		weapon
 			"blast radius" 89.1
 			"shield damage" 891
@@ -26,7 +27,6 @@ ship "Fox"
 		"Hyperdrive"
 		"Arion Flamethrower" 2
 		"Arion Toaster" 2
-		"Arion Small Ramscoop"
 		"Tin Reactor Core" 2
 		"Raptor Class Regerator"
 		"Systems AC (Small)" 2
@@ -62,9 +62,10 @@ ship "Cub"
 		"heat dissipation" 0.9
 		"fuel capacity" 1100
 		"cargo space" 15
-		"outfit space" 280
+		"outfit space" 270
 		"weapon capacity" 90
 		"engine capacity" 75
+		"ramscoop" 5
 		weapon
 			"blast radius" 150
 			"shield damage" 1500
@@ -74,7 +75,6 @@ ship "Cub"
 		"Hyperdrive"
 		"Raptor Class Regenerator"
 		"Tin Reactor Core"
-		"Arion Small Ramscoop"
 		"Ion Torpedo Launcher" 2
 		"Ion Torpedo" 60
 		"Systems AC (Small)"
@@ -111,9 +111,10 @@ ship "Lion"
 		"heat dissipation" 9.6
 		"fuel capacity" 900
 		"cargo space" 250
-		"outfit space" 2235
+		"outfit space" 2155
 		"weapon capacity" 1090
 		"engine capacity" 250
+		"ramscoop" 9
 		weapon
 			"blast radius" 2426
 			"shield damage" 24268
@@ -133,7 +134,6 @@ ship "Lion"
 		"Systems AC (Large)" 6
 		"Arion Toaster Turret" 4
 		"Defender Anti-Missile" 4
-		"Arion Large Ramscoop" 5
 		"NT 450 Neutron Steering" 1
 		"NT 400 Neutron Thruster" 1
 		"NT 250 Neutron Steering"
@@ -251,9 +251,10 @@ ship "Elephant"
 		"heat dissipation" 1
 		"fuel capacity" 700
 		"cargo space" 900
-		"outfit space" 720
+		"outfit space" 690
 		"weapon capacity" 230
 		"engine capacity" 70
+		"ramscoop" 5
 		weapon
 			"blast radius" 694.5
 			"shield damage" 6945
@@ -267,11 +268,9 @@ ship "Elephant"
 		"Systems AC (Large)" 1
 		"Arion Whacker" 2
 		"Defender Anti-Missile"
-		"Arion Large Ramscoop"
 		"T-Rex Class Regenerator"
 		"NT 200 Neutron Thruster"
 		"NT 250 Neutron Steering"
-		"Arion Large Ramscoop"
 		"Scram Drive"
 		"Jump Drive"
 	gun -14.5 -223 "Ion Torpedo Launcher"
@@ -309,9 +308,10 @@ ship "Rhino"
 		"heat dissipation" 1
 		"fuel capacity" 600
 		"cargo space" 450
-		"outfit space" 560
+		"outfit space" 540
 		"weapon capacity" 170
 		"engine capacity" 115
+		"ramscoop" 5
 		weapon
 			"blast radius" 534.5
 			"shield damage" 5345
@@ -327,7 +327,7 @@ ship "Rhino"
 		"Barachio Class Regenerator"
 		"NT 300 Neutron Thruster"
 		"NT 350 Neutron Steering"
-		"Arion Large Ramscoop"
+
 		"Systems AC (Large)" 1
 		"Hyperdrive"
 		"Jump Drive"
@@ -363,9 +363,10 @@ ship "Jaguar"
 		"heat dissipation" 0.8
 		"fuel capacity" 700
 		"cargo space" 15
-		"outfit space" 400
+		"outfit space" 380
 		"weapon capacity" 205
 		"engine capacity" 75
+		"ramscoop" 5
 	outfits
 		"Trapper Cannon" 4
 		"Ion Torpedo Launcher" 1
@@ -373,12 +374,11 @@ ship "Jaguar"
 		"Iron Reactor Core"
 		"NT 200 Neutron Thruster"
 		"NT 250 Neutron Steering"
-		"Arion Large Ramscoop"
 		"Systems AC (Large)"
 		"Raptor Class Regenerator"
 		"Hyperdrive"
 		"Jump Drive"
-	engine 0.86 77.71
+	engine 0.86 77.71 1.7
 	gun -47 -78 "Trapper Cannon"
 	gun 47 -78 "Trapper Cannon"
 	gun -16 6 "Trapper Cannon"
@@ -409,6 +409,7 @@ ship "Tiger"
 		"outfit space" 845
 		"weapon capacity" 310
 		"engine capacity" 170
+		"ramscoop" 5
 		weapon
 			"blast radius" 33000000000
 			"shield damage" 3300000
@@ -426,7 +427,6 @@ ship "Tiger"
 		"Barachio Class Regenerator"
 		"Hyperdrive"
 		"Jump Drive"
-		"Arion Large Ramscoop"
 	gun -24.5 -92.5 "Trapper Cannon"
 	gun 23 -93.5 "Trapper Cannon"
 	gun -30 -87.5 "Trapper Cannon"
@@ -489,15 +489,15 @@ ship "Thorn"
 		"cost" 6450000
 		"shields" 7000
 		"hull" 1500
-		"required crew" 1
-		"bunks" 2
 		"mass" 40
+		"automaton" 1
 		"drag" 0.6
 		"fuel capacity" 400
 		"heat dissipation" 12
-		"outfit space" 140
+		"outfit space" 123
 		"weapon capacity" 42
 		"engine capacity" 34
+		"ramscoop" 2
 		weapon
 			"blast radius" 18
 			"shield damage" 180
@@ -519,7 +519,7 @@ ship "Thorn"
 	engine 6.5 50 1.4
 	explode "small explosion" 15
 	"final explode" "final explode small"
-	description "this is the main Arion fighter, it holds 2 toasters in addition to an anti-missile turret. When used in bulk these fighters can cause enormous damage in a very short ammount of time."
+	description "this is the main Arion fighter, it holds 2 toasters in addition to an anti-missile turret. When used in bulk these fighters can cause enormous damage in a very short ammount of time. These fighters were made Atomaton due to the Arion not wanting to risk more lives."
 
 
 ship "Infiltration Drone"
@@ -537,9 +537,10 @@ ship "Infiltration Drone"
 		"heat dissipation" 0.8
 		"fuel capacity" 300
 		"cargo space" 0
-		"outfit space" 110
+		"outfit space" 92
 		"weapon capacity" 25
 		"engine capacity" 25
+		"ramscoop" 3
 		weapon
 			"blast radius" 19.3
 			"shield damage" 193
@@ -547,22 +548,118 @@ ship "Infiltration Drone"
 			"hit force" 289.5
 	outfits
 		"Arion Flamethrower"
-		"Arion Small Ramscoop"
 		"Raptor Class Regenorator"
 		"Arion Whacker"
 		"NT 150 Neutron Steering"
 		"NT 100 Neutron Thruster"
 		"Plastic Generator"
-		"Arion Small Ramscoop"
 		"Systems AC (Small)"
 	gun -0.5 -26.5 "Arion Flamethrower"
 	turret -0.5 10 "Arion Whacker"
 	engine -17 27
-	engine 16.5 26.5 
+	engine 16.5 26.5
 	description "This small attack drone is used to disable enemies with it's flamethrowers while the larger heavier hitting ships come in to do the real damage."
 
 
+ship "Puma"
+	sprite "ship/Puma"
+	thumbnail "thumbnail/Puma"
+	attributes
+		category "Heavy Warship"
+		"cost" 1100000
+		"shields" 80000
+		"hull" 45000
+		"required crew" 140
+		"bunks" 190
+		"mass" 1500
+		"drag" 18.8
+		"heat dissipation" 2.7
+		"fuel capacity" 1000
+		"cargo space" 125
+		"outfit space" 2000
+		"weapon capacity" 1000
+		"engine capacity" 1000
+		"ramscoop" 6
+		weapon
+			"blast radius" 1250
+			"shield damage" 12500
+			"hull damage" 6250
+			"hit force" 18750
+	outfits
+		"Roaster Turret" 2
+		"Trapper Cannon" 4
+		"Arion Toaster" 2
+		"Ion Torpedo Launcher" 2
+		"Scram Drive"
+		"Jump Drive"
+		"Titanium Reactor Core" 3
+		"Defender Anti-Missile"
+		"Systems AC (Large)" 4
+		"NT 450 Neutron Steering"
+		"NT 400 Neutron Thruster"
 
+
+
+	gun -23.5 -155.5 "Trapper Cannon"
+	gun 23.5 -155.5 "Trapper Cannon"
+	gun -41.5 -119.5 "Ion Torpedo Launcher"
+	gun 41.5 -119.5 "Ion Torpedo Launcher"
+	gun -18.5 -164.5 "Trapper Cannon"
+	gun 18.5 -164.5 "Trapper Cannon"
+	gun -103.5 -24 "Arion Toaster"
+	gun 103.5 -24 "Arion Toaster"
+	turret 1 -22 "Defender Anti-Missile"
+	turret -33.5 25.5 "Roaster Turret"
+	turret 33.5 25.5 "Roaster Turret"
+	engine 2 190 1.2
+	engine 26 175 0.8
+	engine -21 174 0.8
+	engine  -59.5 151.5
+		zoom  0.3
+		angle 15
+		under
+	engine  59.5 151.5
+		zoom  0.3
+		angle -15
+		under
+	engine  -69 146.5
+		zoom  0.2
+		angle 15
+		under
+	engine  69 146.5
+		zoom  0.2
+		angle -15
+		under
+	"steering engine"  -59.5 151.5
+		zoom  0.3
+		angle 15
+		left
+		under
+	"steering engine"  59.5 151.5
+		zoom  0.3
+		angle -15
+		right
+		under
+	"steering engine"  -69 146.5
+		zoom  0.2
+		angle 15
+		left
+		under
+	"steering engine"  69 146.5
+		zoom  0.2
+		angle -15
+		right
+		under
+	"steering engine" -56 38.5
+		zoom 0.3
+		angle -65
+		right
+		under
+	"steering engine" 56 38.5
+		zoom 0.3
+		angle 65
+		left
+		under
 
 ship "Heliarch Torturer"
 	sprite "ship/Torturer"

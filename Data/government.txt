@@ -1,17 +1,16 @@
 government "Arion"
 	swizzle 5
+	"color" 0 0.2 0.6
 	"player reputation" 0
 	"attitude toward"
 		"Korath" -.4
 		"Quarg" 0.07
-		"Remnant" 0.2
 		"Coalition" -0.2
-		"Wanderer" 0.1
 		"Kor Sestor" -0.5
 		"Kor Mereti" -0.3
-    "bribe" 0.4
-    "friendly hail" "friendly Arion"
-    "hostile hail" "Shakesperian Insult"
+	"bribe" 0.4
+	"friendly hail" "friendly Arion"
+	"hostile hail" "Shakesperian Insult"
 
 government "Korath"
 	swizzle 0

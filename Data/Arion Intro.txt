@@ -1,11 +1,11 @@
 mission "First Contact: Arion"
-	scource
+	source
 		government "Arion"
 		not "Larnin"
 mission "Arion Nacklott 1"
 	destination "Mirrorlake"
 	description "Bring Naklott To Mirrorlake so he can observe the modern Hai culture"
-	scource "Redic"
+	source "Redic"
 	to offer
 			has "Arion First Contact: done"
 
@@ -61,7 +61,7 @@ mission "Arion Nacklott 1"
 
 
 mission "Arion Naklott 2"
-	scource "Mirrorlake"
+	source "Mirrorlake"
 	description "Take Naklott to Earth to see how humanity is faring"
 	to offer
 		has "Arion Naklott 1: done"
@@ -89,7 +89,7 @@ mission "Arion Naklott 2"
 
 
 mission "Arion Naklott 3"
-	scource "Earth"
+	source "Earth"
 	description "Take Naklott to the pug system of Deneb to see what has happened there"
 	to offer
 		has "Arion Naklott 2: done"

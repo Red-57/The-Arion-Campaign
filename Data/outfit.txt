@@ -13,7 +13,6 @@ outfit "Arion Roaster"
 		sprite "projectile/Roaster"
 			"frame rate" 2.5
 		sound "detainer"
-		"live effect"
 		"hit effect" "Ion T Impact" 1
 		"inaccuracy" 6.4
 		"velocity" 16
@@ -30,7 +29,7 @@ outfit "Arion Roaster"
 		"hull damage" 220
 		"blast radius" 20
 		"submunition" "Roaster Fragment" 1
-		submunition "roaster Fragment" 4
+		"submunition" "roaster Fragment" 4
 	description "The Arion Roaster is the most powerful weapon that they have developed so far, it is a plasma based weapon that fires a kind of gel at high velocity and very long range, it is, however, very large and its power requirements are immense so you would need quite a large ship to wield it"
 	description "One interesting thing about it is that the Korath Detainer was designed after it using the same superheated plasma, however their weapon was much less efficent and slowed down the enemy instead of heating it up."
 
@@ -39,7 +38,6 @@ outfit "Roaster Fragment"
 		sprite "projectile/Roaster"
 			"frame rate" 2.5
 		sound "detainer"
-		"live effect"
 		"hit effect" "Ion T Impact" 1
 		"inaccuracy" 1
 		"velocity" 16
@@ -55,7 +53,6 @@ outfit "roaster Fragment"
 		sprite "projectile/Roaster"
 			"frame rate" 2.5
 		sound "detainer"
-		"live effect"
 		"hit effect" "Ion T Impact" 1
 		"inaccuracy" 1
 		"velocity" 16
@@ -149,9 +146,9 @@ outfit "Roaster Turret"
 		sound "detainer"
 		"hit effect" "Ion T Impact" 1
 		"turret turn" 8.5
-		"inaccuracy" 8.5
+		"inaccuracy" 6.4
 		"velocity" 16
-		"lifetime" 140
+		"lifetime" 1
 		"burst reload" 20
 		"reload" 60
 		"burst count" 2
@@ -162,6 +159,8 @@ outfit "Roaster Turret"
 		"shield damage" 750
 		"hull damage" 220
 		"heat damage" 470
+		"submunition" "Roaster Fragment" 1
+		"submunition" "roaster Fragment" 4
 	description "The Roaster Turret consists of a single roaster cannon mounted on a turret mount, it is a devastating weapon with the ability to shoot in all directions and it's powerful range it can take out most ships with only a couple of shots, due to the huge power and space requirements this weapon can only be mounted on the largest of ships."
 
 
@@ -566,25 +565,6 @@ outfit "Raptor Class Regenerator"
 	"hull repair rate" 2.2
 	"hull energy" 2.8
 	description  "this is the Smallest arion shield/hull generator it repowers the shields and can even patch up the hull during combat."
-
-
-outfit "Arion Large Ramscoop"
-	category "Systems"
-	cost 570000
-	thumbnail "outfit/ALramscoop"
-	"mass" 23
-	"outfit space" -17
-	"ramscoop" 11
-	description "This is the largest Arion ramscoop, it is often utilized when a flamethrower is in use."
-
-outfit "Arion Small Ramscoop"
-	category "Systems"
-	cost 234000
-	thumbnail "outfit/ASramscoop"
-	"mass" 9
-	"outfit space" -9
-	"ramscoop" 4
-	description "this is the smaller arion ramscoop it is good for smaller ships using fuel guzzling weapons."
 
 
 outfit "NT 100 Neutron Thruster""

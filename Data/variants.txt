@@ -95,6 +95,7 @@ ship "Tiger" "Tiger (Toaster)"
 		"Arion Large Ramscoop"
 		"NT 350 Neutron Steering"
 		"NT 400 Neutron Thruster"
+		"Systems AC (Large)" 4
 	"Arion Toaster"
 	"Arion Toaster"
 	"Arion Toaster"
