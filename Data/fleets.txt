@@ -37,6 +37,7 @@ phrase "friendly Arion"
 
 fleet "Small Arion Merchents"
 	government "Arion"
+	names "Arion"
 	cargo 5
 	personality
 		confusion 30
@@ -67,6 +68,7 @@ fleet "Small Arion Merchents"
 
 fleet "Large Arion Merchents"
 	government "Arion"
+	names "Arion"
 	cargo 5
 	personality
 		confusion 30
@@ -110,6 +112,7 @@ fleet "Large Arion Merchents"
 
 fleet "Small Arion Militia"
 	government "Arion"
+	names "Arion"
 	cargo 1
 	personality
 		confusion 10
@@ -135,6 +138,7 @@ fleet "Small Arion Militia"
 
 fleet "Large Arion Militia"
 	government "Arion"
+	names "Arion"
 	cargo 1
 	personality
 		confusion 10
